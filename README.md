@@ -7,6 +7,83 @@
 
 ___
 
+### Install the required packages:
+
+```bash
+pip install --upgrade pip           # upgrade pip to at least 20.3
+pip install "psycopg[binary]"       # remove [binary] for PyPy
+```
+___
+### Change ur password for postgres to 1234
+```bash
+psql -U postgres
+```
+```bash
+postgres=# ALTER USER postgres WITH PASSWORD '1234';
+ALTER ROLE
+```
+___
+
+### STEP 1. Create the database:
+
+1.  Create a database called "project_database" in PostgreSQL.
+
+
+___
+### STEP 2: Parse JSON DATA (only necessary once) 
+#### *Submission already has parsed json data and created the csv files  so this step is not necessary
+
+- To parse the json data and place the data into csv files where the records in 
+each csv file will be copied directly into a table in the database, run the following command:
+
+1. Navigate to the json_loader folder
+```bash
+cd json_loader
+```
+
+2. Run the following command to parse the json data and place the data into csv files:
+```bash
+python json_parser.py
+```
+
+
+___
+
+### STEP 3. Create the tables and load the data into the database:
+
+run the following command to load the data into the database tables
+
+```bash
+python populate_db.py
+```
+____
+### STEP 3. Run the autograder:
+
+
+
+
+
+
+
+
+
+
+### FILE STRUCTURE AND DESCRIPTIONS:
+
+- **Folder**: json_loader: Contains the json files and the python script to load the data into the database tables.
+    - **Folder**: **competitions_data**: Contains the json files for the competitions.
+    - **Folder**: **events_data**: Contains the json files for the events for each match.
+    - **Folder**: **lineups_data**: Contains the json files for the lineups for each match.
+    - **Folder**: **matches_data**: Contains the json files for the matches.
+
+    - **File**: **download_jsons.py**: Personal Python script to download the json files from github and place them in events_data and lineups_data folders.
+
+- **File**: **push.sh**: Bash script to push the files to git.
+- **File**: **README.md**: This file.
+- **File**: **DDL.sql**: SQL script to create the tables for the database.
+- **File**: **queries.py**: Python script to run the autograder for Abdulrahman Awad.
+
+
 ### Pushing files to git:
 
 **For the first time only:**
@@ -21,21 +98,6 @@ chmod +x push.sh
 ./push.sh "commit message"
 ```
 
-### Install the required packages:
-
-```bash
-pip install --upgrade pip           # upgrade pip to at least 20.3
-pip install "psycopg[binary]"       # remove [binary] for PyPy
-```
-
-### Change ur password for postgres to 1234
-```bash
-psql -U postgres
-```
-```bash
-postgres=# ALTER USER postgres WITH PASSWORD '1234';
-ALTER ROLE
-```
 
 ## TESTER AND DB DUMP INFO
 Create DB dump for dbexport.sql:
