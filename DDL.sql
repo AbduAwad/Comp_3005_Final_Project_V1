@@ -29,17 +29,17 @@ CREATE TABLE Seasons (
 CREATE TABLE Stadiums (
     stadium_id INT UNIQUE,
     stadium_name VARCHAR(255) NOT NULL,
-    stadium_country VARCHAR(255) NOT NULL,
-    FOREIGN KEY (stadium_country)
-    	REFERENCES Country (country_name)
+    stadium_country_id int NOT NULL,
+    FOREIGN KEY (stadium_country_id)
+    	REFERENCES Country (country_id)
 );
 
 CREATE TABLE Referees (
     referee_id INT UNIQUE,
     referee_name VARCHAR(255) NOT NULL,
-    referee_country VARCHAR(255) NOT NULL,
-    FOREIGN KEY (referee_country)
-    	REFERENCES Country (country_name)
+    referee_country_id int NOT NULL,
+    FOREIGN KEY (referee_country_id)
+    	REFERENCES Country (country_id)
 );
 
 CREATE TABLE Managers (
@@ -47,10 +47,10 @@ CREATE TABLE Managers (
     manager_name VARCHAR(255) NOT NULL,
     manager_nickname VARCHAR(255),
     manager_dob DATE,
-    manager_country VARCHAR(255) NOT NULL,
+    manager_country_id int NOT NULL,
     PRIMARY KEY (manager_id),
-    FOREIGN KEY (manager_country)
-    	REFERENCES Country (country_name)
+    FOREIGN KEY (manager_country_id)
+    	REFERENCES Country (country_id)
 );
 
 CREATE TABLE Teams (
@@ -58,11 +58,11 @@ CREATE TABLE Teams (
     team_name VARCHAR(255) NOT NULL,
     team_gender VARCHAR(255),
     team_group VARCHAR(255),
-    team_country VARCHAR(255) NOT NULL,
+    team_country_id INT NOT NULL,
     manager_id INT,
     PRIMARY KEY (team_id),
-    FOREIGN KEY (team_country)
-    	REFERENCES Country (country_name),
+    FOREIGN KEY (team_country_id)
+    	REFERENCES Country (country_id),
     FOREIGN KEY (manager_id)
     	REFERENCES Managers (manager_id)
 );
@@ -299,7 +299,7 @@ CREATE TABLE BadBehaviours(
         REFERENCES Competitions (competition_name)
 );
 
-CREATE TABLE BallReciepts(
+CREATE TABLE BallReceipts(
     event_id VARCHAR(255),
     team_id INT,
     player_id INT,
@@ -323,7 +323,7 @@ CREATE TABLE BallReciepts(
         REFERENCES Competitions (competition_name)
 );
 
-CREATE TABLE BallRecoverys(
+CREATE TABLE BallRecoveries(
     event_id VARCHAR(255),
     team_id INT,
     player_id INT,
@@ -372,7 +372,7 @@ CREATE TABLE Blocks(
         REFERENCES Competitions (competition_name)
 );
 
-CREATE TABLE Carrys (
+CREATE TABLE Carries (
     event_id VARCHAR(255),
     team_id INT,
     player_id INT,

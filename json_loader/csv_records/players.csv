@@ -1,0 +1,1229 @@
+player_id,player_name,player_nickname,jersey_number,country_id,country_name,position_id,position_name,team_name
+3109,Malcom Filipe Silva de Oliveira,Malcom,14,31,Brazil,,,Barcelona
+3501,Philippe Coutinho Correia,Philippe Coutinho,7,31,Brazil,21,Left Wing,Barcelona
+5203,Sergio Busquets i Burgos,Sergio Busquets,5,214,Spain,10,Center Defensive Midfield,Barcelona
+5211,Jordi Alba Ramos,Jordi Alba,18,214,Spain,6,Left Back,Barcelona
+5213,Gerard Piqué Bernabéu,Gerard Piqué,3,214,Spain,3,Right Center Back,Barcelona
+5246,Luis Alberto Suárez Díaz,Luis Suárez,9,242,Uruguay,23,Center Forward,Barcelona
+5470,Ivan Rakitić,,4,56,Croatia,10,Center Defensive Midfield,Barcelona
+5477,Ousmane Dembélé,,11,78,France,21,Left Wing,Barcelona
+5492,Samuel Yves Umtiti,Samuel Umtiti,23,78,France,5,Left Center Back,Barcelona
+5503,Lionel Andrés Messi Cuccittini,Lionel Messi,10,11,Argentina,17,Right Wing,Barcelona
+6374,Nélson Cabral Semedo,Nélson Semedo,2,183,Portugal,2,Right Back,Barcelona
+6379,Sergi Roberto Carnicer,Sergi Roberto,20,214,Spain,2,Right Back,Barcelona
+6826,Clément Lenglet,,15,78,France,,,Barcelona
+6998,Rafael Alcântara do Nascimento,Rafinha,12,31,Brazil,,,Barcelona
+8206,Arturo Erasmo Vidal Pardo,Arturo Vidal,22,45,Chile,13,Right Center Midfield,Barcelona
+8652,Jasper Cillessen,,13,160,Netherlands,,,Barcelona
+11392,Arthur Henrique Ramos de Oliveira Melo,Arthur,8,31,Brazil,15,Left Center Midfield,Barcelona
+20055,Marc-André ter Stegen,Marc-André ter Stegen,1,85,Germany,1,Goalkeeper,Barcelona
+6566,Borja González Tomás,Borja Bastón,18,214,Spain,22,Right Center Forward,Deportivo Alavés
+6581,Jonathan Rodríguez Menéndez,Jony,23,214,Spain,16,Left Midfield,Deportivo Alavés
+6612,Rubén Duarte Sánchez,Rubén Duarte,3,214,Spain,6,Left Back,Deportivo Alavés
+6613,Rubén Sobrino Pozuelo,Rubén Sobrino,7,214,Spain,24,Left Center Forward,Deportivo Alavés
+6615,Víctor Laguardia Cisneros,Víctor Laguardia,5,214,Spain,3,Right Center Back,Deportivo Alavés
+6617,Ibai Gómez Pérez,Ibai Gómez,11,214,Spain,12,Right Midfield,Deportivo Alavés
+6618,Martín Aguirregabiria Padilla,Martín Aguirregabiria,21,214,Spain,2,Right Back,Deportivo Alavés
+6624,Jorge Franco Alviz,Burgui,14,214,Spain,24,Left Center Forward,Deportivo Alavés
+6626,Mubarak Wakaso,,22,86,Ghana,9,Right Defensive Midfield,Deportivo Alavés
+6629,Fernando Pacheco Flores,Fernando Pacheco,1,214,Spain,1,Goalkeeper,Deportivo Alavés
+6632,Manuel Alejandro García Sánchez,Manu García,19,214,Spain,11,Left Defensive Midfield,Deportivo Alavés
+6839,Daniel Alejandro Torres Rojas,Dani Torres,16,49,Colombia,10,Center Defensive Midfield,Deportivo Alavés
+6855,Guillermo Alfonso Maripán Loaysa,Guillermo Maripán,6,45,Chile,5,Left Center Back,Deportivo Alavés
+6923,Joaquín Navarro Jiménez,Ximo Navarro,15,214,Spain,,,Deportivo Alavés
+6935,Adrián Marín Gómez,Adrián Marín,17,214,Spain,16,Left Midfield,Deportivo Alavés
+9748,Antonio Sivera Salvá,Antonio Sivera,13,214,Spain,,,Deportivo Alavés
+12190,Patrick Twumasi,,24,86,Ghana,,,Deportivo Alavés
+50547,Antonio Perera Calderón,Antonio Perera,27,214,Spain,,,Deportivo Alavés
+6616,Munir El Haddadi Mohamed,Munir El Haddadi,19,154,Morocco,24,Left Center Forward,Barcelona
+35404,Jokin Ezkieta Mendiburu,Jokin Ezkieta,31,214,Spain,,,Barcelona
+6742,Sergio Gontán Gallardo,Keko,24,214,Spain,12,Right Midfield,Real Valladolid
+6760,Enes Ünal,,9,233,Turkey,22,Right Center Forward,Real Valladolid
+7699,Daniele Verde,,11,112,Italy,16,Left Midfield,Real Valladolid
+8419,Duje Čop,,20,56,Croatia,22,Right Center Forward,Real Valladolid
+11291,Laureano Antonio Villa Suárez,Toni Suárez,19,214,Spain,16,Left Midfield,Real Valladolid
+11293,Fernando Calero Villa,Fernando Calero,5,214,Spain,5,Left Center Back,Real Valladolid
+11294,Borja Fernández Fernández,Borja Fernández,8,214,Spain,10,Center Defensive Midfield,Real Valladolid
+11296,Óscar Plano Pedreño,Óscar Plano,10,214,Spain,24,Left Center Forward,Real Valladolid
+11297,Javier Moyano Lujano,Javi Moyano,17,214,Spain,2,Right Back,Real Valladolid
+11298,José Ignacio Martínez García,Nacho Martínez,22,214,Spain,6,Left Back,Real Valladolid
+11300,Rubén Alcaraz Jiménez,Rubén Alcaraz,14,214,Spain,11,Left Defensive Midfield,Real Valladolid
+11301,Miguel Alfonso Herrero Javaloyas,Míchel,21,214,Spain,,,Real Valladolid
+11302,Jordi Masip López,Jordi Masip,1,214,Spain,1,Goalkeeper,Real Valladolid
+11303,Anuar Mohamed Tuhami,Anuar Tuhami,23,154,Morocco,9,Right Defensive Midfield,Real Valladolid
+11304,Francisco José Olivas Alba,Kiko Olivas,4,214,Spain,3,Right Center Back,Real Valladolid
+18164,Antonio Jesús Regal Angulo,Antoñito,18,214,Spain,,,Real Valladolid
+30519,Mohamed Salisu,,28,86,Ghana,,,Real Valladolid
+41126,Samuel Pérez Fariña,Samuel Pérez,26,214,Spain,,,Real Valladolid
+6734,Luis Carlos Correia Pinto,Luisinho,16,183,Portugal,6,Left Back,Huesca
+6788,Xabier Etxeita Gorritxategi,Xabier Etxeita,3,214,Spain,5,Left Center Back,Huesca
+6857,Rúben Afonso Borges Semedo,Rúben Semedo,4,183,Portugal,3,Right Center Back,Huesca
+9747,Axel Werner,,1,11,Argentina,1,Goalkeeper,Huesca
+11669,Gonzalo Julián Melero Manzanares,Gonzalo Melero,8,214,Spain,11,Left Defensive Midfield,Huesca
+11670,David Ferreiro Quiroga,David Ferreiro,7,214,Spain,,,Huesca
+11671,Juan Camilo Hernández Suárez,Cucho Hernández,9,49,Colombia,23,Center Forward,Huesca
+11672,Samuele Longo,,12,112,Italy,22,Right Center Forward,Huesca
+11673,Alejandro Gallar Falguera,Álex Gallar,11,214,Spain,12,Right Midfield,Huesca
+11674,Damián Marcelo Musto,Damián Musto,23,11,Argentina,9,Right Defensive Midfield,Huesca
+11675,Moisés Gómez Bordonado,Moi Gómez,6,214,Spain,19,Center Attacking Midfield,Huesca
+11676,Jorge Miramón Santagertrudis,Jorge Miramón,24,214,Spain,12,Right Midfield,Huesca
+11677,Jorge Pulido Mayoral,Jorge Pulido,14,214,Spain,2,Right Back,Huesca
+11678,Luis Ezequiel Ávila,Chimy Ávila,19,11,Argentina,23,Center Forward,Huesca
+12554,Serdar Gürler,,21,233,Turkey,16,Left Midfield,Huesca
+19396,Lluis Sastre Reus,Lluis Sastre,22,214,Spain,,,Huesca
+21399,Pablo Ínsua Blanco,Pablo Ínsua,18,214,Spain,,,Huesca
+22332,Roberto Santamaría Cipriain,Roberto Santamaría,13,214,Spain,,,Huesca
+3042,Mikel Merino Zazón,Mikel Merino,8,214,Spain,11,Left Defensive Midfield,Real Sociedad
+5573,Héctor Alfredo Moreno Herrera,Héctor Moreno,6,147,Mexico,5,Left Center Back,Real Sociedad
+6605,Joseba Zaldúa Bengoetxea,Joseba Zaldúa,2,214,Spain,2,Right Back,Real Sociedad
+6669,David Zurutuza Veillet,David Zurutuza,17,214,Spain,16,Left Midfield,Real Sociedad
+6670,Andoni Gorosabel Espinosa,Andoni Gorosabel,18,214,Spain,,,Real Sociedad
+6671,Asier Illarramendi Andonegi,Asier Illarramendi,4,214,Spain,11,Left Defensive Midfield,Real Sociedad
+6676,Igor Zubeldia Elorza,Igor Zubeldía,5,214,Spain,9,Right Defensive Midfield,Real Sociedad
+6679,Aritz Elustondo Irribaria,Aritz Elustondo,15,214,Spain,3,Right Center Back,Real Sociedad
+6685,Mikel Oyarzabal Ugarte,Mikel Oyarzabal,10,214,Spain,12,Right Midfield,Real Sociedad
+6693,Raúl Rodríguez Navas,Raúl Navas,22,214,Spain,,,Real Sociedad
+6694,Gerónimo Rulli,Gero Rulli,1,11,Argentina,1,Goalkeeper,Real Sociedad
+6695,Juan Miguel Jiménez López,Juanmi,7,214,Spain,24,Left Center Forward,Real Sociedad
+6704,Theo Bernard François Hernández,Theo Hernández,19,78,France,6,Left Back,Real Sociedad
+6885,Kévin Manuel Rodrigues,Kévin Rodrigues,20,183,Portugal,,,Real Sociedad
+6899,Rubén Pardo Gutiérrez,Rubén Pardo,14,214,Spain,16,Left Midfield,Real Sociedad
+6906,Jon Bautista Orgilles,Jon Bautista,21,214,Spain,16,Left Midfield,Real Sociedad
+7069,Miguel Ángel Moyà Rumbo,Miguel Ángel Moyá,13,214,Spain,,,Real Sociedad
+16210,Luca Sangalli Fuentes,Luca Sangalli,23,214,Spain,16,Left Midfield,Real Sociedad
+6332,Thomas Vermaelen,,24,22,Belgium,,,Barcelona
+6609,Denis Suárez Fernández,Denis Suárez,6,214,Spain,,,Barcelona
+6351,Cristhian Ricardo Stuani Curbelo,Cristhian Stuani,7,242,Uruguay,24,Left Center Forward,Girona
+6560,Marc Muniesa Martínez,Marc Muniesa,20,214,Spain,8,Left Wing Back,Girona
+6565,Pere Pons Riera,Pere Pons,8,214,Spain,13,Right Center Midfield,Girona
+6567,Borja García Freire,Borja García,10,214,Spain,15,Left Center Midfield,Girona
+6570,Alejandro Granell Nogué,Álex Granell,6,214,Spain,13,Right Center Midfield,Girona
+6572,Juan Pedro Ramírez López,Juanpe,15,214,Spain,5,Left Center Back,Girona
+6573,Bernardo José Espinosa Zúñiga,Bernardo Espinosa,2,49,Colombia,4,Center Back,Girona
+6574,Douglas Luiz Soares de Paulo,Douglas Luiz,12,31,Brazil,10,Center Defensive Midfield,Girona
+6576,Gorka Iraizoz Moreno,Gorka Iraizoz,1,214,Spain,,,Girona
+6578,Francesc Aday Benítez Caraballo,Aday Benítez,11,214,Spain,7,Right Wing Back,Girona
+6579,Pedro Alcalá Guirado,Pedro Alcalá,5,214,Spain,3,Right Center Back,Girona
+6582,Cristian Portugués Manzanera,Portu,9,214,Spain,22,Right Center Forward,Girona
+6785,Yassine Bounou,,13,154,Morocco,1,Goalkeeper,Girona
+6888,Aleix García Serrano,Aleix García,23,214,Spain,15,Left Center Midfield,Girona
+11292,Pedro Antonio Porro Sauceda,Pedro Porro,29,214,Spain,,,Girona
+11295,Patrick Roberts,,17,68,England,,,Girona
+17276,Seydou Doumbia,,22,55,Côte d'Ivoire,22,Right Center Forward,Girona
+34694,Èric Montes Arce,Èric Montes,28,214,Spain,,,Girona
+3246,Guido Marcelo Carrillo,Guido Carrillo,9,11,Argentina,,,Leganés
+3991,Allan Romeo Nyom,Allan Nyom,12,39,Cameroon,17,Right Wing,Leganés
+6301,Youssef En-Nesyri,,26,154,Morocco,23,Center Forward,Leganés
+6598,Unai Bustinza Martínez,Unai Bustinza,3,214,Spain,4,Center Back,Leganés
+6599,Rubén Salvador Pérez Del Mármol,Rubén Pérez,21,214,Spain,15,Left Center Midfield,Leganés
+6601,Raúl García Carnero,Raúl García,14,214,Spain,5,Left Center Back,Leganés
+6608,Nabil El Zhar,,10,154,Morocco,17,Right Wing,Leganés
+6610,Iván Cuéllar Sacristán,Pichu,1,214,Spain,1,Goalkeeper,Leganés
+6666,Sabin Merino Zuloaga,Sabin Merino,18,214,Spain,13,Right Center Midfield,Leganés
+6667,Mikel Vesga Arruti,Mikel Vesga,23,214,Spain,13,Right Center Midfield,Leganés
+6738,Juan Francisco Moreno Fuertes,Juanfran,2,214,Spain,7,Right Wing Back,Leganés
+6739,Diego Alejandro Rolan Silva,Diego Rolán,4,242,Uruguay,,,Leganés
+6834,Gerard Gumbau Garriga,Gerard Gumbau,6,214,Spain,21,Left Wing,Leganés
+9879,Jon Ander Serantes Simon,Jon Ander Serantes,13,214,Spain,,,Leganés
+11730,Jonathan Cristian Silva,Jonathan Silva,5,11,Argentina,8,Left Wing Back,Leganés
+11745,Michael Nicolás Santos Rosadilla,Michael Santos,20,242,Uruguay,,,Leganés
+16212,Óscar Rodríguez Arnaiz,Óscar Rodríguez,27,214,Spain,21,Left Wing,Leganés
+17818,Rodrigo Tarín Higón,Rodri Tarín,28,214,Spain,3,Right Center Back,Leganés
+3023,Yuri Berchiche Izeta,Yuri Berchiche,12,214,Spain,16,Left Midfield,Athletic Club
+6389,Mikel San José Domínguez,Mikel San José,6,214,Spain,11,Left Defensive Midfield,Athletic Club
+6390,Markel Susaeta Laskurain,Markel Susaeta,14,214,Spain,12,Right Midfield,Athletic Club
+6391,Raúl García Escudero,Raúl García,22,214,Spain,22,Right Center Forward,Athletic Club
+6393,Iñaki Williams Arthuer,Iñaki Williams,9,86,Ghana,24,Left Center Forward,Athletic Club
+6394,Aritz Aduriz Zubeldia,Aritz Aduriz,20,214,Spain,24,Left Center Forward,Athletic Club
+6396,Beñat Etxebarria Urkiaga,Beñat Etxebarria,7,214,Spain,11,Left Defensive Midfield,Athletic Club
+6649,Óscar de Marcos Arana,De Marcos,18,214,Spain,2,Right Back,Athletic Club
+6665,Íñigo Martínez Berridi,Íñigo Martínez,4,214,Spain,5,Left Center Back,Athletic Club
+6699,Ander Capa Rodríguez,Ander Capa,21,214,Spain,,,Athletic Club
+6775,Daniel García Carrillo,Dani García,16,214,Spain,9,Right Defensive Midfield,Athletic Club
+6789,Mikel Balenziaga Oruesagasti,Mikel Balenziaga,24,214,Spain,6,Left Back,Athletic Club
+6842,Iker Muniain Goñi,Iker Muniain,10,214,Spain,,,Athletic Club
+6877,Yeray Álvarez López,Yeray Álvarez,5,214,Spain,3,Right Center Back,Athletic Club
+11744,Peru Nolaskoain Esnal,Peru Nolaskoain,31,214,Spain,5,Left Center Back,Athletic Club
+11746,Unai López Cabrera,Unai López,23,214,Spain,,,Athletic Club
+11748,Unai Simón Mendibil,Unai Simón,25,214,Spain,1,Goalkeeper,Athletic Club
+349946,Hodei Oleaga Alarcia,Hodei Oleaga,26,214,Spain,,,Athletic Club
+3437,Francis Joseph Coquelin,,17,78,France,11,Left Defensive Midfield,Valencia
+3457,Michy Batshuayi Tunga,Michy Batshuayi,23,22,Belgium,22,Right Center Forward,Valencia
+4367,Gonçalo Manuel Ganchinho Guedes,Gonçalo Guedes,7,183,Portugal,16,Left Midfield,Valencia
+5186,Denis Cheryshev,,11,188,Russia,16,Left Midfield,Valencia
+5718,Rodrigo Moreno Machado,Rodrigo,19,214,Spain,24,Left Center Forward,Valencia
+6401,Kevin Gameiro,Kévin Gameiro,9,78,France,24,Left Center Forward,Valencia
+6583,Carlos Soler Barragán,Carlos Soler,8,214,Spain,12,Right Midfield,Valencia
+6585,Jeison Fabián Murillo Cerón,Jeison Murillo,4,49,Colombia,,,Valencia
+6587,Antonio Latorre Grueso,Toni Lato,15,214,Spain,,,Valencia
+6589,Geoffrey Kondogbia,,6,43,Central African Republic,11,Left Defensive Midfield,Valencia
+6590,Norberto Murara Neto,Neto,13,31,Brazil,1,Goalkeeper,Valencia
+6595,Daniel Parejo Muñoz,Dani Parejo,10,214,Spain,9,Right Defensive Midfield,Valencia
+6596,José Luis Gayà Peña,José Gayá,14,214,Spain,6,Left Back,Valencia
+6746,Gabriel Armando de Abreu,Gabriel Paulista,5,31,Brazil,5,Left Center Back,Valencia
+6797,Daniel Wass,,18,61,Denmark,,,Valencia
+6891,Ezequiel Marcelo Garay,Ezequiel Garay,24,11,Argentina,3,Right Center Back,Valencia
+6898,Jaume Doménech Sánchez,Jaume Doménech,1,214,Spain,,,Valencia
+11634,Cristiano Piccini,,21,112,Italy,2,Right Back,Valencia
+41407,Juan Brandariz Movilla,Chumi,36,214,Spain,,,Barcelona
+3610,Roque Mesa Quevedo,Roque Mesa,7,214,Spain,14,Center Midfield,Sevilla
+5218,André Miguel Valente Silva,André Silva,12,183,Portugal,22,Right Center Forward,Sevilla
+5504,Éver Maximiliano David Banega,Éver Banega,10,11,Argentina,20,Left Attacking Midfield,Sevilla
+5534,Simon Thorup Kjær,Simon Kjær,4,61,Denmark,4,Center Back,Sevilla
+5742,Gabriel Iván Mercado,Gabriel Mercado,25,11,Argentina,3,Right Center Back,Sevilla
+6334,Luis Fernando Muriel Fruto,Luis Muriel,14,49,Colombia,22,Right Center Forward,Sevilla
+6400,Aleix Vidal Parreu,Aleix Vidal,11,214,Spain,,,Sevilla
+6719,Franco Damián Vázquez,Franco Vázquez,22,11,Argentina,20,Left Attacking Midfield,Sevilla
+6720,Pablo Sarabia García,Pablo Sarabia,17,214,Spain,18,Right Attacking Midfield,Sevilla
+6723,Wissam Ben Yedder,,9,78,France,24,Left Center Forward,Sevilla
+6724,Manuel Agudo Durán,Nolito,8,214,Spain,,,Sevilla
+6804,Sergi Gómez Solà,Sergi Gómez,3,214,Spain,5,Left Center Back,Sevilla
+6821,Jesús Navas González,Jesús Navas,16,214,Spain,7,Right Wing Back,Sevilla
+6825,Daniel Filipe Martins Carriço,Daniel Carriço,6,183,Portugal,4,Center Back,Sevilla
+6919,Guilherme Antonio Arana Lopes,Guilherme Arana,23,31,Brazil,8,Left Wing Back,Sevilla
+11541,Tomáš Vaclík,,1,60,Czech Republic,1,Goalkeeper,Sevilla
+13360,Quincy Anton Promes,Quincy Promes,21,160,Netherlands,,,Sevilla
+23921,Juan Soriano Oropesa,Juan Soriano,13,214,Spain,,,Sevilla
+13599,Carles Aleña Castillo,Carles Aleñà,26,214,Spain,9,Right Defensive Midfield,Barcelona
+3313,Giovani Lo Celso,,21,11,Argentina,21,Left Wing,Real Betis
+5214,William Silva de Carvalho,William Carvalho,14,183,Portugal,11,Left Defensive Midfield,Real Betis
+5563,José Andrés Guardado Hernández,Andrés Guardado,18,147,Mexico,9,Right Defensive Midfield,Real Betis
+5687,Takashi Inui,,8,114,Japan,21,Left Wing,Real Betis
+6647,Zouhair Feddal,,4,154,Morocco,,,Real Betis
+6648,Aïssa Mandi,,23,4,Algeria,3,Right Center Back,Real Betis
+6651,Joaquín Sánchez Rodríguez,Joaquín,17,214,Spain,24,Left Center Forward,Real Betis
+6657,Sergio León Limones,Sergio León,7,214,Spain,23,Center Forward,Real Betis
+6658,Cristian Tello Herrera,Cristian Tello,11,214,Spain,7,Right Wing Back,Real Betis
+6663,Antonio Barragán Fernández,Antonio Barragán,19,214,Spain,,,Real Betis
+6673,Sergio Canales Madrazo,Sergio Canales,6,214,Spain,17,Right Wing,Real Betis
+6777,Sidnei Rechel da Silva Júnior,Sidnei,12,31,Brazil,5,Left Center Back,Real Betis
+6792,Pau López Sabata,Pau López,13,214,Spain,1,Goalkeeper,Real Betis
+6880,Arnaldo Antonio Sanabria Ayala,Antonio Sanabria,9,178,Paraguay,,,Real Betis
+7068,Marc Bartra Aregall,Marc Bartra,5,214,Spain,4,Center Back,Real Betis
+7910,Lorenzo Jesús Morón García,Loren Morón,16,214,Spain,23,Center Forward,Real Betis
+16309,Joel Robles Blázquez,Joel Robles,1,214,Spain,,,Real Betis
+17304,Héctor Junior Firpo Adames,Junior Firpo,20,214,Spain,8,Left Wing Back,Real Betis
+3245,Thomas Lemar,,11,78,France,16,Left Midfield,Atlético Madrid
+5198,Diego da Silva Costa,Diego Costa,19,214,Spain,24,Left Center Forward,Atlético Madrid
+5199,Jorge Resurrección Merodio,Koke,6,214,Spain,15,Left Center Midfield,Atlético Madrid
+5484,Lucas Hernández Pi,Lucas Hernandez,21,78,France,5,Left Center Back,Atlético Madrid
+5487,Antoine Griezmann,,7,78,France,22,Right Center Forward,Atlético Madrid
+5696,Santiago Arias Naranjo,Santiago Arias,4,49,Colombia,2,Right Back,Atlético Madrid
+5723,Gelson Dany Batalha Martins,Gelson Martins,18,183,Portugal,,,Atlético Madrid
+6320,Filipe Luís Kasmirski,Filipe Luis,3,31,Brazil,6,Left Back,Atlético Madrid
+6376,Stefan Savić,,15,152,Montenegro,3,Right Center Back,Atlético Madrid
+6377,Ángel Martín Correa,Ángel Correa,10,11,Argentina,24,Left Center Forward,Atlético Madrid
+6378,Jan Oblak,,13,208,Slovenia,1,Goalkeeper,Atlético Madrid
+6381,Saúl Ñíguez Esclapez,Saúl Ñíguez,8,214,Spain,12,Right Midfield,Atlético Madrid
+6383,Thomas Teye Partey,Thomas Partey,5,86,Ghana,,,Atlético Madrid
+6654,Antonio Adán Garrido,Antonio Adán,1,214,Spain,,,Atlético Madrid
+6765,Rodrigo Hernández Cascante,Rodri,14,214,Spain,13,Right Center Midfield,Atlético Madrid
+6841,Víctor Machín Pérez,Vitolo,23,214,Spain,16,Left Midfield,Atlético Madrid
+7033,Nikola Kalinić,,9,56,Croatia,,,Atlético Madrid
+8136,Antonio Moya Vega,Toni Moya,43,214,Spain,,,Atlético Madrid
+22197,Juan Miranda González,Juan Miranda,27,214,Spain,,,Barcelona
+37237,Ignacio Peña Sotorres,Iñaki Peña,30,214,Spain,,,Barcelona
+3551,Karl Brillant Toko Ekambi,Karl Toko Ekambi,17,39,Cameroon,23,Center Forward,Villarreal
+4629,José Ramiro Funes Mori,Ramiro Funes Mori,4,11,Argentina,,,Villarreal
+5688,Carlos Arturo Bacca Ahumada,Carlos Bacca,9,49,Colombia,16,Left Midfield,Villarreal
+6737,Alfonso Pedraza Sag,Alfonso Pedraza,16,214,Spain,6,Left Back,Villarreal
+6752,Víctor Ruíz Torre,Víctor Ruíz,6,214,Spain,5,Left Center Back,Villarreal
+6753,Daniel Raba Antolín,Dani Raba,22,214,Spain,13,Right Center Midfield,Villarreal
+6755,Sergio Asenjo Andrés,Sergio Asenjo,1,214,Spain,1,Goalkeeper,Villarreal
+6762,Álvaro González Soberón,Álvaro González,3,214,Spain,3,Right Center Back,Villarreal
+6764,Pablo Fornals Malla,Pablo Fornals,8,214,Spain,15,Left Center Midfield,Villarreal
+6766,Gerard Moreno Balaguero,Gerard Moreno,7,214,Spain,23,Center Forward,Villarreal
+6771,Manuel Trigueros Muñoz,Manu Trigueros,14,214,Spain,13,Right Center Midfield,Villarreal
+6772,Mario Gaspar Pérez Martínez,Mario Gaspar,2,214,Spain,2,Right Back,Villarreal
+6828,Jaume Vicent Costa Jordá,Jaume Costa,11,214,Spain,,,Villarreal
+8697,Andrés Eduardo Fernández Moreno,Andrés Fernández,13,214,Spain,,,Villarreal
+11384,Manuel Morlanes Ariño,Manu Morlanes,28,214,Spain,,,Villarreal
+11385,Santiago Cáseres,,5,11,Argentina,10,Center Defensive Midfield,Villarreal
+11386,Santiago Cazorla González,Santi Cazorla,19,214,Spain,13,Right Center Midfield,Villarreal
+16335,Samuel Chimerenka Chukwueze,Samuel Chukwueze,30,166,Nigeria,12,Right Midfield,Villarreal
+3236,Sergi Darder Moll,Sergi Darder,10,214,Spain,13,Right Center Midfield,Espanyol
+5598,Óscar Esau Duarte Gaitán,Óscar Duarte,6,54,Costa Rica,5,Left Center Back,Espanyol
+6569,Roberto José Rosales Altuve,Roberto Rosales,8,246,Venezuela (Bolivarian Republic),,,Espanyol
+6571,Roberto Jiménez Gago,Roberto Jiménez,1,214,Spain,,,Espanyol
+6754,David López Silva,David López,15,214,Spain,3,Right Center Back,Espanyol
+6758,Víctor Sánchez Mata,Víctor Sánchez,4,214,Spain,21,Left Wing,Espanyol
+6761,Leonardo Carrilho Baptistão,Léo Baptistão,11,31,Brazil,17,Right Wing,Espanyol
+6763,Pablo Daniel Piatti,Pablo Piatti,19,11,Argentina,,,Espanyol
+6767,Sergio García De La Fuente,Sergio García,9,214,Spain,19,Center Attacking Midfield,Espanyol
+6768,Diego López Rodríguez,Diego López,13,214,Spain,1,Goalkeeper,Espanyol
+6769,Edinaldo Gomes Pereira,Naldo,5,31,Brazil,,,Espanyol
+6770,Esteban Félix Granero Molina,Esteban Granero,23,214,Spain,13,Right Center Midfield,Espanyol
+6791,Javier López Rodríguez,Javi López,16,214,Spain,2,Right Back,Espanyol
+6838,Hernán Arsenio Pérez González,Hernán Pérez,17,178,Paraguay,17,Right Wing,Espanyol
+6866,Marc Roca Junqué,Marc Roca,21,214,Spain,15,Left Center Midfield,Espanyol
+6886,Dídac Vilá Rosselló,Dídac Vilá,12,214,Spain,6,Left Back,Espanyol
+6902,Óscar Melendo Jiménez,Óscar Melendo,14,214,Spain,19,Center Attacking Midfield,Espanyol
+11391,Borja Iglesias Quintas,Borja Iglesias,7,214,Spain,23,Center Forward,Espanyol
+4407,Sanjin Prcić,,8,28,Bosnia and Herzegovina,9,Right Defensive Midfield,Levante UD
+6668,José Luis Morales Nogales,José Luis Morales,11,214,Spain,2,Right Back,Levante UD
+6672,Jorge Andújar Moreno,Coke,12,214,Spain,3,Right Center Back,Levante UD
+6678,Emmanuel Okyere Boateng,Emmanuel Boateng,21,86,Ghana,22,Right Center Forward,Levante UD
+6680,Rubén Rochina Naixes,Rubén Rochina,16,214,Spain,19,Center Attacking Midfield,Levante UD
+6681,José Manuel Rodríguez Benito,Chema,6,214,Spain,,,Levante UD
+6682,Sergio Postigo Redondo,Sergio Postigo,15,214,Spain,4,Center Back,Levante UD
+6684,Roger Martí Salvador,Roger Martí,9,214,Spain,,,Levante UD
+6688,José Ángel Gómez Campaña,José Campaña,24,214,Spain,11,Left Defensive Midfield,Levante UD
+6691,David Remeseiro Salgueiro,Jason,23,214,Spain,12,Right Midfield,Levante UD
+6692,Oier Olazábal Paredes,Oier Olazábal,13,214,Spain,1,Goalkeeper,Levante UD
+6782,Enis Bardhi,,10,135,"Macedonia, Republic of",16,Left Midfield,Levante UD
+6784,Antonio García Aranda,Toño,3,214,Spain,6,Left Back,Levante UD
+6807,Roberto Suárez Pier,Rober,4,214,Spain,5,Left Center Back,Levante UD
+6809,Erick Cathriel Cabaco Almada,Erick Cabaco,18,242,Uruguay,19,Center Attacking Midfield,Levante UD
+18163,Moses Daddy-Ajala Simon,Moses Simon,7,166,Nigeria,,,Levante UD
+21147,Borja Mayoral Moya,Borja Mayoral,2,214,Spain,23,Center Forward,Levante UD
+23344,Aitor Fernández Abarisketa,Aitor Fernández,25,214,Spain,,,Levante UD
+3625,Sofiane Boufal,,19,154,Morocco,21,Left Wing,Celta Vigo
+5217,Iago Aspas Juncal,Iago Aspas,10,214,Spain,22,Right Center Forward,Celta Vigo
+5516,Pione Sisto Ifolo Emirmija,Pione Sisto,11,61,Denmark,21,Left Wing,Celta Vigo
+6297,Maximiliano Gómez González,Maxi Gómez,9,242,Uruguay,23,Center Forward,Celta Vigo
+6794,Gustavo Daniel Cabral Cáceres,Gustavo Cabral,22,11,Argentina,,,Celta Vigo
+6795,Rubén Blanco Veiga,Rubén Blanco,13,214,Spain,1,Goalkeeper,Celta Vigo
+6798,Stanislav Lobotka,,14,207,Slovakia,11,Left Defensive Midfield,Celta Vigo
+6799,Brais Méndez Portela,Brais Méndez,23,214,Spain,17,Right Wing,Celta Vigo
+6805,Hugo Mallo Novegil,Hugo Mallo,2,214,Spain,2,Right Back,Celta Vigo
+6852,Jozabed Sánchez Ruiz,Jozabed Sánchez,21,214,Spain,9,Right Defensive Midfield,Celta Vigo
+6876,Róbert Mazáň,,15,207,Slovakia,6,Left Back,Celta Vigo
+6884,Sergio Álvarez Conde,Sergio Álvarez,1,214,Spain,,,Celta Vigo
+10759,Andrew Hjulsager,,16,61,Denmark,,,Celta Vigo
+11388,Néstor Alejandro Araújo Razo,Néstor Araujo,4,147,Mexico,3,Right Center Back,Celta Vigo
+11389,Francisco José Beltrán Peinado,Fran Beltrán,8,214,Spain,19,Center Attacking Midfield,Celta Vigo
+12555,Okay Yokuşlu,,5,233,Turkey,9,Right Defensive Midfield,Celta Vigo
+17804,David Costas Cordal,David Costas,3,214,Spain,5,Left Center Back,Celta Vigo
+22029,Kevin Vázquez Comesaña,Kevin Vázquez,20,214,Spain,,,Celta Vigo
+4546,Dimitri Foulquier,,24,91,Guadeloupe,12,Right Midfield,Getafe
+4712,Samuel Sáiz Alonso,Samuel Sáiz,11,214,Spain,16,Left Midfield,Getafe
+6611,Ángel Luis Rodríguez Díaz,Ángel Rodríguez,9,214,Spain,24,Left Center Forward,Getafe
+6619,Vitorino Gabriel Pacheco Antunes,Vitorino Antunes,3,183,Portugal,6,Left Back,Getafe
+6627,Damián Nicolás Suárez Suárez,Damián Suárez,22,242,Uruguay,2,Right Back,Getafe
+6630,Jorge Molina Vidal,Jorge Molina,19,214,Spain,24,Left Center Forward,Getafe
+6631,Mathieu Flamini,,16,78,France,,,Getafe
+6634,Djené Dakonam Ortega,Djene Dakonam,2,228,Togo,3,Right Center Back,Getafe
+6635,Leandro Daniel Cabrera Sasía,Leandro Cabrera,6,242,Uruguay,5,Left Center Back,Getafe
+6722,David Soria Solís,David Soria,13,214,Spain,1,Goalkeeper,Getafe
+6863,Mauro Wilney Arambarri Rosa,Mauro Arambarri,18,242,Uruguay,11,Left Defensive Midfield,Getafe
+6872,Bruno González Cabrera,Bruno González,4,214,Spain,,,Getafe
+6873,Francisco Portillo Soler,Francisco Portillo,8,214,Spain,12,Right Midfield,Getafe
+6901,Nemanja Maksimović,,20,203,Serbia,9,Right Defensive Midfield,Getafe
+6931,Leandro Chichizola,,1,11,Argentina,,,Getafe
+7154,Sebastián Carlos Cristóforo Pepe,Sebastián Cristóforo,15,242,Uruguay,,,Getafe
+11550,Jaime Mata Arnaiz,Jaime Mata,7,214,Spain,22,Right Center Forward,Getafe
+18721,Robert Ibáñez Castro,Robert Ibáñez,17,214,Spain,12,Right Midfield,Getafe
+6698,Marko Dmitrović,,1,203,Serbia,,,Eibar
+6700,Sergio Enrich Ametller,Sergi Enrich,9,214,Spain,23,Center Forward,Eibar
+6701,Joan Jordán Moreno,Joan Jordán,24,214,Spain,11,Left Defensive Midfield,Eibar
+6705,José Ángel Valdés Díaz,Cote,15,214,Spain,6,Left Back,Eibar
+6708,Paulo André Rodrigues de Oliveira,Paulo Oliveira,12,183,Portugal,,,Eibar
+6709,Anaitz Arbilla Zabala,Anaitz Arbilla,23,214,Spain,3,Right Center Back,Eibar
+6710,Rubén Peña Jiménez,Rubén Peña,11,214,Spain,2,Right Back,Eibar
+6711,Enrique García Martínez,Kike,17,214,Spain,19,Center Attacking Midfield,Eibar
+6712,Gonzalo Escalante,,5,11,Argentina,9,Right Defensive Midfield,Eibar
+6867,Papa Kouly Diop,Pape Diop,8,202,Senegal,9,Right Defensive Midfield,Eibar
+7105,Fabián Ariel Orellana Valenzuela,Fabián Orellana,14,45,Chile,17,Right Wing,Eibar
+7907,Pedro Bigas Rigo,Pedro Bigas,3,214,Spain,5,Left Center Back,Eibar
+8555,Pablo Ezequiel De Blasis,Pablo de Blasis,16,11,Argentina,21,Left Wing,Eibar
+10763,Asier Riesgo Unamuno,Asier Riesgo,13,214,Spain,1,Goalkeeper,Eibar
+12072,Pere Milla Peña,Pere Milla,22,214,Spain,,,Eibar
+13107,Sergio Álvarez Díaz,Sergio Álvarez,6,214,Spain,,,Eibar
+13108,Marc Cardona Rovira,Marc Cardona,7,214,Spain,23,Center Forward,Eibar
+17620,Marc Cucurella Saseta,Marc Cucurella,20,214,Spain,21,Left Wing,Eibar
+4447,Martin Braithwaite Christensen,Martin Braithwaite,25,61,Denmark,24,Left Center Forward,Leganés
+5830,Kenneth Josiah Omeruo,Kenneth Omeruo,24,166,Nigeria,4,Center Back,Leganés
+6580,José Luis García del Pozo,Recio,8,214,Spain,10,Center Defensive Midfield,Leganés
+6603,Dimitrios Siovas,,22,88,Greece,5,Left Center Back,Leganés
+6606,Javier Eraso Goñi,Javi Eraso,17,214,Spain,15,Left Center Midfield,Leganés
+21390,Andriy Lunin,,29,238,Ukraine,,,Leganés
+23561,Vasyl Kravets,,14,238,Ukraine,,,Leganés
+8668,Kevin-Prince Boateng,,19,86,Ghana,,,Barcelona
+6887,Jonás Ramalho Chimeno,Jonás Ramalho,4,7,Angola,,,Girona
+7578,Anthony Rubén Lozano Colón,Anthony Lozano,19,101,Honduras,22,Right Center Forward,Girona
+22129,Valery Fernández Estrada,Valery Fernández,34,214,Spain,6,Left Back,Girona
+23264,Seung-Ho Paik,Paik Seung-Ho,35,121,Korea (South),15,Left Center Midfield,Girona
+42283,Alejandro Pachón Párraga,Álex Pachón,37,214,Spain,,,Girona
+6594,Santiago Mina Lorenzo,Santi Mina,22,214,Spain,22,Right Center Forward,Valencia
+6748,Ferrán Torres García,Ferrán Torres,20,214,Spain,16,Left Midfield,Valencia
+6830,Facundo Sebastián Roncaglia,Facundo Roncaglia,4,11,Argentina,,,Valencia
+22740,Kang-In Lee,Lee Kang-In,16,121,Korea (South),,,Valencia
+6387,Iñigo Córdoba Kerejeta,Iñigo Córdoba,11,214,Spain,,,Athletic Club
+6397,Unai Núñez Gestoso,Unai Núñez,3,214,Spain,,,Athletic Club
+6662,Iago Herrerín Buisán,Iago Herrerín,13,214,Spain,1,Goalkeeper,Athletic Club
+8540,Kenan Kodro,,2,28,Bosnia and Herzegovina,23,Center Forward,Athletic Club
+10612,Yoel Rodríguez Oterino,Yoel,13,214,Spain,,,Real Valladolid
+17027,Sergio Guardiola Navarro,Sergi Guardiola,12,214,Spain,24,Left Center Forward,Real Valladolid
+22020,Joaquín Fernández Moreno,Joaquín Fernández,2,214,Spain,3,Right Center Back,Real Valladolid
+23492,Stiven Ricardo Plaza Castillo,Stiven Plaza,42,65,Ecuador,22,Right Center Forward,Real Valladolid
+7040,Marko Rog,,20,56,Croatia,11,Left Defensive Midfield,Sevilla
+8068,Maximilian Wöber,,14,15,Austria,6,Left Back,Sevilla
+11332,Ibrahim Amadou,,5,78,France,3,Right Center Back,Sevilla
+3509,Thibaut Courtois,,25,22,Belgium,1,Goalkeeper,Real Madrid
+4926,Francisco Román Alarcón Suárez,Isco,22,214,Spain,19,Center Attacking Midfield,Real Madrid
+5200,Lucas Vázquez Iglesias,Lucas Vázquez,17,214,Spain,,,Real Madrid
+5201,Sergio Ramos García,Sergio Ramos,4,214,Spain,5,Left Center Back,Real Madrid
+5463,Luka Modrić,,10,56,Croatia,13,Right Center Midfield,Real Madrid
+5485,Raphaël Varane,,5,78,France,3,Right Center Back,Real Madrid
+5539,Carlos Henrique Casimiro,Casemiro,14,31,Brazil,10,Center Defensive Midfield,Real Madrid
+5552,Marcelo Vieira da Silva Júnior,Marcelo,12,31,Brazil,,,Real Madrid
+5574,Toni Kroos,,8,85,Germany,15,Left Center Midfield,Real Madrid
+5597,Keylor Navas Gamboa,Keylor Navas,1,54,Costa Rica,,,Real Madrid
+5719,Marco Asensio Willemsen,,20,214,Spain,17,Right Wing,Real Madrid
+5721,Daniel Carvajal Ramos,Daniel Carvajal,2,214,Spain,2,Right Back,Real Madrid
+6399,Gareth Frank Bale,Gareth Bale,11,249,Wales,17,Right Wing,Real Madrid
+6697,Daniel Ceballos Fernández,Dani Ceballos,24,214,Spain,,,Real Madrid
+6773,Federico Santiago Valverde Dipetta,Federico Valverde,15,242,Uruguay,15,Left Center Midfield,Real Madrid
+18395,Vinícius José Paixão de Oliveira Júnior,Vinícius Júnior,28,31,Brazil,21,Left Wing,Real Madrid
+18620,Sergio Reguilón Rodríguez,Sergio Reguilón,23,214,Spain,6,Left Back,Real Madrid
+19677,Karim Benzema,,9,78,France,23,Center Forward,Real Madrid
+4346,Gilbert Gianelli Imbula Wanga,Giannelli Imbula,12,52,"Congo, (Kinshasa)",13,Right Center Midfield,Rayo Vallecano
+5521,Luis Jan Piers Advíncula Castrillón,Luis Advíncula,17,179,Peru,2,Right Back,Rayo Vallecano
+6652,Jordi Amat Maas,Jordi Amat,16,214,Spain,5,Left Center Back,Rayo Vallecano
+6914,Roberto Román Triguero,Tito,2,214,Spain,,,Rayo Vallecano
+6924,Alejandro Gálvez Jimena,Alejandro Gálvez,23,214,Spain,5,Left Center Back,Rayo Vallecano
+7900,Tiago Manuel Dias Correia,Bebé,14,41,Cape Verde,12,Right Midfield,Rayo Vallecano
+8512,Franco Matías Di Santo,Franco Di Santo,25,11,Argentina,,,Rayo Vallecano
+11535,José Ángel Pozo la Rosa,José Ángel Pozo,22,214,Spain,15,Left Center Midfield,Rayo Vallecano
+11537,Alberto García Cabrera,Alberto García,1,214,Spain,,,Rayo Vallecano
+11538,Alejandro Moreno Lopera,Moreno Lopera,7,214,Spain,6,Left Back,Rayo Vallecano
+11539,Adrián Embarba Blázquez,Adri Embarba,11,214,Spain,16,Left Midfield,Rayo Vallecano
+11540,Óscar Guido Trejo,Óscar Trejo,8,11,Argentina,,,Rayo Vallecano
+12192,Álvaro García Rivera,Álvaro García,18,214,Spain,16,Left Midfield,Rayo Vallecano
+12194,Santiago Comesaña Veiga,Santi Comesaña,27,214,Spain,10,Center Defensive Midfield,Rayo Vallecano
+16209,Raúl de Tomás Gómez,Raúl de Tomás,9,214,Spain,23,Center Forward,Rayo Vallecano
+17054,Emiliano Daniel Velázquez Maldonado,Emiliano Velázquez,20,242,Uruguay,3,Right Center Back,Rayo Vallecano
+21397,Stole Dimitrievski,,13,135,"Macedonia, Republic of",1,Goalkeeper,Rayo Vallecano
+23488,Mario Suárez Mata,Mario Suárez,15,214,Spain,,,Rayo Vallecano
+3990,Jesé Rodríguez Ruiz,Jesé,10,214,Spain,24,Left Center Forward,Real Betis
+22235,Wilfrid Jaures Kaptoum,Wilfrid Kaptoum,34,39,Cameroon,,,Real Betis
+22915,Diego Lainez Leyva,Diego Lainez,22,147,Mexico,22,Right Center Forward,Real Betis
+23522,Emerson Aparecido Leite de Souza Junior,Emerson Royal,24,31,Brazil,7,Right Wing Back,Real Betis
+6790,Mario Hermoso Canseco,Mario Hermoso,22,214,Spain,5,Left Center Back,Espanyol
+10323,Alfa Semedo Esteves,Alfa Semedo,2,96,Guinea-Bissau,10,Center Defensive Midfield,Espanyol
+22287,Adrià Giner Pedrosa,Adrià Pedrosa,28,214,Spain,8,Left Wing Back,Espanyol
+22919,Lluís López Mármol,Lluís López,27,214,Spain,3,Right Center Back,Espanyol
+23343,Lei Wu,Wu Lei,24,46,China,24,Left Center Forward,Espanyol
+3497,Vicente Iborra De La Fuente,Vicente Iborra,10,214,Spain,21,Left Wing,Villarreal
+6827,Daniele Bonera,,23,112,Italy,17,Right Wing,Villarreal
+24729,Xavier Quintillà Guasch,Xavi Quintillà,39,214,Spain,,,Villarreal
+42275,Iván Martín Núñez,Iván Martín,37,214,Spain,,,Villarreal
+3477,Álvaro Borja Morata Martín,Álvaro Morata,22,214,Spain,24,Left Center Forward,Atlético Madrid
+5249,Diego Roberto Godín Leal,Diego Godín,2,242,Uruguay,5,Left Center Back,Atlético Madrid
+5259,José María Giménez de Vargas,José Giménez,24,242,Uruguay,3,Right Center Back,Atlético Madrid
+6375,Juan Francisco Torres Belén,Juanfran,20,214,Spain,10,Center Defensive Midfield,Atlético Madrid
+3508,Sandro Ramírez Castillo,Sandro Ramírez,24,214,Spain,17,Right Wing,Real Sociedad
+6713,Diego Javier Llorente Ríos,Diego Llorente,3,214,Spain,5,Left Center Back,Real Sociedad
+6721,Willian José da Silva,Willian José,12,31,Brazil,23,Center Forward,Real Sociedad
+22321,Ander Barrenetxea Muguruza,Ander Barrenetxea,34,214,Spain,21,Left Wing,Real Sociedad
+22452,Aihen Muñoz Capellán,Ahien Muñoz,29,214,Spain,6,Left Back,Real Sociedad
+6038,John Guidetti,,10,220,Sweden,22,Right Center Forward,Deportivo Alavés
+6604,Darko Brašanac,,20,203,Serbia,13,Right Center Midfield,Deportivo Alavés
+6622,Tomás Pina Isla,Tomás Pina,8,214,Spain,15,Left Center Midfield,Deportivo Alavés
+6636,Rodrigo Ely,,4,31,Brazil,4,Center Back,Deportivo Alavés
+6856,Carlos Martín Vigaray,Carlos Vigaray,2,214,Spain,2,Right Back,Deportivo Alavés
+6592,Rúben Miguel Nunes Vezo,Rúben Vezo,14,183,Portugal,3,Right Center Back,Levante UD
+6675,Antonio Manuel Luna Rodríguez,Antonio Luna,22,214,Spain,6,Left Back,Levante UD
+6787,Pedro López Muñoz,Pedro López,19,214,Spain,,,Levante UD
+11305,Raphael Dwamena,Raphael,20,86,Ghana,,,Levante UD
+17303,Nikola Vukčević,,17,152,Montenegro,10,Center Defensive Midfield,Levante UD
+11532,Jean-Clair Todibo,,6,78,France,,,Barcelona
+24841,Ricard Puig Martí,Riqui Puig,28,214,Spain,,,Barcelona
+24976,Abel Ruiz Ortega,Abel Ruiz,29,214,Spain,24,Left Center Forward,Barcelona
+5693,Gaku Shibasaki,,10,114,Japan,16,Left Midfield,Getafe
+6741,Ignasi Miquel i Pons,Ignasi Miquel,21,214,Spain,,,Getafe
+7104,Mathías Olivera Miramontes,Mathías Olivera,17,242,Uruguay,6,Left Back,Getafe
+7621,Hugo Duro Perales,Hugo Duro,27,214,Spain,24,Left Center Forward,Getafe
+5674,Moussa Wagué,,40,202,Senegal,2,Right Back,Barcelona
+25006,Carles Pérez Sayol,Carles Pérez,43,214,Spain,21,Left Wing,Barcelona
+6707,Charles Días Barbosa de Oliveira,Charles,19,31,Brazil,24,Left Center Forward,Eibar
+6778,Iván Ramis Barrios,Iván Ramis,4,214,Spain,5,Left Center Back,Eibar
+6907,Pedro León Sánchez Gil,Pedro León,21,214,Spain,,,Eibar
+24948,Jordi Calavera Espinach,Jordi Calavera,2,214,Spain,,,Eibar
+3666,Robert Kenedy Nunes do Nascimento,Kenedy,25,31,Brazil,16,Left Midfield,Getafe
+5466,Oghenekaro Etebo,Peter Etebo,5,166,Nigeria,12,Right Midfield,Getafe
+6621,Amath Ndiaye,,11,202,Senegal,12,Right Midfield,Getafe
+6786,David Timor Copoví,David Timor,24,214,Spain,,,Getafe
+25134,Deyverson Brum Silva Acosta,Deyverson,14,31,Brazil,,,Getafe
+8118,Frenkie de Jong,,21,160,Netherlands,13,Right Center Midfield,Barcelona
+23987,Rey Manaj,,41,3,Albania,,,Barcelona
+30756,Anssumane Fati,Ansu Fati,31,214,Spain,21,Left Wing,Barcelona
+32480,Ronald Federico Araújo da Silva,Ronald Araújo,33,242,Uruguay,,,Barcelona
+3389,Eliaquim Mangala,,4,78,France,,,Valencia
+33164,Vicente Esquerdo Santas,Vicente Esquerdo,34,214,Spain,,,Valencia
+36900,Cristian Rivero Sabater,Cristian Rivero,28,214,Spain,,,Valencia
+24949,Álex Collado Gutiérrez,Álex Collado,30,214,Spain,7,Right Wing Back,Barcelona
+3265,José Luis Sanmartín Mato,Joselu,9,214,Spain,23,Center Forward,Deportivo Alavés
+3513,Oliver Burke,,24,201,Scotland,16,Left Midfield,Deportivo Alavés
+5628,José Luis Rodríguez Francis,José Rodríguez,38,176,Panama,,,Deportivo Alavés
+6659,Víctor Camarasa Ferrando,Víctor Camarasa,10,214,Spain,15,Left Center Midfield,Deportivo Alavés
+6732,Lucas Pérez Martínez,Lucas Pérez,7,214,Spain,22,Right Center Forward,Deportivo Alavés
+6900,Rafael Jesús Navarro Mazuelos,Rafa Navarro,12,214,Spain,,,Deportivo Alavés
+10318,Ljubomir Fejsa,,15,203,Serbia,10,Center Defensive Midfield,Deportivo Alavés
+23263,Lisandro Magallán,,6,11,Argentina,5,Left Center Back,Deportivo Alavés
+24049,Luis Jesús Rioja González,Luis Rioja,11,214,Spain,16,Left Midfield,Deportivo Alavés
+26387,Edgar Antonio Méndez Ortega,Edgar Méndez,16,214,Spain,12,Right Midfield,Deportivo Alavés
+30419,Alberto Rodríguez Baró,Tachi Rodríguez,27,214,Spain,3,Right Center Back,Deportivo Alavés
+30760,Borja Sainz Eguskiza,Borja Sainz,29,214,Spain,,,Deportivo Alavés
+37236,Aritz Castro Pérez,Aritz Castro,31,214,Spain,,,Deportivo Alavés
+41123,Paulino de la Fuente Gómez,Paulino de la Fuente,32,214,Spain,,,Deportivo Alavés
+41125,Abdallahi Mohamed Mahmoud,,36,144,Mauritania,15,Left Center Midfield,Deportivo Alavés
+39159,Arnau Tenas Ureña,Arnau Tenas,36,214,Spain,,,Barcelona
+3141,André-Frank Zambo Anguissa,André Zambo Anguissa,19,39,Cameroon,13,Right Center Midfield,Villarreal
+6892,Pau Francisco Torres,Pau Torres,4,214,Spain,5,Left Center Back,Villarreal
+7030,Raúl Albiol i Tortajada,Raúl Albiol,3,214,Spain,3,Right Center Back,Villarreal
+20063,Javier Ontiveros Parra,Javi Ontiveros,24,214,Spain,21,Left Wing,Villarreal
+24861,Andrei Florin Ratiu,Andrei Ratiu,27,187,Romania,,,Villarreal
+7361,Pablo Chavarría,,19,11,Argentina,,,Mallorca
+8654,Ante Budimir,,22,56,Croatia,22,Right Center Forward,Mallorca
+8689,Aleksandar Sedlar,,20,203,Serbia,,,Mallorca
+10277,Fabricio Martín Agosto Ramírez,Fabri,13,214,Spain,,,Mallorca
+23986,Aleix Febas Pérez,Aleix Febas,23,214,Spain,16,Left Midfield,Mallorca
+24067,Abdón Prats Bastidas,Abdón Prats,9,214,Spain,22,Right Center Forward,Mallorca
+24072,Salvador Sevilla López,Salva Sevilla,8,214,Spain,15,Left Center Midfield,Mallorca
+24083,Manuel Reina Rodríguez,Manolo Reina,1,214,Spain,1,Goalkeeper,Mallorca
+24084,Martin Valjent,,24,207,Slovakia,3,Right Center Back,Mallorca
+24086,Antonio José Raillo Arenas,Antonio Raillo,21,214,Spain,5,Left Center Back,Mallorca
+24087,Iddrisu Baba Mohammed,Iddrisu Baba,12,86,Ghana,15,Left Center Midfield,Mallorca
+24088,Daniel José Rodríguez Vázquez,Dani Rodríguez,14,214,Spain,13,Right Center Midfield,Mallorca
+24089,Joan Sastre Vanrell,Joan Sastre,2,214,Spain,6,Left Back,Mallorca
+24576,Francisco Gámez López,Fran Gámez,15,214,Spain,2,Right Back,Mallorca
+25061,Francisco Javier Campos Coll,Xisco Campos,5,214,Spain,,,Mallorca
+27342,Josep Señé Escudero,Josep Señé,4,214,Spain,15,Left Center Midfield,Mallorca
+31090,Takefusa Kubo,,26,114,Japan,12,Right Midfield,Mallorca
+3163,Mariano Díaz Mejía,Mariano Díaz,24,64,Dominican Republic,23,Center Forward,Real Madrid
+3379,Alphonse Areola,,1,78,France,,,Real Madrid
+3804,Ferland Mendy,,23,78,France,,,Real Madrid
+13620,Éder Gabriel Militão,Éder Militão,3,31,Brazil,,,Real Madrid
+3058,Javier Hernández Balcázar,,14,147,Mexico,23,Center Forward,Sevilla
+3366,Diego Carlos Santos Silva,Diego Carlos,20,31,Brazil,3,Right Center Back,Sevilla
+4345,Lucas Ariel Ocampos,Lucas Ocampos,5,11,Argentina,17,Right Wing,Sevilla
+4445,Jules Koundé,,12,78,France,,,Sevilla
+6718,Sergio Escudero Palomo,Sergio Escudero,18,214,Spain,,,Sevilla
+12021,Óliver Torres Muñoz,Óliver Torres,21,214,Spain,15,Left Center Midfield,Sevilla
+16003,Fernando Francisco Reges,Fernando Reges,25,31,Brazil,10,Center Defensive Midfield,Sevilla
+16489,Nemanja Gudelj,,17,203,Serbia,,,Sevilla
+20033,Luuk de Jong,,19,160,Netherlands,23,Center Forward,Sevilla
+3498,Ignacio Monreal Eraso,Nacho Monreal,20,214,Spain,6,Left Back,Real Sociedad
+6330,Adnan Januzaj,,11,22,Belgium,,,Real Sociedad
+8252,Martin Ødegaard,,21,171,Norway,19,Center Attacking Midfield,Real Sociedad
+8819,Alexander Isak,,19,220,Sweden,23,Center Forward,Real Sociedad
+22128,Robin Aime Robert Le Normand,Robin Le Normand,24,78,France,5,Left Center Back,Real Sociedad
+24236,Ander Guevara Lajo,Ander Guevara,16,214,Spain,9,Right Defensive Midfield,Real Sociedad
+32185,Alejandro Remiro Gargallo,Álex Remiro,1,214,Spain,1,Goalkeeper,Real Sociedad
+4558,Pape Cheikh Diop Gueye,Pape Diop,24,202,Senegal,15,Left Center Midfield,Celta Vigo
+6776,David Juncà Reñé,David Juncà,17,214,Spain,8,Left Wing Back,Celta Vigo
+16555,Joseph Aidoo,,18,86,Ghana,3,Right Center Back,Celta Vigo
+24273,Jorge Sáenz de Miera Colmeiro,Jorge Sáenz,16,214,Spain,,,Celta Vigo
+24730,Lucas René Olaza Catrofe,Lucas Olaza,15,242,Uruguay,5,Left Center Back,Celta Vigo
+30294,Gabriel Matías Fernández Leites,Gabriel Fernández,19,242,Uruguay,15,Left Center Midfield,Celta Vigo
+41122,Ramón Rodríguez Jiménez,Monchu,42,214,Spain,,,Barcelona
+41543,Jorge Cuenca Barreno,Jorge Cuenca,43,214,Spain,,,Barcelona
+6392,Íñigo Lekue Martínez,Iñigo Lekue,15,214,Spain,17,Right Wing,Athletic Club
+30225,Oihan Sancet Tirapu,Oihan Sancet,34,214,Spain,19,Center Attacking Midfield,Athletic Club
+30715,Gaizka Larrazabal Goikoetxea,Gaizka Larrazabal,12,214,Spain,,,Athletic Club
+32953,Asier Villalibre Molina,Asier Villalibre,25,214,Spain,23,Center Forward,Athletic Club
+35473,Unai Vencedor Paris,Unai Vencedor,27,214,Spain,,,Athletic Club
+41542,Daniel Vivian Moreno,Dani Vivian,29,214,Spain,,,Athletic Club
+6796,Nemanja Radoja,,5,203,Serbia,9,Right Defensive Midfield,Levante UD
+12020,Hernâni Jorge Santos Fortes,Hernâni,8,183,Portugal,,,Levante UD
+23948,Carlos Clerc Martínez,Carlos Clerc,19,214,Spain,6,Left Back,Levante UD
+38251,Daniel Cárdenas Lindez,Dani Cárdenas,26,214,Spain,,,Levante UD
+41641,Daniel Morer Cabrera,Dani Morer,35,214,Spain,,,Barcelona
+5194,Fyodor Smolov,,9,188,Russia,24,Left Center Forward,Celta Vigo
+6310,Filip Bradarić,,14,56,Croatia,15,Left Center Midfield,Celta Vigo
+25014,Juan Hernández García,Juan Hernández,7,214,Spain,,,Celta Vigo
+28194,Dragan Rosić,,40,203,Serbia,,,Celta Vigo
+32815,Sergio Bermejo Lillo,Sergio Bermejo,28,214,Spain,,,Celta Vigo
+35000,José Manuel Fontán Mondragón,José Fontán,31,214,Spain,,,Celta Vigo
+40890,Iván Villar Martínez,Iván Villar,25,214,Spain,,,Celta Vigo
+41116,Jacobo González Rodrigañez,Jacobo González,29,214,Spain,8,Left Wing Back,Celta Vigo
+24078,Javier Muñoz Jiménez,Javier Muñoz,15,214,Spain,19,Center Attacking Midfield,Deportivo Alavés
+3308,Kieran Trippier,,23,68,England,2,Right Back,Atlético Madrid
+5575,Héctor Miguel Herrera López,Héctor Herrera,16,147,Mexico,13,Right Center Midfield,Atlético Madrid
+6840,Marcos Llorente Moreno,Marcos Llorente,14,214,Spain,,,Atlético Madrid
+11167,Felipe Augusto de Almeida Monteiro,Felipe,18,31,Brazil,3,Right Center Back,Atlético Madrid
+12041,João Félix Sequeira,João Félix,7,183,Portugal,24,Left Center Forward,Atlético Madrid
+26532,Renan Augusto Lodi dos Santos,Renan Lodi,12,31,Brazil,13,Right Center Midfield,Atlético Madrid
+34532,Ivan Šaponjić,,17,203,Serbia,,,Atlético Madrid
+3139,Chidozie Collins Awaziem,Chidozie Awaziem,12,166,Nigeria,3,Right Center Back,Leganés
+6602,Miguel Ángel Guerrero Martín,Miguel Ángel Guerrero,9,214,Spain,22,Right Center Forward,Leganés
+6756,Marc Navarro Ceciliano,Marc Navarro,2,214,Spain,,,Leganés
+6851,Aitor Ruibal García,Aitor Ruibal,19,214,Spain,7,Right Wing Back,Leganés
+16024,Roger Claver Assalé Djapone,Roger Assalé,20,55,Côte d'Ivoire,24,Left Center Forward,Leganés
+22418,Bryan Gil Salvatierra,Bryan Gil,26,214,Spain,15,Left Center Midfield,Leganés
+30798,Javier Avilés Cortés,Javier Avilés,33,214,Spain,,,Leganés
+37006,Pablo Lombo Suárez,Pablo Lombo,35,214,Spain,,,Leganés
+41291,Iván Amores Alonso,Iván Amores,36,214,Spain,,,Leganés
+3122,Yannis Salibur,,16,78,France,12,Right Midfield,Mallorca
+24079,Júnior Wakalibille Lago,Lago Junior,11,55,Côte d'Ivoire,16,Left Midfield,Mallorca
+24269,Marc Pedraza Sarto,Marc Pedraza,6,214,Spain,9,Right Defensive Midfield,Mallorca
+24613,Alejandro Pozo Pozo,Alejandro Pozo,7,214,Spain,2,Right Back,Mallorca
+25595,Miquel Parera Pizá,Miquel Parera,25,214,Spain,,,Mallorca
+30512,Aleksandar Trajkovski,,17,135,"Macedonia, Republic of",,,Mallorca
+5202,José Ignacio Fernández Iglesias,Nacho,6,214,Spain,,,Real Madrid
+6319,Luka Jović,,18,203,Serbia,,,Real Madrid
+25104,Rodrygo Silva de Goes,Rodrygo,27,31,Brazil,19,Center Attacking Midfield,Real Madrid
+12073,Pablo Hervías Ruiz,Pablo Hervías,11,214,Spain,12,Right Midfield,Real Valladolid
+17520,Federico Barba,,3,112,Italy,6,Left Back,Real Valladolid
+24777,Waldo Rubio Martín,Waldo Rubio,23,214,Spain,16,Left Midfield,Real Valladolid
+32673,Jorge De Frutos Sebastián,Jorge De Frutos,12,214,Spain,,,Real Valladolid
+6982,Maxime Gonalons,,4,78,France,11,Left Defensive Midfield,Granada
+8866,Carlos Fernández Luna,Carlos Fernández,24,214,Spain,23,Center Forward,Granada
+11501,Darwin Daniel Machís Marcano,Darwin Machís,23,246,Venezuela (Bolivarian Republic),16,Left Midfield,Granada
+16249,Yangel Clemente Herrera Ravelo,Yangel Herrera,21,246,Venezuela (Bolivarian Republic),9,Right Defensive Midfield,Granada
+16538,İsmail Köybaşı,,11,233,Turkey,,,Granada
+23807,Domingos Sousa Coutinho Meneses Duarte,Domingos Duarte,22,183,Portugal,3,Right Center Back,Granada
+24052,Yan Brice Eteki,Yan Eteki,8,39,Cameroon,9,Right Defensive Midfield,Granada
+24126,José Antonio Rodríguez Díaz,Antonio Puertas,10,214,Spain,12,Right Midfield,Granada
+24127,Ramon Olamilekan Azeez,Ramon Azeez,12,166,Nigeria,19,Center Attacking Midfield,Granada
+24133,Víctor David Díaz Miguel,Víctor Díaz,16,214,Spain,2,Right Back,Granada
+24134,Germán Sánchez Barahona,Germán Sánchez,6,214,Spain,15,Left Center Midfield,Granada
+24140,Rui Tiago Dantas da Silva,Rui Silva,1,183,Portugal,1,Goalkeeper,Granada
+24142,José Antonio Martínez Gil,José Martínez,5,214,Spain,5,Left Center Back,Granada
+24143,Álvaro Vadillo Cifuentes,Álvaro Vadillo,7,214,Spain,17,Right Wing,Granada
+25702,Carlos Neva Tey,Carlos Neva,15,214,Spain,,,Granada
+25704,Aarón Escandell Banacloche,Aarón Escandell,13,214,Spain,,,Granada
+26009,Roberto Soldado Rillo,Roberto Soldado,9,214,Spain,,,Granada
+30420,Víctor Campuzano Bonilla,Víctor Campuzano,31,214,Spain,19,Center Attacking Midfield,Espanyol
+30421,Matías Ezequiel Vargas Martín,Matías Vargas,22,11,Argentina,,,Espanyol
+31885,Pol Lozano Vizuete,Pol Lozano,26,214,Spain,22,Right Center Forward,Espanyol
+32670,Víctor Gómez Perea,Víctor Gómez,34,214,Spain,2,Right Back,Espanyol
+41456,Nicolás Melamed Ribaudo,Nico Melamed,33,214,Spain,,,Espanyol
+41603,Daniel Villahermosa Martínez,Dani Villahermosa,38,214,Spain,,,Espanyol
+6591,Ignacio Vidal Miralles,Nacho Vidal,2,214,Spain,7,Right Wing Back,Osasuna
+6730,Rubén Iván Martínez Andrade,Rubén Martínez,13,214,Spain,,,Osasuna
+6735,Adrián López Álvarez,Adrián López,22,214,Spain,24,Left Center Forward,Osasuna
+6810,José Manuel Arnáiz Díaz,José Arnáiz,16,214,Spain,22,Right Center Forward,Osasuna
+23213,Enric Gallego Puigsech,Enric Gallego,11,214,Spain,19,Center Attacking Midfield,Osasuna
+23944,Oier Sanjurjo Mate,Oier,6,214,Spain,10,Center Defensive Midfield,Osasuna
+23945,Iñigo Pérez Soto,Iñigo Pérez,21,214,Spain,15,Left Center Midfield,Osasuna
+23947,Roberto Torres Morales,Roberto Torres,10,214,Spain,13,Right Center Midfield,Osasuna
+23950,David García Zubiría,David García,5,214,Spain,5,Left Center Back,Osasuna
+24085,Pervis Josué Estupiñán Tenorio,Pervis Estupiñán,30,65,Ecuador,8,Left Wing Back,Osasuna
+24211,Sergio Herrera Pirón,Sergio Herrera,1,214,Spain,1,Goalkeeper,Osasuna
+24212,Aridane Hernández Umpiérrez,Aridane Hernández,23,214,Spain,3,Right Center Back,Osasuna
+24315,Enrique Barja Afonso,Kike Barja,19,214,Spain,23,Center Forward,Osasuna
+25062,Juan Manuel Pérez Ruiz,Juan Pérez,25,214,Spain,,,Osasuna
+30277,Jon Moncayola Tollar,Jon Moncayola,27,214,Spain,13,Right Center Midfield,Osasuna
+40114,Javier Martínez Calvo,Javi Martínez,33,214,Spain,,,Osasuna
+40115,Aimar Oroz,,34,214,Spain,,,Osasuna
+41471,José Javier Hualde Zaratiegui,José Hualde,35,214,Spain,,,Osasuna
+6388,Ander Iturraspe Derteano,Ander Iturraspe,8,214,Spain,9,Right Defensive Midfield,Espanyol
+6848,Andrés Tomás Prieto Albert,Andrés Prieto,1,214,Spain,,,Espanyol
+6930,Jonathan Calleri,,12,11,Argentina,22,Right Center Forward,Espanyol
+10709,Modibo Sagnan,,15,78,France,,,Real Sociedad
+24144,Ángel Montoro Sánchez,Ángel Montoro,19,214,Spain,11,Left Defensive Midfield,Granada
+24324,Gustavo Adrián Ramos Vásquez,Adrián Ramos,20,49,Colombia,,,Granada
+3218,Marcos Paulo Mesquita Lopes,Rony Lopes,7,183,Portugal,,,Sevilla
+7022,Jesús Joaquín Fernández Sáez de la Torre,Suso,14,214,Spain,17,Right Wing,Sevilla
+33146,José Mena Rodríguez,José Mena,26,214,Spain,,,Sevilla
+33307,Genaro Rodríguez Serrano,Genaro Rodríguez,36,214,Spain,,,Sevilla
+41409,Pablo Pérez Rico,Pablo Pérez,40,214,Spain,,,Sevilla
+41408,Javier Enrique Delgado Saverio,Kike Saverio,38,65,Ecuador,,,Barcelona
+20735,Miguel De la Fuente Escudero,Miguel De la Fuente,29,214,Spain,,,Real Valladolid
+21225,Javier Sánchez de Felipe,Javier Sánchez,5,214,Spain,5,Left Center Back,Real Valladolid
+24141,Federico San Emeterio Díaz,Fede,16,214,Spain,13,Right Center Midfield,Real Valladolid
+24920,José Antonio Caro Díaz,Churripi,13,214,Spain,,,Real Valladolid
+29256,Matheus Fernandes Siqueira,Matheus Fernandes,8,31,Brazil,,,Real Valladolid
+34728,Diego Alende López,Diego Alende,30,214,Spain,,,Real Valladolid
+40881,Enrique Pérez Muñoz,Kike Pérez,28,214,Spain,16,Left Midfield,Real Valladolid
+41610,Víctor García Raja,Víctor García,35,214,Spain,,,Real Valladolid
+5633,Yannick Ferreira Carrasco,Yannick Carrasco,21,22,Belgium,16,Left Midfield,Atlético Madrid
+33339,Manuel Sánchez De La Peña,Manu Sánchez,35,214,Spain,,,Atlético Madrid
+41732,Ricard Sánchez Sendra,Ricard Sánchez,42,214,Spain,,,Atlético Madrid
+41733,Álvaro García Segovia,Álvaro García,26,214,Spain,,,Atlético Madrid
+6910,Eduardo Expósito Jaén,Edu Expósito,10,214,Spain,12,Right Midfield,Eibar
+23808,Enrique González Casín,Quique,7,214,Spain,,,Eibar
+23981,Álvaro Tejero Sacristán,Álvaro Tejero,24,214,Spain,,,Eibar
+2948,Nabil Fekir,,8,78,France,16,Left Midfield,Real Betis
+26404,Guido Rodríguez,,21,11,Argentina,10,Center Defensive Midfield,Real Betis
+30518,Daniel Martín Fernández,Dani Martín,13,214,Spain,,,Real Betis
+33079,Edgar González Estrada,Edgar González,32,214,Spain,,,Real Betis
+3515,Alberto Moreno Pérez,Alberto Moreno,18,214,Spain,6,Left Back,Villarreal
+6402,Francisco Alcácer García,Paco Alcácer,17,214,Spain,24,Left Center Forward,Villarreal
+15737,Sergio Lozano Lluch,Sergio Lozano,28,214,Spain,,,Villarreal
+22819,Bruno Soriano Llido,Bruno Soriano,21,214,Spain,11,Left Defensive Midfield,Villarreal
+34515,Fernando Niño Rodriguez,Fernando Niño,34,214,Spain,23,Center Forward,Villarreal
+35287,Sofian Chakla,Soufiane Chakla,22,154,Morocco,,,Villarreal
+20734,Sergio Akieme Rodríguez,Sergio Akieme,39,214,Spain,,,Barcelona
+23803,Esteban Rodrigo Burgos,Esteban Burgos,2,11,Argentina,3,Right Center Back,Eibar
+10525,Kenny Miller,,16,201,Scotland,12,Right Midfield,Wolverhampton Wanderers
+15595,Steffen Iversen,,19,171,Norway,24,Left Center Forward,Wolverhampton Wanderers
+17727,Ioan Viorel Ganea,Ionel Ganea,20,187,Romania,22,Right Center Forward,Wolverhampton Wanderers
+24765,Denis Irwin,,2,109,Ireland,2,Right Back,Wolverhampton Wanderers
+40304,Lee Naylor,,3,68,England,6,Left Back,Wolverhampton Wanderers
+40305,Mark Kennedy,,11,109,Ireland,16,Left Midfield,Wolverhampton Wanderers
+40311,Alex Rae,,4,201,Scotland,9,Right Defensive Midfield,Wolverhampton Wanderers
+40312,Paul Butler,,6,68,England,5,Left Center Back,Wolverhampton Wanderers
+40313,Colin Cameron,,10,201,Scotland,11,Left Defensive Midfield,Wolverhampton Wanderers
+40314,Jody Craddock,,12,68,England,3,Right Center Back,Wolverhampton Wanderers
+40319,Paul Jones,,21,249,Wales,1,Goalkeeper,Wolverhampton Wanderers
+40320,Carl Cort,,27,97,Guyana,24,Left Center Forward,Wolverhampton Wanderers
+12529,Ashley Cole,,3,68,England,6,Left Back,Arsenal
+15042,Dennis Bergkamp,,10,160,Netherlands,22,Right Center Forward,Arsenal
+15515,Patrick Vieira,,4,78,France,9,Right Defensive Midfield,Arsenal
+15516,Thierry Henry,,14,78,France,24,Left Center Forward,Arsenal
+15637,Sulzeer Jeremiah ''Sol' Campbell,Sol Campbell,23,68,England,5,Left Center Back,Arsenal
+19312,Robert Pirès,,7,78,France,16,Left Midfield,Arsenal
+20015,Jens Lehmann,,1,85,Germany,1,Goalkeeper,Arsenal
+23816,José Antonio Reyes Calderón,José Antonio Reyes,9,214,Spain,22,Right Center Forward,Arsenal
+26014,Eduardo César Daude Gaspar,Edu Gaspar,17,31,Brazil,11,Left Defensive Midfield,Arsenal
+38412,Kolo Habib Touré,Kolo Touré,28,55,Côte d'Ivoire,3,Right Center Back,Arsenal
+40221,Gilberto Aparecido da Silva,Gilberto Silva,19,31,Brazil,12,Right Midfield,Arsenal
+40222,Laureano Bisan-Etame Mayer,Lauren,12,39,Cameroon,2,Right Back,Arsenal
+3337,Jermain Defoe,,18,68,England,16,Left Midfield,Tottenham Hotspur
+3872,Johnnie Jackson,,32,68,England,16,Left Midfield,Tottenham Hotspur
+11348,Robbie Keane,,10,109,Ireland,24,Left Center Forward,Tottenham Hotspur
+15638,Jamie Redknapp,,15,68,England,13,Right Center Midfield,Tottenham Hotspur
+20488,Ledley King,,26,68,England,3,Right Center Back,Tottenham Hotspur
+25960,Frédéric Oumar Kanouté,Frédéric Kanouté,9,140,Mali,22,Right Center Forward,Tottenham Hotspur
+40272,Stephen Kelly,,34,109,Ireland,2,Right Back,Tottenham Hotspur
+40273,Goran Bunjevčević,,5,203,Serbia,6,Left Back,Tottenham Hotspur
+40274,Kasey Keller,,13,241,United States of America,1,Goalkeeper,Tottenham Hotspur
+40275,Mauricio Taricco,,3,11,Argentina,6,Left Back,Tottenham Hotspur
+40276,Gustavo Augusto Poyet Domínguez,Gustavo Poyet,14,242,Uruguay,12,Right Midfield,Tottenham Hotspur
+40277,Simon Davies,,29,249,Wales,2,Right Back,Tottenham Hotspur
+40278,Michael Brown,,6,68,England,15,Left Center Midfield,Tottenham Hotspur
+40279,Anthony Gardner,,30,68,England,5,Left Center Back,Tottenham Hotspur
+40316,Rohan Ricketts,,27,68,England,,,Tottenham Hotspur
+15654,Martin Keown,,5,68,England,,,Arsenal
+20302,Gaël Clichy,,22,78,France,,,Arsenal
+24972,Ray Parlour,,15,68,England,12,Right Midfield,Arsenal
+42458,Graham Stack,,33,109,Ireland,,,Arsenal
+4724,Glen Johnson,,0,68,England,2,Right Back,Chelsea
+15524,Jesper Grønkjær,Jesper Grönkjaer,0,61,Denmark,12,Right Midfield,Chelsea
+18105,Adrian Mutu,,0,187,Romania,24,Left Center Forward,Chelsea
+20254,Claude Makélélé,,0,78,France,9,Right Defensive Midfield,Chelsea
+20281,Mario Melchiot,,0,160,Netherlands,3,Right Center Back,Chelsea
+20330,Frank Lampard,,0,68,England,11,Left Defensive Midfield,Chelsea
+20444,Damien Duff,,0,109,Ireland,16,Left Midfield,Chelsea
+34394,Hernán Jorge Crespo,Hernán Crespo,0,11,Argentina,24,Left Center Forward,Chelsea
+40123,Robert Huth,,0,85,Germany,5,Left Center Back,Chelsea
+40258,Wayne Bridge,,0,68,England,6,Left Back,Chelsea
+40259,Joe Cole,,0,68,England,16,Left Midfield,Chelsea
+40260,Carlo Cudicini,,0,112,Italy,1,Goalkeeper,Chelsea
+40261,"Gérémi Sorele N""Djitap Fotso",,0,39,Cameroon,11,Left Defensive Midfield,Chelsea
+40262,Jerrel Hasselbaink,Jimmy Floyd Hasselbaink,0,160,Netherlands,22,Right Center Forward,Chelsea
+15512,Sylvain Wiltord,,11,78,France,22,Right Center Forward,Arsenal
+24971,Nwankwo Christian Kanu,,0,166,Nigeria,22,Right Center Forward,Arsenal
+26194,Pascal Cygan,,0,78,France,16,Left Midfield,Arsenal
+3633,Gareth Barry,,6,68,England,10,Center Defensive Midfield,Aston Villa
+4394,Peter Whittingham,,17,68,England,15,Left Center Midfield,Aston Villa
+15092,Alpay Fehmi Özalan,Alpay Özalan,5,233,Turkey,,,Aston Villa
+15761,Olof Mellberg,,4,220,Sweden,3,Right Center Back,Aston Villa
+20019,Thomas Hitzlsperger,,12,85,Germany,,,Aston Villa
+20145,Thomas Løvendahl Sørensen,Thomas Sørensen,1,61,Denmark,1,Goalkeeper,Aston Villa
+20327,Darius Vassell,,10,68,England,16,Left Midfield,Aston Villa
+24763,Ronny Johnsen,,27,171,Norway,5,Left Center Back,Aston Villa
+40359,Jlloyd Tafari Samuel,Jlloyd Samuel,3,231,Trinidad and Tobago,6,Left Back,Aston Villa
+40360,Ulises Hernán de la Cruz Bernardo,Ulises de la Cruz,15,65,Ecuador,12,Right Midfield,Aston Villa
+40361,Mark Anthony Delaney,Mark Delaney,2,249,Wales,2,Right Back,Aston Villa
+40362,Juan Pablo Ángel Arango,Juan Pablo Ángel,18,49,Colombia,23,Center Forward,Aston Villa
+40363,Lee Hendrie,,7,68,England,13,Right Center Midfield,Aston Villa
+364783,Hassan Kachloul,,22,154,Morocco,,,Aston Villa
+364784,Mark Kinsella,,26,109,Ireland,10,Center Defensive Midfield,Aston Villa
+364785,Stefan Postma,,13,160,Netherlands,,,Aston Villa
+15754,Fredrik Ljungberg,,8,220,Sweden,12,Right Midfield,Arsenal
+40870,Stuart Taylor,,13,68,England,,,Arsenal
+3538,Wayne Mark Rooney,Wayne Rooney,18,68,England,15,Left Center Midfield,Everton
+19497,Nigel Martyn,,25,68,England,1,Goalkeeper,Everton
+20189,Tobias Linderoth,,22,220,Sweden,10,Center Defensive Midfield,Everton
+24794,Duncan Ferguson,,10,201,Scotland,23,Center Forward,Everton
+40281,David Unsworth,,6,68,England,5,Left Center Back,Everton
+40282,Gary Naysmith,,15,201,Scotland,6,Left Back,Everton
+40285,Alan Stubbs,,4,68,England,3,Right Center Back,Everton
+40286,Tomasz Radziński,,8,40,Canada,21,Left Wing,Everton
+40287,Tie Li,Li Tie,12,46,China,10,Center Defensive Midfield,Everton
+40288,Joseph Phillip Yobo,,20,166,Nigeria,,,Everton
+129558,Tony Hibbert,,28,68,England,2,Right Back,Everton
+375066,Lee Carsley,,26,109,Ireland,13,Right Center Midfield,Everton
+375067,Francis Jeffers,,11,68,England,17,Right Wing,Everton
+375068,Kevin Campbell,,9,68,England,21,Left Wing,Everton
+375069,Steve Simonsen,,13,68,England,,,Everton
+375070,Kevin Kilbane,,14,109,Ireland,15,Left Center Midfield,Everton
+40255,Jérémie Aliadière,,30,78,France,,,Arsenal
+41623,Rami Shaaban,,24,220,Sweden,,,Arsenal
+4040,Peter Crouch,,16,68,England,22,Right Center Forward,Aston Villa
+13439,Liam Ridgewell,,24,68,England,16,Left Midfield,Aston Villa
+20180,Marcus Allbäck,,14,220,Sweden,22,Right Center Forward,Aston Villa
+7752,Brad Jones,,35,14,Australia,,,Middlesbrough
+9585,Stewart Downing,,19,68,England,16,Left Midfield,Middlesbrough
+15403,Gareth Southgate,,6,68,England,5,Left Center Back,Middlesbrough
+17793,Boudewijn Zenden,,27,160,Netherlands,22,Right Center Forward,Middlesbrough
+40252,Massimo Maccarone,,9,112,Italy,24,Left Center Forward,Middlesbrough
+40322,Mark Schwarzer,,1,14,Australia,1,Goalkeeper,Middlesbrough
+40323,Joseph-Desiré Job,,16,39,Cameroon,24,Left Center Forward,Middlesbrough
+40324,George Boateng,,7,160,Netherlands,13,Right Center Midfield,Middlesbrough
+40325,Ugo Ehiogu,,4,68,England,3,Right Center Back,Middlesbrough
+40326,Danny Mills,,15,68,England,2,Right Back,Middlesbrough
+40327,Szilárd Németh,,8,207,Slovakia,12,Right Midfield,Middlesbrough
+40328,Franck Queudrue,,3,78,France,6,Left Back,Middlesbrough
+40329,Dorival Guidoni Júnior,Doriva,20,31,Brazil,15,Left Center Midfield,Middlesbrough
+40330,Chris Riggott,,5,68,England,3,Right Center Back,Middlesbrough
+40331,Oswaldo Giroldo Júnior,Juninho Paulista,10,31,Brazil,15,Left Center Midfield,Middlesbrough
+40402,Stuart Parnaby,,21,68,England,,,Middlesbrough
+24840,Justin Hoyte,,45,231,Trinidad and Tobago,,,Arsenal
+15036,Edwin van der Sar,,1,160,Netherlands,1,Goalkeeper,Fulham
+20505,Louis Saha,,8,78,France,23,Center Forward,Fulham
+38566,Lee Clark,,10,68,England,13,Right Center Midfield,Fulham
+40407,Steed Malbranque,,14,78,France,21,Left Wing,Fulham
+40408,Moritz Volz,,2,85,Germany,2,Right Back,Fulham
+40409,Junichi Inamoto,,6,114,Japan,17,Right Wing,Fulham
+40410,Barry Hayles,,15,113,Jamaica,23,Center Forward,Fulham
+40411,Sylvain Legwinski,,5,78,France,19,Center Attacking Midfield,Fulham
+40412,Sean Davis,,23,68,England,15,Left Center Midfield,Fulham
+40413,Zat Knight,,16,68,England,3,Right Center Back,Fulham
+40414,Jérôme Bonnissel,,18,78,France,6,Left Back,Fulham
+40415,Andy Melville,,4,249,Wales,5,Left Center Back,Fulham
+40422,Alain Goma,,24,78,France,,,Fulham
+40423,Martin Djetou,,17,78,France,,,Fulham
+45964,Mark Crossley,,12,249,Wales,,,Fulham
+45965,Facundo Sava,,9,11,Argentina,,,Fulham
+15411,Darren Anderton,,7,68,England,13,Right Center Midfield,Tottenham Hotspur
+20011,Hélder Manuel Marques Postiga,Hélder Postiga,8,183,Portugal,22,Right Center Forward,Tottenham Hotspur
+26149,Stephane Dalmat,Stéphane Dalmat,11,78,France,15,Left Center Midfield,Tottenham Hotspur
+38402,Bobby Zamora,,25,68,England,22,Right Center Forward,Tottenham Hotspur
+38404,Paul Konchesky,,16,68,England,5,Left Center Back,Tottenham Hotspur
+40315,Mbulelo Mabizela,,21,211,South Africa,5,Left Center Back,Tottenham Hotspur
+40317,Dean Richards,,36,68,England,10,Center Defensive Midfield,Tottenham Hotspur
+40318,Stephen Carr,,2,109,Ireland,7,Right Wing Back,Tottenham Hotspur
+15399,Robbie Fowler,,8,68,England,15,Left Center Midfield,Manchester City
+15407,Steve McManaman,,20,68,England,13,Right Center Midfield,Manchester City
+15519,Nicolas Anelka,,39,78,France,23,Center Forward,Manchester City
+19636,Paul Bosvelt,,26,160,Netherlands,15,Left Center Midfield,Manchester City
+20329,David James,,1,68,England,1,Goalkeeper,Manchester City
+20447,Richard Dunne,,22,109,Ireland,3,Right Center Back,Manchester City
+24758,Michael Tarnat,,18,85,Germany,6,Left Back,Manchester City
+38465,Claudio Reyna,,6,241,United States of America,13,Right Center Midfield,Manchester City
+38551,Shaun Wright-Phillips,,29,68,England,18,Right Attacking Midfield,Manchester City
+38552,Joey Barton,,24,68,England,10,Center Defensive Midfield,Manchester City
+40215,Jihai Sun,Sun Jihai,17,46,China,2,Right Back,Manchester City
+40217,Trevor Sinclair,,28,68,England,20,Left Attacking Midfield,Manchester City
+40218,Sylvain Distin,,5,78,France,5,Left Center Back,Manchester City
+4022,Darren Fletcher,,24,201,Scotland,12,Right Midfield,Manchester United
+13042,Tim Howard,,14,241,United States of America,,,Manchester United
+15402,Gary Neville,,2,68,England,2,Right Back,Manchester United
+15590,Ole Gunnar Solskjær,Ole Gunnar Solskjaer,20,171,Norway,12,Right Midfield,Manchester United
+15660,Phil Neville,,3,68,England,,,Manchester United
+15666,Paul Scholes,,18,68,England,13,Right Center Midfield,Manchester United
+16890,John O''Shea,John O'Shea,22,109,Ireland,6,Left Back,Manchester United
+19729,Ruud van Nistelrooy,Ruud van Nistelrooy,10,160,Netherlands,23,Center Forward,Manchester United
+20175,Ryan Giggs,,11,249,Wales,16,Left Midfield,Manchester United
+20341,Mikaël Silvestre,,27,78,France,5,Left Center Back,Manchester United
+24761,Nicky Butt,,8,68,England,,,Manchester United
+24805,Roy Keane,,16,109,Ireland,15,Left Center Midfield,Manchester United
+40364,Roy Carroll,,13,169,Northern Ireland,1,Goalkeeper,Manchester United
+40365,Eric Daniel Djemba-Djemba,,19,39,Cameroon,13,Right Center Midfield,Manchester United
+40366,Wes Brown,,6,68,England,3,Right Center Back,Manchester United
+7814,Anthony Le Tallec,,0,78,France,16,Left Midfield,Liverpool
+9845,John Welsh,,0,68,England,9,Right Defensive Midfield,Liverpool
+15280,Vladimir Smicer,,11,60,Czech Republic,16,Left Midfield,Liverpool
+15659,Emile Heskey,,0,68,England,24,Left Center Forward,Liverpool
+15665,Michael Owen,,10,68,England,24,Left Center Forward,Liverpool
+19109,Steven Gerrard,,0,68,England,11,Left Defensive Midfield,Liverpool
+34386,John Arne Semundseth Riise,John Arne Riise,0,171,Norway,6,Left Back,Liverpool
+34389,Sami Hyypiä,,0,77,Finland,5,Left Center Back,Liverpool
+34390,Jerzy Dudek,,0,182,Poland,1,Goalkeeper,Liverpool
+34391,Harry Kewell,,0,14,Australia,22,Right Center Forward,Liverpool
+34392,Steve Finnan,,0,109,Ireland,2,Right Back,Liverpool
+40254,Igor Bišćan,,0,56,Croatia,3,Right Center Back,Liverpool
+40256,Salif Alassane Diao,Salif Diao,0,202,Senegal,9,Right Defensive Midfield,Liverpool
+40257,El-Hadji Ousseynou Diouf,El-Hadji Diouf,9,202,Senegal,12,Right Midfield,Liverpool
+15049,Billy McKinlay,,0,201,Scotland,9,Right Defensive Midfield,Leicester City
+15173,Steffen Freund,,0,85,Germany,12,Right Midfield,Leicester City
+24798,Nikos Dabizas,Nikolaos Dabizas,0,88,Greece,5,Left Center Back,Leicester City
+40235,Danny Coyne,,0,249,Wales,1,Goalkeeper,Leicester City
+40236,Ian Walker,,1,68,England,1,Goalkeeper,Leicester City
+40237,James Scowcroft,,0,68,England,12,Right Midfield,Leicester City
+40238,Lilian Nalis,,0,78,France,11,Left Defensive Midfield,Leicester City
+40239,Jordan Stewart,,0,68,England,6,Left Back,Leicester City
+40240,Paul Dickov,,0,201,Scotland,24,Left Center Forward,Leicester City
+40241,Matt Heath,,0,68,England,3,Right Center Back,Leicester City
+40242,Marcus Bent,,0,68,England,22,Right Center Forward,Leicester City
+40243,Frank Mohammed Sinclair,Frank Sinclair,0,113,Jamaica,2,Right Back,Leicester City
+40244,Trevor Benjamin,,0,113,Jamaica,24,Left Center Forward,Leicester City
+40245,Paul Brooker,,0,68,England,16,Left Midfield,Leicester City
+45969,Keith Gillespie,,7,169,Northern Ireland,,,Leicester City
+45970,Steve Guppy,,27,68,England,,,Leicester City
+4357,Matthew Taylor,,14,68,England,6,Left Back,Portsmouth
+9791,Richard Duffy,,31,249,Wales,,,Portsmouth
+15410,Teddy Sheringham,,10,68,England,,,Portsmouth
+15505,Steve Stone,,19,68,England,12,Right Midfield,Portsmouth
+20331,Ivica Mornar,,37,56,Croatia,22,Right Center Forward,Portsmouth
+38403,Shaka Hislop,,1,231,Trinidad and Tobago,1,Goalkeeper,Portsmouth
+40337,Yakubu Aiyegbeni,,20,166,Nigeria,22,Right Center Forward,Portsmouth
+40338,Nigel Quashie,,11,201,Scotland,11,Left Defensive Midfield,Portsmouth
+40339,Arjan de Zeeuw,,6,160,Netherlands,3,Right Center Back,Portsmouth
+40340,Dejan Stefanovic,,3,203,Serbia,5,Left Center Back,Portsmouth
+40343,Amdy Moustapha Faye,Amdy Fayé,15,202,Senegal,9,Right Defensive Midfield,Portsmouth
+376516,Richard Hughes,,22,201,Scotland,16,Left Midfield,Portsmouth
+376517,John Curtis,,33,68,England,2,Right Back,Portsmouth
+376518,Trésor Lomana LuaLua,,32,52,"Congo, (Kinshasa)",24,Left Center Forward,Portsmouth
+376519,Harald Wapenaar,,25,160,Netherlands,,,Portsmouth
+376520,Kevin Harper,,7,201,Scotland,,,Portsmouth
+376521,David Bentley,,37,68,England,12,Right Midfield,Arsenal
+11270,Eiður Smári Guðjohnsen,Eiður Guðjohnsen,22,104,Iceland,22,Right Center Forward,Chelsea
+20257,William Gallas,,13,78,France,3,Right Center Back,Chelsea
+20286,Scott Parker,,19,68,England,13,Right Center Midfield,Chelsea
+20287,John Terry,,26,68,England,5,Left Center Back,Chelsea
+40271,Neil Sullivan,,34,201,Scotland,1,Goalkeeper,Chelsea
+9353,Nicky Hunt,,18,68,England,2,Right Back,Bolton Wanderers
+15073,Youri Djorkaeff,,6,78,France,16,Left Midfield,Bolton Wanderers
+19772,Stylianos Giannakopoulos,,7,88,Greece,,,Bolton Wanderers
+21540,Kevin Nolan,,4,68,England,12,Right Midfield,Bolton Wanderers
+40383,Émerson Augusto Thome,Émerson Thome,26,31,Brazil,3,Right Center Back,Bolton Wanderers
+40384,"Augustine Azuka ""Jay-Jay"" Okocha",,10,166,Nigeria,15,Left Center Midfield,Bolton Wanderers
+40385,Jussi Jääskeläinen,,22,77,Finland,1,Goalkeeper,Bolton Wanderers
+40386,Iván Campo Ramos,Iván Campo,16,214,Spain,10,Center Defensive Midfield,Bolton Wanderers
+40387,Henrik Pedersen,,9,61,Denmark,12,Right Midfield,Bolton Wanderers
+40388,Kevin Cyril Davies,Kevin Davies,14,68,England,23,Center Forward,Bolton Wanderers
+40389,Per Frandsen,,8,61,Denmark,13,Right Center Midfield,Bolton Wanderers
+40390,Simon Charlton,,3,68,England,5,Left Center Back,Bolton Wanderers
+40391,Ricardo Wayne Gardner,Ricardo Gardner,11,113,Jamaica,6,Left Back,Bolton Wanderers
+40392,Ibrahim Ba,,15,78,France,10,Center Defensive Midfield,Bolton Wanderers
+45966,Kevin Poole,,1,68,England,,,Bolton Wanderers
+45967,Anthony Barness,,2,68,England,,,Bolton Wanderers
+15259,Patrik Berger,,13,60,Czech Republic,16,Left Midfield,Portsmouth
+20402,Boris Živković,,4,56,Croatia,6,Left Back,Portsmouth
+20510,Alexei Gennadyevich Smertin,Alexey Smertin,30,188,Russia,16,Left Midfield,Portsmouth
+40336,Sébastien Schemmel,,28,78,France,2,Right Back,Portsmouth
+40341,Tim Sherwood,,8,68,England,22,Right Center Forward,Portsmouth
+40342,Jason Roberts,,31,90,Grenada,24,Left Center Forward,Portsmouth
+11009,Chris Baird,,32,169,Northern Ireland,2,Right Back,Southampton
+40433,Kevin Phillips,,7,68,England,24,Left Center Forward,Southampton
+40434,Paul Telfer,,33,201,Scotland,12,Right Midfield,Southampton
+40435,Rory Delap,,18,109,Ireland,13,Right Center Midfield,Southampton
+40436,Darren Kenton,,22,68,England,2,Right Back,Southampton
+40437,Brett Ormerod,,36,68,England,16,Left Midfield,Southampton
+40438,Antti Mikko Niemi,Antti Niemi,14,77,Finland,1,Goalkeeper,Southampton
+40439,David Prutton,,20,68,England,15,Left Center Midfield,Southampton
+40440,Léandre Griffit,,30,78,France,16,Left Midfield,Southampton
+40441,Michael Lennart Svensson,Michael Svensson,11,220,Sweden,5,Left Center Back,Southampton
+40442,James Beattie,,9,68,England,22,Right Center Forward,Southampton
+40443,Neill McCann,,10,201,Scotland,12,Right Midfield,Southampton
+40444,Fitz Hall,,15,68,England,3,Right Center Back,Southampton
+40445,Danny Higginbotham,,19,87,Gibraltar,6,Left Back,Southampton
+45995,Chris Marsden,,4,68,England,,,Southampton
+3473,James Philip Milner,James Milner,38,68,England,24,Left Center Forward,Leeds United
+3953,Aaron Lennon,,25,68,England,16,Left Midfield,Leeds United
+4815,Scott Carson,,40,68,England,,,Leeds United
+26649,Jermaine Pennant,,11,68,England,12,Right Midfield,Leeds United
+38557,David Batty,,23,68,England,9,Right Defensive Midfield,Leeds United
+40132,Paul Robinson,,1,68,England,1,Goalkeeper,Leeds United
+40263,Zoumana Camara,,6,78,France,3,Right Center Back,Leeds United
+40264,Michael Bridges,,8,68,England,24,Left Center Forward,Leeds United
+40265,José Vitor Roque Júnior,Roque Júnior,12,31,Brazil,5,Left Center Back,Leeds United
+40266,Seth Johnson,,20,68,England,11,Left Defensive Midfield,Leeds United
+40267,Alan Smith,,17,68,England,22,Right Center Forward,Leeds United
+40268,René Salomon Olembé-Olembé,,24,39,Cameroon,6,Left Back,Leeds United
+40269,Lamine Sakho,,10,202,Senegal,16,Left Midfield,Leeds United
+40270,Gary Oliver Kelly,Gary Kelly,2,109,Ireland,2,Right Back,Leeds United
+40368,Ian Harte,,3,109,Ireland,,,Leeds United
+40371,Michael Duberry,,22,68,England,,,Leeds United
+40403,Malcolm Christie,,11,68,England,22,Right Center Forward,Middlesbrough
+40404,Alan Wright,,22,68,England,6,Left Back,Middlesbrough
+40405,Colin Cooper,,28,68,England,11,Left Defensive Midfield,Middlesbrough
+40406,Andrew Davies,,24,68,England,3,Right Center Back,Middlesbrough
+9003,Paul Gallagher,,0,201,Scotland,22,Right Center Forward,Blackburn Rovers
+15095,Tugay Kerimoğlu,,0,233,Turkey,13,Right Center Midfield,Blackburn Rovers
+15272,Markus Babbel,,0,85,Germany,2,Right Back,Blackburn Rovers
+15281,Dino Baggio,,21,112,Italy,2,Right Back,Blackburn Rovers
+24766,Dwight Yorke,,0,231,Trinidad and Tobago,24,Left Center Forward,Blackburn Rovers
+24767,Andy Cole,,9,68,England,22,Right Center Forward,Blackburn Rovers
+38464,Brad Friedel,,0,241,United States of America,1,Goalkeeper,Blackburn Rovers
+40352,Barry Ferguson,,0,201,Scotland,15,Left Center Midfield,Blackburn Rovers
+40353,Vratislav Greško,,0,207,Slovakia,6,Left Back,Blackburn Rovers
+40354,Lucas Neill,,0,14,Australia,6,Left Back,Blackburn Rovers
+40355,Andy Todd,,0,68,England,3,Right Center Back,Blackburn Rovers
+40356,Craig Short,,6,68,England,5,Left Center Back,Blackburn Rovers
+40357,Brett Emerton,,0,14,Australia,12,Right Midfield,Blackburn Rovers
+40358,Steven Reid,,12,109,Ireland,6,Left Back,Blackburn Rovers
+40393,"Bruno N""Gotty",Bruno N'Gotty,5,78,France,3,Right Center Back,Bolton Wanderers
+20059,Aaron Hughes,,18,169,Northern Ireland,2,Right Back,Newcastle United
+20446,Shay Given,,1,109,Ireland,1,Goalkeeper,Newcastle United
+24799,Gary Speed,,11,249,Wales,11,Left Defensive Midfield,Newcastle United
+24801,Steve Harper,,12,68,England,,,Newcastle United
+26010,Hugo Miguel Ferreira Gomes Viana,Hugo Viana,45,183,Portugal,16,Left Midfield,Newcastle United
+38418,Jonathan Woodgate,,27,68,England,5,Left Center Back,Newcastle United
+40225,"Andy O""Brien",,5,109,Ireland,3,Right Center Back,Newcastle United
+40226,Craig Bellamy,,10,249,Wales,22,Right Center Forward,Newcastle United
+40227,Laurent Robert,,32,78,France,16,Left Midfield,Newcastle United
+40228,Lee Bowyer,,29,68,England,12,Right Midfield,Newcastle United
+40229,Darren Ambrose,,17,68,England,12,Right Midfield,Newcastle United
+40230,Titus Malachi Bramble,Titus Bramble,19,68,England,,,Newcastle United
+40231,Alan Shearer,,9,68,England,24,Left Center Forward,Newcastle United
+40232,Shola Ameobi,,23,166,Nigeria,,,Newcastle United
+40233,Olivier Bernard,,35,78,France,6,Left Back,Newcastle United
+40234,Jermaine Jenas,,7,68,England,9,Right Defensive Midfield,Newcastle United
+40290,Robbie Savage,,0,249,Wales,13,Right Center Midfield,Birmingham City
+40291,Clinton Morrison,,0,109,Ireland,22,Right Center Forward,Birmingham City
+40292,Maik Taylor,,0,169,Northern Ireland,1,Goalkeeper,Birmingham City
+40293,Damien Johnson,,0,169,Northern Ireland,2,Right Back,Birmingham City
+40294,Bryan Hughes,,0,68,England,16,Left Midfield,Birmingham City
+40295,Stan Lazaridis,,0,14,Australia,16,Left Midfield,Birmingham City
+40296,Kenny Cunningham,,0,109,Ireland,3,Right Center Back,Birmingham City
+40297,Stephen Clemence,,0,68,England,12,Right Midfield,Birmingham City
+40298,Jamie Clapham,,0,68,England,6,Left Back,Birmingham City
+40299,Stern John,,0,231,Trinidad and Tobago,24,Left Center Forward,Birmingham City
+40300,Matthew Upson,,0,68,England,5,Left Center Back,Birmingham City
+40301,Mikael Forssell,,0,77,Finland,22,Right Center Forward,Birmingham City
+40302,David Dunn,,0,68,England,15,Left Center Midfield,Birmingham City
+40303,Aliou Cissé,,0,202,Senegal,13,Right Center Midfield,Birmingham City
+19735,Milan Baroš,,5,60,Czech Republic,22,Right Center Forward,Liverpool
+34388,Jamie Carragher,,23,68,England,2,Right Back,Liverpool
+38454,Danny Murphy,,13,68,England,12,Right Midfield,Liverpool
+38522,Dietmar Hamann,,16,85,Germany,9,Right Defensive Midfield,Liverpool
+3793,Matthew Kilgallon,,36,68,England,,,Leeds United
+15400,Nick Barmby,,7,68,England,13,Right Center Midfield,Leeds United
+39847,Dominic Matteo,,21,201,Scotland,15,Left Center Midfield,Leeds United
+40369,Steven Caldwell,,15,201,Scotland,5,Left Center Back,Leeds United
+40370,Lucas Radebe,,5,211,South Africa,13,Right Center Midfield,Leeds United
+40372,Simon Johnson,,39,68,England,22,Right Center Forward,Leeds United
+40373,Mark Viduka,,9,14,Australia,22,Right Center Forward,Leeds United
+15409,David Seaman,,1,68,England,1,Goalkeeper,Manchester City
+40216,Eyal Berkovic,,0,111,Israel,12,Right Midfield,Manchester City
+40219,Danny Tiatto,,0,14,Australia,16,Left Midfield,Manchester City
+40220,David Sommeil,,0,78,France,3,Right Center Back,Manchester City
+40223,Antoine Sibierski,,0,78,France,22,Right Center Forward,Manchester City
+3794,Colin Doyle,,13,109,Ireland,,,Birmingham City
+40400,Olivier Tébily,,26,55,Côte d'Ivoire,2,Right Back,Birmingham City
+40401,Ian Bennett,,1,68,England,1,Goalkeeper,Birmingham City
+41624,Martin Taylor,,15,68,England,,,Birmingham City
+40395,Michael Gray,,33,68,England,6,Left Back,Blackburn Rovers
+40396,Matt Jansen,,10,68,England,22,Right Center Forward,Blackburn Rovers
+40397,Martin Andresen,,25,171,Norway,11,Left Defensive Midfield,Blackburn Rovers
+40398,Jonathan Douglas,,26,109,Ireland,16,Left Midfield,Blackburn Rovers
+15513,Thomas Gravesen,,0,61,Denmark,19,Center Attacking Midfield,Everton
+38558,Steve Watson,,0,68,England,13,Right Center Midfield,Everton
+40280,Richard Wright,,0,68,England,1,Goalkeeper,Everton
+40283,Nick Chadwick,,0,68,England,23,Center Forward,Everton
+40284,Alessandro Pistone,,0,112,Italy,2,Right Back,Everton
+40289,Mark Pembridge,,0,249,Wales,16,Left Midfield,Everton
+15405,Paul Ince,,8,68,England,10,Center Defensive Midfield,Wolverhampton Wanderers
+40306,Dean Sturridge,,29,68,England,12,Right Midfield,Wolverhampton Wanderers
+40307,Shaun Newton,,7,68,England,23,Center Forward,Wolverhampton Wanderers
+40308,Henri Camara,,17,202,Senegal,12,Right Midfield,Wolverhampton Wanderers
+40309,Oleg Luzhny,Oleg Luzhnyi,22,238,Ukraine,2,Right Back,Wolverhampton Wanderers
+40310,Michael Oakes,,1,68,England,1,Goalkeeper,Wolverhampton Wanderers
+13808,Radostin Kishishev,,2,35,Bulgaria,2,Right Back,Charlton Athletic
+20153,Claus Jensen,,10,61,Denmark,15,Left Center Midfield,Charlton Athletic
+20549,Jamal Julian Campbell-Ryce,Jamal Campbell-Ryce,22,113,Jamaica,24,Left Center Forward,Charlton Athletic
+40374,Jason Joseph Euell,Jason Euell,9,113,Jamaica,22,Right Center Forward,Charlton Athletic
+40375,Paolo Di Canio,,11,112,Italy,22,Right Center Forward,Charlton Athletic
+40376,Graham Stuart,,4,68,England,16,Left Midfield,Charlton Athletic
+40377,Hermann Hreidarsson,,12,104,Iceland,6,Left Back,Charlton Athletic
+40378,Dean Kiely,,1,109,Ireland,1,Goalkeeper,Charlton Athletic
+40379,Matt Holland,,8,109,Ireland,12,Right Midfield,Charlton Athletic
+40380,Mark Fish,,6,211,South Africa,5,Left Center Back,Charlton Athletic
+40381,Chris Perry,,36,68,England,3,Right Center Back,Charlton Athletic
+40382,Jonatan Lillebror Johansson,Jonatan Johansson,21,77,Finland,24,Left Center Forward,Charlton Athletic
+20326,Kieron Dyer,,0,68,England,15,Left Center Midfield,Newcastle United
+5207,Cristiano Ronaldo dos Santos Aveiro,Cristiano Ronaldo,7,183,Portugal,17,Right Wing,Manchester United
+20171,Rio Ferdinand,,5,68,England,3,Right Center Back,Manchester United
+26199,Diego Forlán Corazo,Diego Forlán,21,242,Uruguay,19,Center Attacking Midfield,Manchester United
+40246,Quinton Fortune Kolobea,,25,211,South Africa,6,Left Back,Manchester United
+38556,Leslie Ferdinand,Les Ferdinand,9,68,England,24,Left Center Forward,Leicester City
+38569,Steve Howey,,24,68,England,3,Right Center Back,Leicester City
+375885,Matt Elliott,,18,201,Scotland,,,Leicester City
+375886,Craig Hignett,,5,68,England,11,Left Defensive Midfield,Leicester City
+375887,Riccardo Scimeca,,21,68,England,5,Left Center Back,Leicester City
+375888,Andy Impey,,2,68,England,2,Right Back,Leicester City
+375889,Ben Thatcher,,33,249,Wales,6,Left Back,Leicester City
+375890,Callum Davidson,,14,201,Scotland,9,Right Defensive Midfield,Leicester City
+38466,Brian McBride,,8,241,United States of America,15,Left Center Midfield,Fulham
+40420,Carlos Manuel Bocanegra,Carlos Bocanegra,34,241,United States of America,6,Left Back,Fulham
+40421,Ian Pearce,,35,68,England,3,Right Center Back,Fulham
+40424,Luís Boa Morte Pereira,Luís Boa Morte,11,183,Portugal,23,Center Forward,Fulham
+40425,Collins John,,36,160,Netherlands,12,Right Midfield,Fulham
+19857,Marians Pahars,,17,126,Latvia,15,Left Center Midfield,Southampton
+20193,Anders Svensson,,12,220,Sweden,9,Right Defensive Midfield,Southampton
+377674,Graeme Le Saux,,3,68,England,15,Left Center Midfield,Southampton
+377675,Paul Daniel Smith,,13,68,England,,,Southampton
+377676,Stephen Crainey,,6,201,Scotland,6,Left Back,Southampton
+4067,Michael Turner,,23,68,England,,,Charlton Athletic
+40416,Luke Young,,19,68,England,2,Right Back,Charlton Athletic
+40417,Jonathan Fortune,,24,68,England,5,Left Center Back,Charlton Athletic
+40418,Carlton Cole Okirie,,35,68,England,22,Right Center Forward,Charlton Athletic
+41458,Simon Royce,,25,68,England,,,Charlton Athletic
+41459,Shaun Thurston Bartlett,,17,211,South Africa,,,Charlton Athletic
+5109,Paulo Dino Gazzaniga,Paulo Gazzaniga,1,11,Argentina,,,Elche
+5691,Johan Andrés Mojica Palacio,Johan Mojica,25,49,Colombia,8,Left Wing Back,Elche
+7064,Lucas Ariel Boyé,Lucas Boyé,9,11,Argentina,23,Center Forward,Elche
+7897,Miguel Ángel Garrido Cifuentes,Cifu,23,214,Spain,7,Right Wing Back,Elche
+9857,José Manuel Sánchez Guillén,Josema Sánchez,24,214,Spain,5,Left Center Back,Elche
+15880,Emiliano Ariel Rigoni,Emiliano Rigoni,22,11,Argentina,21,Left Wing,Elche
+18783,Omenuke Mfulu,Omenuke Mfulu,6,52,"Congo, (Kinshasa)",15,Left Center Midfield,Elche
+23825,Fidel Chaves de la Torre,Fidel,16,214,Spain,21,Left Wing,Elche
+24165,Edgar Badía Guardiola,Edgar Badía,13,214,Spain,1,Goalkeeper,Elche
+24166,Juan Francisco Martínez Modesto,Nino,7,214,Spain,17,Right Wing,Elche
+24169,Gonzalo Cacicedo Verdú,Gonzalo Verdú,5,214,Spain,4,Center Back,Elche
+24175,Daniel Pedro Calvo San Román,Dani Calvo,12,214,Spain,,,Elche
+24251,José Antonio Morente Oliva,Tete Morente,11,214,Spain,7,Right Wing Back,Elche
+24517,José Raúl Gutiérrez Parejo,Raúl Guti,14,214,Spain,13,Right Center Midfield,Elche
+27477,Helibelton Palacios Zapata,Helibelton Palacios,18,49,Colombia,,,Elche
+34323,Luis Miguel Sánchez Benítez,Luismi Sánchez,15,214,Spain,15,Left Center Midfield,Elche
+41106,Jonatan Carmona Alamo,Jony Carmona,37,214,Spain,,,Elche
+41650,Gerard Barri Paytuvi,Gerard Barri,32,214,Spain,,,Elche
+41859,Lluis Andreu i Ruiz,Lluis Andreu,45,214,Spain,,,Elche
+67040,John Nwankwo Donald Okeh,John Nwankwo,26,214,Spain,,,Elche
+6947,Miralem Pjanić,,8,28,Bosnia and Herzegovina,10,Center Defensive Midfield,Barcelona
+21881,Sergino Dest,Sergiño Dest,2,241,United States of America,6,Left Back,Barcelona
+22390,Francisco António Machado Mota de Castro Trincão,Francisco Trincão,17,183,Portugal,17,Right Wing,Barcelona
+30486,Pedro González López,Pedri,16,214,Spain,13,Right Center Midfield,Barcelona
+39469,Konrad De La Fuente,Konrad De la Fuente,29,241,United States of America,,,Barcelona
+43728,Óscar Mingueza García,Óscar Mingueza,28,214,Spain,2,Right Back,Barcelona
+7478,Alejandro Berenguer Remiro,Álex Berenguer,12,214,Spain,12,Right Midfield,Athletic Club
+30468,Iñigo Vicente Elorduy,Iñigo Vicente,26,214,Spain,,,Athletic Club
+47226,Jon Morcillo Conesa,Jon Morcillo,2,214,Spain,24,Left Center Forward,Athletic Club
+3810,Shinji Okazaki,,12,114,Japan,,,Huesca
+6564,Pablo Maffeo Becerra,Pablo Maffeo,3,214,Spain,7,Right Wing Back,Huesca
+6656,Mikel Rico Moreno,Mikel Rico,17,214,Spain,15,Left Center Midfield,Huesca
+6733,Pedro Mosquera Parada,Pedro Mosquera,5,214,Spain,,,Huesca
+16298,Denis Vavro,,25,207,Slovakia,3,Right Center Back,Huesca
+22199,Sergio Gómez Martín,Sergio Gómez,10,214,Spain,19,Center Attacking Midfield,Huesca
+23307,Idrissa Doumbia,,2,55,Côte d'Ivoire,10,Center Defensive Midfield,Huesca
+23322,Javier Galán Gil,Javier Galán,11,214,Spain,8,Left Wing Back,Huesca
+23812,Rafael Mir Vicente,Rafa Mir,9,214,Spain,23,Center Forward,Huesca
+24055,Juan Carlos Real Ruiz,Juan Carlos,21,214,Spain,,,Huesca
+24681,Daniel Escriche Romero,Dani Escriche,23,214,Spain,22,Right Center Forward,Huesca
+25598,Álvaro Fernández Llorente,Álvaro Fernández,1,214,Spain,1,Goalkeeper,Huesca
+30483,Jaime Seoane Valenciano,Jaime Seoane,20,214,Spain,10,Center Defensive Midfield,Huesca
+39073,Moriba Kourouma Kourouma,Ilaix Moriba,27,95,Guinea,11,Left Defensive Midfield,Barcelona
+5266,Lucas Torreira Di Pascua,Lucas Torreira,5,242,Uruguay,,,Atlético Madrid
+5461,Šime Vrsaljko,,24,56,Croatia,,,Atlético Madrid
+12509,Moussa Dembélé,,19,78,France,,,Atlético Madrid
+29342,Ivo Grbić,,1,56,Croatia,,,Atlético Madrid
+4267,Mouctar Diakhaby,,12,95,Guinea,5,Left Center Back,Valencia
+22107,Thierry Rendall Correia,Thierry Correia,2,183,Portugal,,,Valencia
+23978,Manuel Javier Vallejo Galván,Manu Vallejo,21,214,Spain,24,Left Center Forward,Valencia
+24267,Uroš Račić,,19,203,Serbia,15,Left Center Midfield,Valencia
+25005,Alejandro Blanco Sánchez,Álex Blanco,37,214,Spain,12,Right Midfield,Valencia
+38792,Yunus Dimoara Musah,,30,241,United States of America,12,Right Midfield,Valencia
+39083,Guillem Molina Gutiérrez,Guillem Molina,31,214,Spain,,,Valencia
+39164,Koba Lein Koindredi,,27,78,France,,,Valencia
+41687,Unai Etxebarría Martín,Unai Etxebarría,42,214,Spain,,,Valencia
+3093,Florian Grégoire Claude Lejeune,,22,78,France,5,Left Center Back,Deportivo Alavés
+9462,José Ignacio Peleteiro Ramallo,Jota Peleteiro,24,214,Spain,15,Left Center Midfield,Deportivo Alavés
+10605,Rodrigo Andrés Battaglia,Rodrigo Battaglia,6,11,Argentina,10,Center Defensive Midfield,Deportivo Alavés
+31779,Tomas Franco Tavares,Tomas Tavares,37,183,Portugal,12,Right Midfield,Deportivo Alavés
+6683,Cheick Doukouré,,25,55,Côte d'Ivoire,,,Levante UD
+23966,Mickaël Malsa,,12,143,Martinique,9,Right Defensive Midfield,Levante UD
+30492,Francisco Javier Hidalgo Gómez,Son,2,214,Spain,,,Levante UD
+30593,Daniel Gómez Alcón,Dani Gómez,21,214,Spain,24,Left Center Forward,Levante UD
+41202,Giorgi Kochorashvili,,43,84,Georgia,16,Left Midfield,Levante UD
+114272,Alejandro Cantero Sánchez,,29,214,Spain,,,Levante UD
+6908,Iván Alejo Peralta,Iván Alejo,14,214,Spain,7,Right Wing Back,Cádiz
+20542,Álvaro Negredo Sánchez,Álvaro Negredo,18,214,Spain,23,Center Forward,Cádiz
+23811,Alberto Perea Correoso,Alberto Perea,10,214,Spain,15,Left Center Midfield,Cádiz
+23934,Rafael Jiménez Jarque,Fali Jiménez,3,214,Spain,4,Center Back,Cádiz
+23967,Alejandro Fernández Iglesias,Álex,8,214,Spain,15,Left Center Midfield,Cádiz
+23970,José María Martín-Bejarano Serrano,José Mari,6,214,Spain,13,Right Center Midfield,Cádiz
+23971,Jairo Izquierdo González,Jairo Izquierdo,25,214,Spain,16,Left Midfield,Cádiz
+23973,Salvador Sánchez Ponce,Salvi,7,214,Spain,12,Right Midfield,Cádiz
+24034,Jorge Marcos Pombo Escobar,Jorge Pombo,11,214,Spain,,,Cádiz
+24270,Filip Malbašić,,24,203,Serbia,,,Cádiz
+24322,Isaac Carcelén Valencia,Isaac Carcelén,20,214,Spain,3,Right Center Back,Cádiz
+24593,Marcos Mauro López Gutiérrez,Marcos Mauro,4,11,Argentina,5,Left Center Back,Cádiz
+24616,Luis Alfonso Espino García,Alfonso Espino,22,242,Uruguay,8,Left Wing Back,Cádiz
+24712,Jon Ander Garrido Moracia,Jon Garrido,5,214,Spain,10,Center Defensive Midfield,Cádiz
+29198,Jeremías Ledesma,,1,11,Argentina,1,Goalkeeper,Cádiz
+30370,Jens Jønsson,,2,61,Denmark,10,Center Defensive Midfield,Cádiz
+31793,David Gil Mohedano,David Gil,13,214,Spain,,,Cádiz
+41176,Juan Flere Pizzuti,Juan Flere,26,11,Argentina,,,Cádiz
+47344,José Alejandro Martín Valerón,Álex Martín,37,214,Spain,,,Cádiz
+2961,Yann Bodiger,,12,78,France,13,Right Center Midfield,Cádiz
+6808,Alexander Mesa Travieso,Nano,23,214,Spain,,,Cádiz
+17618,Carlos Akapo Martínez,Carlos Akapo,15,69,Equatorial Guinea,,,Cádiz
+19668,Augusto Matías Fernández,Augusto Fernández,17,11,Argentina,10,Center Defensive Midfield,Cádiz
+24053,Álvaro Giménez Candela,Álvaro Giménez,21,214,Spain,23,Center Forward,Cádiz
+31914,Omobolaji Habeeb Adekanye,Omobolaji Adekanye,32,160,Netherlands,16,Left Midfield,Cádiz
+6757,Aarón Martín Caricol,Aarón Martín,19,214,Spain,6,Left Back,Celta Vigo
+28658,Augusto Jorge Mateo Solari,Augusto Solari,21,11,Argentina,16,Left Midfield,Celta Vigo
+39598,Miguel Baeza Pérez,Miguel Baeza,27,214,Spain,22,Right Center Forward,Celta Vigo
+75546,Carlos Domínguez Cáceres,Carlos Domínguez,40,214,Spain,5,Left Center Back,Celta Vigo
+97291,Patrick Gilmar Sequeira Mejías,,41,54,Costa Rica,,,Celta Vigo
+117025,Hugo Sotelo,,44,214,Spain,13,Right Center Midfield,Celta Vigo
+49301,Santiago Ramos Mingo,Santi Ramos Mingo,32,11,Argentina,,,Barcelona
+5523,Renato Fabrizio Tapia Cortijo,Renato Tapia,14,179,Peru,9,Right Defensive Midfield,Celta Vigo
+6803,Emre Mor,,11,233,Turkey,22,Right Center Forward,Celta Vigo
+42907,Iago Domínguez Rodríguez,Iago Domínguez,26,214,Spain,,,Celta Vigo
+47445,Miguel Rodríguez Vidal,Miguel Rodríguez,32,214,Spain,,,Celta Vigo
+47447,Gabriel Veiga Novas,Gabri Veiga,31,214,Spain,7,Right Wing Back,Celta Vigo
+48643,Raúl Blanco Juncal,Raúl Blanco,35,214,Spain,,,Celta Vigo
+49531,Sergio Carreira Vilariño,Sergio Carreira,34,214,Spain,,,Celta Vigo
+3417,Saidy Janko,,18,83,Gambia,7,Right Wing Back,Real Valladolid
+8651,Miguel Ángel Rubio Lestan,Miguel Ángel Rubio,30,214,Spain,,,Real Valladolid
+31235,Marcos André de Sousa Mendonça,Maranhão,16,31,Brazil,22,Right Center Forward,Real Valladolid
+47372,Oriol Rey Erenas,Oriol Rey,29,214,Spain,,,Real Valladolid
+47373,José Luis Zalazar Martínez,Kuki,27,214,Spain,,,Real Valladolid
+105323,Francisco Javier Alvarez Rodríguez,Fran Álvarez,32,214,Spain,,,Real Valladolid
+105324,Mohamed Aiman Moukhliss Agmir,Moha,35,214,Spain,,,Real Valladolid
+4691,Claudio Andrés Bravo Muñoz,Claudio Bravo,25,45,Chile,1,Goalkeeper,Real Betis
+6593,Martín Montoya Torralbo,Martín Montoya,2,214,Spain,,,Real Betis
+37892,Carlos Marín Tomás,Carlos Marín,31,214,Spain,,,Real Betis
+41083,Rodrigo Sánchez Rodriguez,Rodri,28,214,Spain,21,Left Wing,Real Betis
+42282,Paul Edgar Akouokou,,4,55,Côte d'Ivoire,,,Real Betis
+6689,Álvaro Odriozola Arzallus,Álvaro Odriozola,19,214,Spain,2,Right Back,Real Madrid
+41153,Diego Altube Suárez,Diego Altube,26,214,Spain,,,Real Madrid
+22801,Roberto López Alcaide,Roberto López,28,214,Spain,,,Real Sociedad
+23212,Martín Merquelanz Castellanos,Martín Merquelanz,17,214,Spain,,,Real Sociedad
+24921,Martín Zubimendi Ibáñez,Martín Zubimendi,36,214,Spain,10,Center Defensive Midfield,Real Sociedad
+47375,Robert Navarro Muñoz,Robert Navarro,29,214,Spain,13,Right Center Midfield,Real Sociedad
+48647,Urko González de Zarate Quirós,Urko González,37,214,Spain,,,Real Sociedad
+51205,Gaizka Ayesa Burgui,Gaizka Ayesa,34,214,Spain,,,Real Sociedad
+65900,Unai Marrero Larrañaga,Unai Marrero,31,214,Spain,,,Real Sociedad
+36288,Facundo Pellistri Rebollo,Facundo Pellistri,37,242,Uruguay,,,Deportivo Alavés
+41124,Javier López Carballo,Javi López,26,214,Spain,,,Deportivo Alavés
+82674,Abdelkabir Abqar,,36,154,Morocco,,,Deportivo Alavés
+23943,Rubén García Santos,Rubén García,14,214,Spain,22,Right Center Forward,Osasuna
+23949,Unai García Lugea,Unai García,4,214,Spain,3,Right Center Back,Osasuna
+24172,Álvaro Juan Cruz Armada,Juan Cruz,3,214,Spain,16,Left Midfield,Osasuna
+41573,Iñaki Álvarez Goñi,Iñaki Álvarez,26,214,Spain,,,Osasuna
+7922,Kelechi Nwakali,,26,166,Nigeria,,,Huesca
+24504,Eugeni Valderrama Domènech,Eugeni Valderrama,8,214,Spain,,,Huesca
+6893,Jesús Vallejo Lázaro,,20,214,Spain,19,Center Attacking Midfield,Granada
+24037,Alberto Soro Álvarez,Alberto Soro,26,214,Spain,17,Right Wing,Granada
+24093,Luis Javier Suárez Charris,Luis Suárez,7,49,Colombia,23,Center Forward,Granada
+24136,Federico Vico Villegas,Fede Vico,14,214,Spain,,,Granada
+24272,Luis Milla Manzanares,Luis Milla,5,214,Spain,15,Left Center Midfield,Granada
+30081,Nehuén Pérez,,3,11,Argentina,,,Granada
+50912,Arnau Fàbrega Mañas,Arnau Fàbrega,31,214,Spain,,,Granada
+51824,José Sánchez Martínez,Pepe Sánchez,28,214,Spain,,,Granada
+7459,Jawad El Yamiq,,15,154,Morocco,,,Real Valladolid
+23627,João Pedro Neves Filipe,Jota,40,183,Portugal,12,Right Midfield,Real Valladolid
+24266,Luis Jesús Pérez Maqueda,Luis Pérez,2,214,Spain,,,Real Valladolid
+29310,Shon Zalman Weissman,,9,111,Israel,22,Right Center Forward,Real Valladolid
+38832,Luis Federico López Andúgar,Luis López,33,214,Spain,,,Real Madrid
+22140,Domingos Quina,,12,183,Portugal,,,Granada
+24138,Joaquín José Marín Ruiz,Quini,17,214,Spain,8,Left Wing Back,Granada
+31789,João Paulo Santos da Costa,João Costa,35,183,Portugal,,,Granada
+52181,Sergio Barcia Laranxeira,Sergio Barcia,42,214,Spain,,,Granada
+23211,Víctor Mollejo Carpintero,Víctor Mollejo,26,214,Spain,24,Left Center Forward,Getafe
+28589,Ante Palaversa,,14,56,Croatia,,,Getafe
+31615,Orlando Rubén Yáñez Alabart,Rubén Yáñez,1,214,Spain,,,Getafe
+41115,Alejandro Baena Rodríguez,Álex Baena,32,214,Spain,,,Villarreal
+49302,José Manuel Cabrera López,Lanchi,27,214,Spain,,,Villarreal
+7006,Alejandro Darío Gómez,Papu Gómez,24,11,Argentina,17,Right Wing,Sevilla
+8572,Karim Rekik,,4,160,Netherlands,5,Left Center Back,Sevilla
+18921,Joris Gnagnon,,2,78,France,,,Sevilla
+24738,Javier Díaz Sánchez,Javi Díaz,31,214,Spain,,,Sevilla
+23677,Yassin Fékir,,19,78,France,,,Real Betis
+47611,Daniel Rebollo Franco,Dani Rebollo,30,214,Spain,,,Real Betis
+24995,Sergio Camello Pérez,Sergio Camello,27,214,Spain,,,Atlético Madrid
+10765,Jorge Ruiz Ojeda,Koke,1,214,Spain,,,Levante UD
+8864,Darío Poveda Romera,Darío Poveda,19,214,Spain,,,Getafe
+41107,Sabit Abdulai,,35,86,Ghana,13,Right Center Midfield,Getafe
+71519,Juan Antonio Iglesias Sánchez,Juan Iglesias,29,214,Spain,17,Right Wing,Getafe
+75584,Mamor Niang,,39,214,Spain,,,Getafe
+79498,Amankwaa Akurugu,,40,86,Ghana,6,Left Back,Getafe
+105762,José Antonio Miranda Boacho,Josete Miranda,32,69,Equatorial Guinea,10,Center Defensive Midfield,Getafe
+12419,Lucas Torró Marset,Lucas Torró,24,214,Spain,9,Right Defensive Midfield,Osasuna
+52108,Iván Martínez Marqués,Iván Martínez,36,214,Spain,,,Osasuna
+19597,Marcos Javier Acuña,Marcos Acuña,19,11,Argentina,6,Left Back,Sevilla
+3721,Etienne Capoue,Étienne Capoue,25,78,France,13,Right Center Midfield,Villarreal
+21081,Juan Marcos Foyth,Juan Foyth,8,11,Argentina,3,Right Center Back,Villarreal
+50494,Yeremi Jesús Pino Santos,Yeremi Pino,30,214,Spain,12,Right Midfield,Villarreal
+23445,Francisco Reis Ferreira,Ferro,6,183,Portugal,,,Valencia
+31931,Christian Gabriel Oliva Giménez,Christian Oliva,10,242,Uruguay,9,Right Defensive Midfield,Valencia
+35641,Hugo Guillamón Sanmartín,Hugo Guillamón,15,214,Spain,4,Center Back,Valencia
