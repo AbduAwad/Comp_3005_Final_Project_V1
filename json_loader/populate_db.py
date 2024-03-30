@@ -6,7 +6,8 @@ def run_DDL():
         "Teams", "Matches", "Players", "TeamFormations", "GenericEvents", "Passes", 
         "Shots", "Dribbles", "BadBehaviours", "BallReciepts", "BallRecoverys", "Blocks", 
         "Carrys", "Clearances", "Duels", "FoulsCommitted", "FoulsWon", "GoalkeeperEvents", 
-        "Interceptions", "Substitutions", "FreezeFrames", "DribbledPasts", "PlayerMinutes"
+        "Interceptions", "Substitutions", "FreezeFrames", "DribbledPasts", "PlayerMinutes",
+        "StartingLineups"
     ]
     with psycopg.connect("dbname=project_database user=postgres password=postgres") as database:
         with database.cursor() as cursor:

@@ -71,6 +71,8 @@ CREATE TABLE Matches (
     match_id INT UNIQUE,
 	competition_id INT,
 	season_id INT,
+    competition_name VARCHAR(255),
+    season_name VARCHAR(255),
     match_date DATE NOT NULL,
     kick_off TIME NOT NULL,
     home_team_id INT NOT NULL,
@@ -640,4 +642,16 @@ CREATE TABLE PlayerMinutes (
         REFERENCES Players (player_id),
     FOREIGN KEY (match_id)
         REFERENCES Matches (match_id)
+);
+
+CREATE TABLE StartingLineups (
+    match_id INT,
+    team_id INT,
+    player_id INT,
+    FOREIGN KEY (match_id)
+        REFERENCES Matches (match_id),
+    FOREIGN KEY (team_id)
+        REFERENCES Teams (team_id),
+    FOREIGN KEY (player_id)
+        REFERENCES Players (player_id)
 );
