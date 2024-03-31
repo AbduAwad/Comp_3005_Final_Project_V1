@@ -137,7 +137,7 @@ def parse_events_data():
                     generic_events_arr.append([event_id, event['index'], event['period'], event['timestamp'], event['minute'], event['second'], type_id, type_name, event['possession'], event['possession_team']['id'], event['play_pattern']['id'], event['play_pattern']['name'], team_id, end_location_x, end_location_y, duration, counterpress, player_id, team_name, player_name, match_id, season_id, competition_id, season_name, competition_name])
 
                     if (type_name == 'Pass'):
-                        recipient_id = nested_attribute_info_id(event, 'pass', 'recipient')
+                        recipient_id, recipient_name = nested_attribute_info_id_name(event, 'pass', 'recipient')
                         length = nested_attribute_info(event, 'pass', 'length')
                         angle = nested_attribute_info(event, 'pass', 'angle')
                         height_id, height_name = nested_attribute_info_id_name(event, 'pass', 'height')
@@ -155,7 +155,7 @@ def parse_events_data():
                         pass_type_id, pass_type_name = nested_attribute_info_id_name(event, 'pass', 'type')
                         outcome_id, outcome_name = nested_attribute_info_id_name(event, 'pass', 'outcome')
                         technique_id, technique_name = nested_attribute_info_id_name(event, 'pass', 'technique') 
-                        passes_arr.append([event_id, team_id, player_id, recipient_id, length, angle, height_id, height_name, aerial_won, end_location_x, end_location_y, assisted_shot_id, deflected, miscommunication, is_cross, cut_back, switch, shot_assist, goal_assist, body_part_id, body_part_name, pass_type_id, pass_type_name, outcome_id, outcome_name, technique_id, technique_name, team_name, player_name, match_id, season_id, competition_id, season_name, competition_name])
+                        passes_arr.append([event_id, team_id, player_id, recipient_id, recipient_name, length, angle, height_id, height_name, aerial_won, end_location_x, end_location_y, assisted_shot_id, deflected, miscommunication, is_cross, cut_back, switch, shot_assist, goal_assist, body_part_id, body_part_name, pass_type_id, pass_type_name, outcome_id, outcome_name, technique_id, technique_name, team_name, player_name, match_id, season_id, competition_id, season_name, competition_name])
 
                     if (type_name == 'Shot'):
                         statsbomb_xg = nested_attribute_info(event, 'shot', 'statsbomb_xg')

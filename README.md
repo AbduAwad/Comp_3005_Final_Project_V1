@@ -83,6 +83,13 @@ ____
 - **File**: **DDL.sql**: SQL script to create the tables for the database.
 - **File**: **queries.py**: Python script to run the autograder for Abdulrahman Awad.
 
+### BONUES QUERIES:
+
+#### Bonus Query 1:
+
+#### Bonus Query 2:
+
+#### VIDEO DEMONSTRATION:
 
 ### Pushing files to git:
 

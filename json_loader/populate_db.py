@@ -10,7 +10,6 @@ def reset_DB():
                 ddl_script = ddl_file.read()
                 cursor.execute(ddl_script)
             database.commit()
-            database.commit()
 
 def populate_db():
     with psycopg.connect("dbname=project_database user=postgres password=1234") as database:

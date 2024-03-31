@@ -120,7 +120,7 @@ csv_data = [
     },
     {
     'csv_filename': 'csv_records/passes.csv',
-    'attributes_arr': ['event_id', 'team_id', 'player_id', 'recipient_id', 'pass_length', 'angle', 'height_id', 'height_name', 'aerial_won', 'end_location_x', 'end_location_y', 'assisted_shot_id', 'deflected', 'miscommunication', 'is_cross', 'cut_back', 'switch', 'shot_assist', 'goal_assist', 'body_part_id', 'body_part_name', 'pass_type_id', 'pass_type_name', 'outcome_id', 'outcome_name', 'technique_id', 'technique_name', 'team_name', 'player_name', 'match_id', 'season_id', 'competition_id', 'season_name', 'competition_name'],
+    'attributes_arr': ['event_id', 'team_id', 'player_id', 'recipient_id','recipient_name', 'pass_length', 'angle', 'height_id', 'height_name', 'aerial_won', 'end_location_x', 'end_location_y', 'assisted_shot_id', 'deflected', 'miscommunication', 'is_cross', 'cut_back', 'switch', 'shot_assist', 'goal_assist', 'body_part_id', 'body_part_name', 'pass_type_id', 'pass_type_name', 'outcome_id', 'outcome_name', 'technique_id', 'technique_name', 'team_name', 'player_name', 'match_id', 'season_id', 'competition_id', 'season_name', 'competition_name'],
     'records_arr': passes_arr,
     },
     {

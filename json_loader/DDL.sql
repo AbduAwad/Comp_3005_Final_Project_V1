@@ -179,6 +179,7 @@ CREATE TABLE Passes (
     team_id INT,
     player_id INT,
     recipient_id INT,
+    recipient_name VARCHAR(255),
     pass_length FLOAT,
     angle FLOAT,
     height_id INT,
