@@ -282,5 +282,5 @@ def main():
     parse_events_data()
     write_to_csv_records()
     end_time = time.time()
-    print("Time taken to parse the json data and write to csv files: ", end_time - start_time)
+    print("Time taken to parse the json data and write to csv files: ", end_time - start_time, " seconds")
 main()
