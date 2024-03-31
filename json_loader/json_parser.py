@@ -170,6 +170,10 @@ def parse_events_data():
                         outcome_id, outcome_name = nested_attribute_info_id_name(event, 'shot', 'outcome')
                         shots_arr.append([event_id, team_id, player_id, statsbomb_xg, x, y, z, follows_dribble, first_time, open_goal, deflected, technique_id, technique_name, body_part_id, body_part_name, type_id, type_name, outcome_id, outcome_name, match_id, season_name, competition_name])
 
+                        if (event['shot'].get('freeze_frame')):
+                            for freeze_frame in event['shot']['freeze_frame']:
+                                freeze_frames_arr.append([event_id, freeze_frame['location'][0], freeze_frame['location'][1], freeze_frame['player']['id'], freeze_frame['teammate'], match_id, season_name, competition_name])
+                    
                     if (type_name == 'Dribble'):
                         overrun = nested_attribute_info_bool(event, 'dribble', 'overrun')
                         nutmeg = nested_attribute_info_bool(event, 'dribble', 'nutmeg')
@@ -188,27 +192,92 @@ def parse_events_data():
                             outcome_id, outcome_name = None, None
                         ball_receipts_arr.append([event['id'], team_id, player_id, outcome_id, outcome_name, team_name, player_name, match_id, season_name, competition_name])
 
-def write_to_csv_records():
+                    if (type_name == 'Ball Recovery'):
+                        if (event.get('ball_recovery')):
+                            offensive = nested_attribute_info_bool(event, 'ball_recovery', 'offensive')
+                            ball_recovery = nested_attribute_info_bool(event, 'ball_recovery', 'recovery_failure')
+                        else:
+                            offensive, ball_recovery = None, None
+                        ball_recoveries_arr.append([event_id, team_id, player_id, offensive, ball_recovery, team_name, player_name, match_id, season_name, competition_name])
 
-    write_records_to_csv('csv_records/competitions.csv', ['competition_id', 'competition_name', 'country_name', 'competition_gender', 'competition_youth', 'competition_international'], competitions_arr)
-    write_records_to_csv('csv_records/seasons.csv', ['season_id', 'competition_id', 'season_name'], seasons_arr)
-    write_records_to_csv('csv_records/countrys.csv', ['country_id', 'country_name'], countrys_arr)
-    write_records_to_csv('csv_records/players.csv', ['player_id', 'player_name', 'player_nickname', 'jersey_number', 'country_id', 'country_name', 'position_id', 'position_name', 'team_name'], players_arr)
-    write_records_to_csv('csv_records/player_minutes.csv', ['player_id', 'match_id', 'first_half_start_time', 'first_half_end_time', 'first_half_start_reason', 'first_half_end_reason', 'second_half_start_time', 'second_half_end_time', 'second_half_start_reason', 'second_half_end_reason'], player_minutes_arr)
-    write_records_to_csv('csv_records/stadiums.csv', ['stadium_id', 'stadium_name', 'stadium_country_id'], stadiums_arr)
-    write_records_to_csv('csv_records/referees.csv', ['referee_id', 'referee_name', 'referee_country_id'], referees_arr)
-    write_records_to_csv('csv_records/managers.csv', ['manager_id', 'manager_name', 'manager_nickname', 'dob', 'country_id'], managers_arr)
-    write_records_to_csv('csv_records/teams.csv', ['team_id', 'team_name', 'team_gender', 'team_group', 'country_id', 'manager_id'], teams_arr)
-    write_records_to_csv('csv_records/matches.csv', ['match_id', 'competition_id', 'season_id', 'competition_name', 'season_name', 'match_date', 'kick_off', 'home_team_id', 'away_team_id', 'home_score', 'away_score', 'match_week', 'competition_stage_name', 'stadium_id', 'referee_id'], matches_arr)
-    write_records_to_csv('csv_records/team_formations.csv', ['match_id', 'team_id', 'formation'], team_formations_arr)
-    write_records_to_csv('csv_records/starting_lineups.csv', ['match_id', 'team_id', 'player_id'], starting_lineups_arr)
-    write_records_to_csv('csv_records/generic_events.csv', ['event_id', 'index', 'period', 'timestamp', 'minute', 'second', 'type_id', 'type_name', 'possession', 'possession_team_id', 'play_pattern_id', 'play_pattern_name', 'team_id', 'location_x', 'location_y', 'duration', 'counterpress', 'player_id', 'team_name', 'player_name', 'match_id', 'season_name', 'competition_name'], generic_events_arr)
-    write_records_to_csv('csv_records/passes.csv', ['event_id', 'team_id', 'player_id', 'recipient_id', 'length', 'angle', 'height_id', 'height_name', 'aerial_won', 'end_location_x', 'end_location_y', 'assisted_shot_id', 'deflected', 'miscommunication', 'is_cross', 'cut_back', 'switch', 'shot_assist', 'goal_assist', 'body_part_id', 'body_part_name', 'pass_type_id', 'pass_type_name', 'outcome_id', 'outcome_name', 'technique_id', 'technique_name', 'match_id', 'season_name', 'competition_name'], passes_arr)
-    write_records_to_csv('csv_records/shots.csv', ['event_id', 'team_id', 'player_id', 'statsbomb_xg', 'x', 'y', 'z', 'follows_dribble', 'first_time', 'open_goal', 'deflected', 'technique_id', 'technique_name', 'body_part_id', 'body_part_name', 'type_id', 'type_name', 'outcome_id', 'outcome_name', 'match_id', 'season_name', 'competition_name'], shots_arr)
-    write_records_to_csv('csv_records/dribbles.csv', ['event_id', 'team_id', 'player_id', 'overrun', 'nutmeg', 'outcome_id', 'outcome_name', 'no touch', 'team_name', 'player_name', 'match_id', 'season_name', 'competition_name'], dribbles_arr)
-    write_records_to_csv('csv_records/bad_behaviours.csv', ['event_id', 'team_id', 'player_id', 'card_id', 'card_name', 'team_name', 'player_name', 'match_id', 'season_name', 'competition_name'], bad_behaviours_arr)
-    write_records_to_csv('csv_records/ball_receipts.csv', ['event_id', 'team_id', 'player_id', 'outcome_id', 'outcome_name', 'team_name', 'player_name', 'match_id', 'season_name', 'competition_name'], ball_receipts_arr)
+                    if (type_name == 'Block'):
+                        if (event.get('block')):
+                            deflection = nested_attribute_info_bool(event, 'block', 'deflection')   
+                            offensive = nested_attribute_info_bool(event, 'block', 'offensive')
+                            save_block = nested_attribute_info_bool(event, 'block', 'block')
+                        else:
+                            deflection, offensive, save_block = None, None, None
+                        blocks_arr.append([event_id, team_id, player_id, deflection, offensive, save_block, team_name, player_name, match_id, season_name, competition_name])
+                    
+                    if (type_name == 'Carry'):
+                        x, y = nested_atrribute_location_2D(event, 'carry', 'end_location')
+                        carries_arr.append([event_id, team_id, player_id, x, y, team_name, player_name, match_id, season_name, competition_name])
 
+                    if (type_name == 'Clearance'):
+                        if (event.get('clearance')):
+                            body_part_id, body_part_name = nested_attribute_info_id_name(event, 'clearance', 'body_part')
+                            aerail_won = nested_attribute_info_bool(event, 'clearance', 'aerial_won')
+                        else:
+                            body_part_id, body_part_name, aerail_won = None, None, None 
+                        clearances_arr.append([event_id, team_id, player_id, aerail_won, body_part_id, body_part_name, team_name, player_name, match_id, season_name, competition_name])
+
+                    if (type_name == 'Duel'):
+                        duel_type_id, duel_type_name = nested_attribute_info_id_name(event, 'duel', 'type')
+                        outcome_id, outcome_name = nested_attribute_info_id_name(event, 'duel', 'outcome')
+                        duels_arr.append([event_id, team_id, player_id, duel_type_id, duel_type_name, outcome_id, outcome_name, team_name, player_name, match_id, season_name, competition_name])
+
+                    if (type_name == 'Foul Committed'):
+                        if (event.get('foul_committed')):
+                            offensive = nested_attribute_info_bool(event, 'foul_committed', 'offensive')
+                            foul_type_id, foul_type_name = nested_attribute_info_id_name(event, 'foul_committed', 'type')
+                            advantage = nested_attribute_info_bool(event, 'foul_committed', 'advantage')    
+                            penalty = nested_attribute_info_bool(event, 'foul_committed', 'penalty')    
+                            card_id, card_name = nested_attribute_info_id_name(event, 'foul_committed', 'card')
+                        else:
+                            offensive, foul_type_id, foul_type_name, advantage, penalty, card_id, card_name = None, None, None, None, None, None, None
+
+                        fouls_commited_arr.append([event_id, team_id, player_id, offensive, foul_type_id, foul_type_name, advantage, penalty, card_id, card_name, team_name, player_name, match_id, season_name, competition_name])
+
+                    if (type_name == 'Foul Won'):
+                        if (event.get('foul_won')):
+                            defensive = nested_attribute_info_bool(event, 'foul_won', 'defensive')
+                            advantage = nested_attribute_info_bool(event, 'foul_won', 'advantage')
+                            penalty = nested_attribute_info_bool(event, 'foul_won', 'penalty')
+                        else:
+                            defensive, advantage, penalty = False, False, False
+                        fouls_won_arr.append([event_id, team_id, player_id, defensive, advantage, penalty, team_name, player_name, match_id, season_name, competition_name])
+
+                    if (type_name == 'Goal Keeper'):
+                        position_id,position_name = nested_attribute_info_id_name(event, 'goalkeeper', 'position')
+                        technique_id, technique_name = nested_attribute_info_id_name(event, 'goalkeeper', 'technique')
+                        body_part_id, body_part_name = nested_attribute_info_id_name(event, 'goalkeeper', 'body_part')
+                        type_id, type_name = nested_attribute_info_id_name(event, 'goalkeeper', 'type')
+                        outcome_id, outcome_name = nested_attribute_info_id_name(event, 'goalkeeper', 'outcome')
+                        goalkeeper_events_arr.append([event_id, team_id, player_id, position_id, position_name, technique_id, technique_name, body_part_id, body_part_name, type_id, type_name, outcome_id, outcome_name, match_id, season_name, competition_name])
+
+                    if (type_name == 'Interception'):
+                        if (event.get('interception')):
+                            outcome_id, outcome_name = nested_attribute_info_id_name(event, 'interception', 'outcome')
+                        else:
+                            outcome_id, outcome_name = None, None
+                        interceptions_arr.append([event_id, team_id, player_id, outcome_id, outcome_name, team_name, player_name, match_id, season_name, competition_name])
+
+                    if (type_name == 'Substitution'):
+                        replacement_id, replacement_name = nested_attribute_info_id_name(event, 'substitution', 'replacement')
+                        outcome_id, outcome_name = nested_attribute_info_id_name(event, 'substitution', 'outcome')
+                        subsctitutions_arr.append([event_id, team_id, player_id, replacement_id, replacement_name, outcome_id, outcome_name, team_name, player_name, match_id, season_name, competition_name])
+
+                    if (type_name == 'Dribbled Past'):
+                        dribbled_pasts_arr.append([event_id, player_name, player_id, team_name, match_id, season_name, competition_name])
+
+def write_to_csv_records(): # FIX ORDER FOR ALL OF THEM:
+
+    all_arrays = []
+    for arr in [competitions_arr, seasons_arr, countrys_arr, players_arr, player_minutes_arr, stadiums_arr, referees_arr, managers_arr, teams_arr, matches_arr, team_formations_arr, starting_lineups_arr, generic_events_arr, passes_arr, shots_arr, dribbles_arr, bad_behaviours_arr, ball_receipts_arr, ball_recoveries_arr, blocks_arr, carries_arr, clearances_arr, duels_arr, fouls_commited_arr, fouls_won_arr, goalkeeper_events_arr, interceptions_arr, subsctitutions_arr, freeze_frames_arr, dribbled_pasts_arr]:
+        all_arrays.append(arr)
+
+    for i in range(len(all_arrays)):
+        write_records_to_csv(csv_files_arr[i], csv_names_arr[i], all_arrays[i])    
 
 def main():
     parse_competitions_data()
