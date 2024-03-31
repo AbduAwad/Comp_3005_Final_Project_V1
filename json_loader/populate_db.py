@@ -1,28 +1,37 @@
-import psycopg
+from defs import *
+from utils import *
 
-def run_DDL():
-    tables = [
-        "Countrys", "Competitions", "Seasons", "Stadiums", "Referees", "Managers", 
-        "Teams", "Matches", "Players", "TeamFormations", "GenericEvents", "Passes", 
-        "Shots", "Dribbles", "BadBehaviours", "BallReciepts", "BallRecoverys", "Blocks", 
-        "Carrys", "Clearances", "Duels", "FoulsCommitted", "FoulsWon", "GoalkeeperEvents", 
-        "Interceptions", "Substitutions", "FreezeFrames", "DribbledPasts", "PlayerMinutes",
-        "StartingLineups"
-    ]
-    with psycopg.connect("dbname=project_database user=postgres password=postgres") as database:
+def reset_DB():
+    with psycopg.connect("dbname=project_database user=postgres password=1234") as database:
         with database.cursor() as cursor:
             for i in range(len(tables)):
                 cursor.execute(f"DROP TABLE IF EXISTS {tables[i]} CASCADE")
-            with open("Comp_3005_Final_Project_V1/json_loader/DDL.sql", "r") as file:
-                ddl_script = file.read()
+            database.commit()
+
+def run_DDL():
+    with psycopg.connect("dbname=project_database user=postgres password=1234") as database:
+        with database.cursor() as cursor:
+            with open("DDL.sql", "r") as ddl_file:
+                ddl_script = ddl_file.read()
                 cursor.execute(ddl_script)
             database.commit()
 
 def populate_db():
-    print("populating database...")
+    with psycopg.connect("dbname=project_database user=postgres password=1234") as database:
+        with database.cursor() as cursor:
+            for i in range(len(csv_filenames)):
+                with open(f"csv_records/{csv_filenames[i]}.csv", "r", encoding='utf-8') as file:
+                    header = file.readline()
+                with cursor.copy(f"COPY {tables[i]} ({header}) FROM STDIN WITH CSV HEADER") as copy:
+                    with open(f"csv_records/{csv_filenames[i]}.csv", "r", encoding='utf-8') as file:
+                        copy.write(file.read())
+                        print("Inserted csv data into: ", tables[i])
 
 def main():
+    start_time = time.time()
+    reset_DB()
     run_DDL()
     populate_db()
-
+    end_time = time.time()
+    print("Time taken to populate the database: ", end_time - start_time)
 main()

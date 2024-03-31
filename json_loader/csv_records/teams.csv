@@ -1,24 +1,46 @@
-team_id,team_name,team_gender,team_group,country_id,manager_id
-2728,Carlos del Cerro Grande,214
-221,Alberto Undiano Mallenco,214
-183,Jesús Gil Manzano,214
-180,Antonio Miguel Mateu Lahoz,214
-2419,Eduardo Prieto Iglesias,214
-2625,José María Sánchez Martínez,214
-2602,Ricardo De Burgos Bengoetxea,214
-2609,José Luis Munuera Montero,214
-2493,Pablo González Fuertes,214
-2692,Mario Melero López,214
-211,José Luis González González,214
-2402,Guillermo Cuadra Fernández,214
-2434,Juan Martínez Munuera,214
-2470,César Soto Grado,214
-2608,Alejandro José Hernández Hernández,214
-2559,Adrián Cordero Vega,214
-866,Jorge Figueroa Vázquez,214
-2575,Santiago Jaime Latre,214
-2634,Isidro Díaz de Mera Escuderos,214
-669,Michael Riley,68
-1008015,Robert Styles,68
-1008017,Neale Barry,68
-1008016,Alan Wiley,68
+team_id,team_name,team_gender,team_group,team_country_id,manager_id
+210,Real Sociedad,male,,214,84
+217,Barcelona,male,,214,227
+205,Leganés,male,,214,681
+213,Sevilla,male,,214,234
+212,Atlético Madrid,male,,214,230
+214,Espanyol,male,,214,677
+209,Celta Vigo,male,,214,280
+216,Getafe,male,,214,228
+901,Real Valladolid,male,,214,576
+218,Real Betis,male,,214,238
+215,Athletic Club,male,,214,767
+206,Deportivo Alavés,male,,214,187
+207,Valencia,male,,214,211
+221,Levante UD,male,,214,219
+222,Villarreal,male,,214,182
+211,Girona,male,,214,229
+902,Huesca,male,,214,768
+322,Eibar,male,,214,221
+360,Rayo Vallecano,male,,214,766
+220,Real Madrid,male,,214,25
+1043,Mallorca,male,,214,1603
+422,Osasuna,male,,214,1592
+1049,Granada,male,,214,1597
+552,Cádiz,male,,214,1598
+1042,Elche,male,,214,509
+46,Wolverhampton Wanderers,male,,68,3602
+1,Arsenal,male,,68,577
+39,Manchester United,male,,68,790
+22,Leicester City,male,,68,2974
+75,Charlton Athletic,male,,68,3407
+47,Middlesbrough,male,,68,40
+101,Leeds United,male,,68,3643
+24,Liverpool,male,,68,
+33,Chelsea,male,,68,60
+98,Blackburn Rovers,male,,68,3548
+59,Aston Villa,male,,68,6094
+37,Newcastle United,male,,68,3404
+36,Manchester City,male,,68,4202
+54,Birmingham City,male,,68,37
+105,Portsmouth,male,,68,749
+38,Tottenham Hotspur,male,,68,3533
+25,Southampton,male,,68,3722
+29,Everton,male,,68,86
+55,Fulham,male,,68,403
+328,Bolton Wanderers,male,,68,561
