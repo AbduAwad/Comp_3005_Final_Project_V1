@@ -66,7 +66,7 @@ ____
 
 
 
-
+___
 
 ### FILE STRUCTURE AND DESCRIPTIONS:
 
@@ -77,19 +77,90 @@ ____
     - **Folder**: **matches_data**: Contains the json files for the matches.
 
     - **File**: **download_jsons.py**: Personal Python script to download the json files from github and place them in events_data and lineups_data folders.
+    - **File**: **DDL.sql**: SQL script to create the tables for the database.
 
+- **Folder**: readme_images: Contains the images used in the README file.
 - **File**: **push.sh**: Bash script to push the files to git.
 - **File**: **README.md**: This file.
-- **File**: **DDL.sql**: SQL script to create the tables for the database.
 - **File**: **queries.py**: Python script to run the autograder for Abdulrahman Awad.
 
-### BONUES QUERIES:
+____
 
-#### Bonus Query 1:
+### BONUS QUERIES:
+____
 
-#### Bonus Query 2:
+[Open_Data_Events_v4.0.0.pdf](../../../../../Downloads/Open_Data_Events_v4.0.0.pdf)
 
-#### VIDEO DEMONSTRATION:
+____
+#### **Bonus Query 1**: Divide the goal into 6 equal-size areas (top-left, top-middle, top-right, bottom-left, bottom-middle, and bottom-right). In the La Liga seasons of 2020/2021, 2019/2020, and 2018/2019 combined, find the players who shot the most in either the top-left or top-right corners. Sort them from highest to lowest.
+
+![GOAL DIMENSIONS](readme_images/image.png)
+
+##### CORNERS DIMENSIONS:
+![alt text](readme_images/image-3.png)
+
+AWAY GOAL DIMENSIONS:
+COORDINATES ARE THE SAME, except x is 0 instead of 120
+
+Now that we know the coordinates of the top right and left corners, we can find the players who shot the most in either of these corners. by constrructing the query where the x,y,z location of the shot is within the range of the top right or left corners.
+
+#### SQL Query for Bonus Query 1:
+```sql  
+SELECT player_name, COUNT(*) as num_shots_top_corners
+    FROM Shots
+    WHERE season_name IN ('2018/2019', '2019/2020', '2020/2021')
+        AND competition_name = 'La Liga'
+        AND ((end_location_x = 120 AND end_location_y BETWEEN 36 AND 38.67 AND end_location_z BETWEEN 1.33 AND 2.67)
+        OR (end_location_x = 120 AND end_location_y BETWEEN 41.33 AND 44 AND end_location_z BETWEEN 1.33 AND 2.67)
+        OR (end_location_x = 0 AND end_location_y BETWEEN 36 AND 38.67 AND end_location_z BETWEEN 1.33 AND 2.67)
+        OR (end_location_x = 0 AND end_location_y BETWEEN 41.33 AND 44 AND end_location_z BETWEEN 1.33 AND 2.67))
+    GROUP BY player_name
+    HAVING COUNT(*) > 0
+    ORDER BY num_shots_top_corners DESC
+```
+____ 
+
+#### Bonus Query 2: In the La Liga season of 2020/2021, find the teams with the most successful passes into the box. Sort them from the highest to lowest
+
+![alt text](readme_images/image-4.png)
+
+##### BOX COORDINATES:
+
+BOX 1:
+- x: 0 y: 62
+- x: 0 y: 18
+- x: 18 y: 18
+- x: 18 y: 62
+
+BOX 2:
+- x: 102 y: 18
+- x: 120 y: 18
+- x: 120 y: 62
+- x: 102 y: 62
+
+Now that we have the x,y coordinates of the corners of the box, any pass that is succcesful and has a end_location within the box will be counted as a successful pass into the box. We can construct the query to find the teams with the most successful passes into the box by counting the number of successful passes that have an end_location within the box.
+
+#### SQL Query for Bonus Query 2:
+```sql
+SELECT team_name, COUNT(*) as num_passes_into_box
+    FROM Passes
+    WHERE competition_name = 'La Liga'
+        AND season_name = '2020/2021'
+        AND (end_location_x >= 0 AND end_location_x <= 18 AND end_location_y >= 18 AND end_location_y <= 62
+        OR end_location_x >= 102 AND end_location_x <= 120 AND end_location_y >= 18 AND end_location_y <= 62)
+        AND outcome_name is NULL
+    GROUP BY team_name
+    HAVING COUNT(*) > 0
+    ORDER BY num_passes_into_box DESC;
+```
+
+____
+
+#### BONUS QUERIES VIDEO DEMONSTRATION:
+
+LINK: https://youtu.be/lc0Kb12VGIc
+
+____
 
 ### Pushing files to git:
 
@@ -105,6 +176,7 @@ chmod +x push.sh
 ./push.sh "commit message"
 ```
 
+___
 
 ## TESTER AND DB DUMP INFO
 Create DB dump for dbexport.sql:
