@@ -210,7 +210,6 @@ CREATE TABLE Passes (
     competition_id INT,
     season_name VARCHAR(255),
     competition_name VARCHAR(255),
-    PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
     FOREIGN KEY (match_id)
@@ -225,7 +224,27 @@ CREATE TABLE Passes (
         REFERENCES Seasons (season_id),
     FOREIGN KEY (competition_id)
         REFERENCES Competitions (competition_id)
-);
+) PARTITION BY LIST (season_name);
+
+CREATE TABLE Passes_2018_2019_La_Liga_Partition PARTITION OF Passes 
+    FOR VALUES IN ('2018/2019');
+
+CREATE TABLE Passes_2019_2020_La_Liga_Partition PARTITION OF Passes 
+    FOR VALUES IN ('2019/2020');
+
+CREATE TABLE Passes_2020_2021_La_Liga_Partition PARTITION OF Passes
+    FOR VALUES IN ('2020/2021')
+    PARTITION BY LIST (technique_name);
+
+-- Create a default partition for all other values
+CREATE TABLE Passes_2020_2021_others_La_Liga_Partition PARTITION OF Passes_2020_2021_La_Liga_Partition
+    DEFAULT;
+
+CREATE TABLE Through_Balls_2020_2021_La_Liga_Partition PARTITION OF Passes_2020_2021_La_Liga_Partition
+    FOR VALUES IN ('Through Ball');
+
+CREATE TABLE Passes_2003_2004_Premier_League_Partition PARTITION OF Passes
+    FOR VALUES IN ('2003/2004');
 
 CREATE TABLE Shots(
     event_id VARCHAR(255),
@@ -254,22 +273,49 @@ CREATE TABLE Shots(
     competition_id INT,
     season_name VARCHAR(255),
     competition_name VARCHAR(255),
-    PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
     FOREIGN KEY (match_id)
         REFERENCES Matches (match_id),
     FOREIGN KEY (team_id)
-    	REFERENCES Teams (team_id),
+        REFERENCES Teams (team_id),
     FOREIGN KEY (player_id)
-    	REFERENCES Players (player_id),
+        REFERENCES Players (player_id),
     FOREIGN KEY (season_id)
         REFERENCES Seasons (season_id),
     FOREIGN KEY (competition_id)
         REFERENCES Competitions (competition_id)
-);
+) PARTITION BY LIST (season_name);
 
-CREATE TABLE Dribbles(
+CREATE TABLE Shots_2018_2019_La_Liga_Partition PARTITION OF Shots 
+    FOR VALUES IN ('2018/2019')
+    PARTITION BY LIST (first_time);
+
+CREATE TABLE Shots_2019_2020_La_Liga_Partition PARTITION OF Shots 
+    FOR VALUES IN ('2019/2020')
+    PARTITION BY LIST (first_time);
+
+CREATE TABLE Shots_2020_2021_La_Liga_Partition PARTITION OF Shots
+    FOR VALUES IN ('2020/2021')
+    PARTITION BY LIST (first_time);
+
+CREATE TABLE First_time_shots_2018_2019_La_Liga_Partition PARTITION OF Shots_2018_2019_La_Liga_Partition
+    FOR VALUES IN (true);
+CREATE TABLE First_time_shots_2018_2019_f PARTITION OF Shots_2018_2019_La_Liga_Partition
+    FOR VALUES IN (false);
+CREATE TABLE First_time_shots_2019_2020_La_Liga_Partition PARTITION OF Shots_2019_2020_La_Liga_Partition
+    FOR VALUES IN (true);
+CREATE TABLE First_time_shots_2019_2020_f PARTITION OF Shots_2019_2020_La_Liga_Partition
+    FOR VALUES IN (false);
+CREATE TABLE First_time_shots_2020_2021_La_Liga_Partition PARTITION OF Shots_2020_2021_La_Liga_Partition
+    FOR VALUES IN (true);
+CREATE TABLE First_time_shots_2020_2021_f PARTITION OF Shots_2020_2021_La_Liga_Partition
+    FOR VALUES IN (false);
+
+CREATE TABLE Shots_2003_2004_Premier_League_Partition PARTITION OF Shots
+    FOR VALUES IN ('2003/2004');
+
+CREATE TABLE Dribbles (
     event_id VARCHAR(255),
     team_id INT,
     player_id INT,
@@ -285,7 +331,6 @@ CREATE TABLE Dribbles(
     competition_id INT,
     season_name VARCHAR(255),
     competition_name VARCHAR(255),
-    PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
     FOREIGN KEY (match_id)
@@ -298,7 +343,34 @@ CREATE TABLE Dribbles(
         REFERENCES Seasons (season_id),
     FOREIGN KEY (competition_id)
         REFERENCES Competitions (competition_id)
-);
+) PARTITION BY LIST (season_name);
+
+CREATE TABLE Dribbles_2018_2019_La_Liga_Partition PARTITION OF Dribbles 
+    FOR VALUES IN ('2018/2019')
+    PARTITION BY LIST (outcome_name);
+CREATE TABLE non_successful_dribbles_2018_2019_La_Liga_Partition PARTITION OF Dribbles_2018_2019_La_Liga_Partition
+    DEFAULT;
+CREATE TABLE successful_dribbles_2018_2019_La_Liga_Partition PARTITION OF Dribbles_2018_2019_La_Liga_Partition
+    FOR VALUES IN ('Complete');
+
+CREATE TABLE Dribbles_2019_2020_La_Liga_Partition PARTITION OF Dribbles
+    FOR VALUES IN ('2019/2020')
+    PARTITION BY LIST (outcome_name);
+CREATE TABLE non_successful_dribbles_2019_2020_La_Liga_Partition PARTITION OF Dribbles_2019_2020_La_Liga_Partition
+    DEFAULT;
+CREATE TABLE successful_dribbles_2019_202_La_Liga_Partition0 PARTITION OF Dribbles_2019_2020_La_Liga_Partition
+    FOR VALUES IN ('Complete');
+
+CREATE TABLE Dribbles_2020_2021_La_Liga_Partition PARTITION OF Dribbles
+    FOR VALUES IN ('2020/2021')
+    PARTITION BY LIST (outcome_name);
+CREATE TABLE non_successful_dribbles_2020_2021_La_Liga_Partition PARTITION OF Dribbles_2020_2021_La_Liga_Partition
+    DEFAULT;
+CREATE TABLE successful_dribbles_2020_2021_La_Liga_Partition PARTITION OF Dribbles_2020_2021_La_Liga_Partition
+    FOR VALUES IN ('Complete');
+
+CREATE TABLE Dribbles_2003_2004_Premier_League_Partition PARTITION OF Dribbles
+    FOR VALUES IN ('2003/2004');
 
 CREATE TABLE BadBehaviours(
     event_id VARCHAR(255),
@@ -667,10 +739,10 @@ CREATE TABLE FreezeFrames (
     competition_id INT,
     season_name VARCHAR(255),
     competition_name VARCHAR(255),
+    FOREIGN KEY (event_id)
+        REFERENCES GenericEvents (event_id),
     FOREIGN KEY (match_id)
         REFERENCES Matches (match_id),
-    FOREIGN KEY (event_id)
-    	REFERENCES Shots (event_id),
     FOREIGN KEY (player_id)
     	REFERENCES Players (player_id),
     FOREIGN KEY (season_id)
@@ -689,7 +761,6 @@ CREATE TABLE DribbledPasts ( -- A row for everytime a player is dribbled past --
     competition_id INT,
     season_name VARCHAR(255),
     competition_name VARCHAR(255),
-    PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
     FOREIGN KEY (player_id)
@@ -700,7 +771,19 @@ CREATE TABLE DribbledPasts ( -- A row for everytime a player is dribbled past --
         REFERENCES Seasons (season_id),
     FOREIGN KEY (competition_id)
         REFERENCES Competitions (competition_id)
-);
+) PARTITION BY LIST (season_name);
+
+CREATE TABLE DribbledPasts_2018_2019_La_Liga_Partition PARTITION OF DribbledPasts 
+    FOR VALUES IN ('2018/2019') ;
+
+CREATE TABLE DribbledPasts_2019_2020_La_Liga_Partition PARTITION OF DribbledPasts
+    FOR VALUES IN ('2019/2020' );
+
+CREATE TABLE DribbledPasts_2020_2021_La_Liga_Partition PARTITION OF DribbledPasts
+    FOR VALUES IN ('2020/2021');
+
+CREATE TABLE DribbledPasts_2003_2004_Premier_League_Partition PARTITION OF DribbledPasts
+    FOR VALUES IN ('2003/2004');
 
 CREATE TABLE PlayerMinutes (
     player_id INT,
