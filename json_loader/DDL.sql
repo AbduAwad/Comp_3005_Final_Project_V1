@@ -226,6 +226,7 @@ CREATE TABLE Passes (
         REFERENCES Competitions (competition_id)
 ) PARTITION BY LIST (season_name);
 
+
 CREATE TABLE Passes_2018_2019_La_Liga_Partition PARTITION OF Passes 
     FOR VALUES IN ('2018/2019');
 
@@ -365,7 +366,11 @@ CREATE TABLE Shots_2019_2020_La_Liga_Partition PARTITION OF ShotsCopy
     FOR VALUES IN ('2019/2020');
 
 CREATE TABLE Shots_2020_2021_La_Liga_Partition PARTITION OF ShotsCopy
-    FOR VALUES IN ('2020/2021');
+    FOR VALUES IN ('2020/2021')
+    PARTITION BY RANGE (statsbomb_xg);
+
+CREATE TABLE Shots_2020_2021_La_Liga_Partition_0_1 PARTITION OF Shots_2020_2021_La_Liga_Partition
+    FOR VALUES FROM (0) TO (1.000000001); -- will get the statsbomb score values of 0 to 1 is exclusive, what if i want to include 1? I miust use FROM (0) TO (1.000000000001)
 
 CREATE TABLE Shots_2003_2004_Premier_League_Partition PARTITION OF ShotsCopy
     FOR VALUES IN ('2003/2004');

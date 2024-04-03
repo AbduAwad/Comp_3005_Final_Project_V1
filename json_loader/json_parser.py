@@ -156,7 +156,7 @@ def parse_events_data():
                         outcome_id, outcome_name = nested_attribute_info_id_name(event, 'pass', 'outcome')
                         technique_id, technique_name = nested_attribute_info_id_name(event, 'pass', 'technique') 
                         passes_arr.append([event_id, team_id, player_id, recipient_id, recipient_name, length, angle, height_id, height_name, aerial_won, end_location_x, end_location_y, assisted_shot_id, deflected, miscommunication, is_cross, cut_back, switch, shot_assist, goal_assist, body_part_id, body_part_name, pass_type_id, pass_type_name, outcome_id, outcome_name, technique_id, technique_name, team_name, player_name, match_id, season_id, competition_id, season_name, competition_name])
-
+                        passes_copy_arr.append([event_id, team_id, player_id, recipient_id, recipient_name, length, angle, height_id, height_name, aerial_won, end_location_x, end_location_y, assisted_shot_id, deflected, miscommunication, is_cross, cut_back, switch, shot_assist, goal_assist, body_part_id, body_part_name, pass_type_id, pass_type_name, outcome_id, outcome_name, technique_id, technique_name, team_name, player_name, match_id, season_id, competition_id, season_name, competition_name])
                     if (type_name == 'Shot'):
                         statsbomb_xg = nested_attribute_info(event, 'shot', 'statsbomb_xg')
                         x, y, z = nested_attribute_location_3D(event, 'shot', 'end_location')

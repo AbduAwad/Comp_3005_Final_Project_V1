@@ -23,6 +23,8 @@ def write_records_to_csv(file_name: str, names_arr: list, values_arr: list):
                 row_arr.append(values_arr[i][x])
             writer.writerow(row_arr)
         
+
+        
 def single_attribute_info(event: dict, attribute: str) -> str:
     if event.get(attribute):    
         attribute = event[attribute]

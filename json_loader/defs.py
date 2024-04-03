@@ -35,6 +35,7 @@ dribbled_pasts_arr = []
 player_minutes_arr = []
 starting_lineups_arr = []
 shots_copy_arr = []
+passes_copy_arr = []
 
 tables = [
     "Countrys", "Competitions", "Seasons", "Stadiums", "Referees", "Managers", 
@@ -45,28 +46,38 @@ tables = [
     "StartingLineups", "ShotsCopy"
 ]
 
-DB_partition_list = [
-    'Passes_2018_2019_La_Liga_Partition', 'Passes_2019_2020_La_Liga_Partition', 
-    'Passes_2020_2021_La_Liga_Partition', 'Passes_2003_2004_Premier_League_Partition', 
-    'Shots_2018_2019_La_Liga_Partition', 'Shots_2019_2020_La_Liga_Partition', 
-    'Shots_2020_2021_La_Liga_Partition', 'Shots_2003_2004_Premier_League_Partition' ,
-    'Passes_2020_2021_others_La_Liga_Partition','Through_Balls_2020_2021_La_Liga_Partition'
-    'First_time_shots_2018_2019_La_Liga_Partition', 'First_time_shots_2018_2019_f',
-    'First_time_shots_2019_2020_La_Liga_Partition', 'First_time_shots_2019_2020_f',
-    'First_time_shots_2020_2021_La_Liga_Partition', 'First_time_shots_2020_2021_f',
-    'Dribbles_2018_2019_La_Liga_Partition', 'non_successful_dribbles_2018_2019_La_Liga_Partition',
-    'successful_dribbles_2018_2019_La_Liga_Partition', 'Dribbles_2019_2020_La_Liga_Partition',
-    'non_successful_dribbles_2019_2020_La_Liga_Partition', 'successful_dribbles_2019_2020_La_Liga_Partition',
-    'Dribbles_2020_2021_La_Liga_Partition', 'non_successful_dribbles_2020_2021_La_Liga_Partition',
-    'successful_dribbles_2020_2021_La_Liga_Partition', 'Dribbles_2003_2004_Premier_League_Partition',
-    'DribbledPasts_2018_2019_La_Liga_Partition', 'DribbledPasts_2019_2020_La_Liga_Partition',
-    'DribbledPasts_2020_2021_La_Liga_Partition', 'DribbledPasts_2003_2004_Premier_League_Partition',
-    'Dribbles_2018_2019_2020_2021_La_Liga_Partition', 'Dribbles_2018_2019_2020_2021_La_Liga_Success_Partition',
-    'Dribbles_2018_2019_2020_2021_La_Liga_Failure_Partition'
+partition_names = [
+    "Passes_2018_2019_La_Liga_Partition",
+    "Passes_2019_2020_La_Liga_Partition",
+    "Passes_2020_2021_La_Liga_Partition",
+    "Passes_2020_2021_others_La_Liga_Partition",
+    "Through_Balls_2020_2021_La_Liga_Partition",
+    "Passes_2003_2004_Premier_League_Partition",
+    "Passes_2003_2004_Premier_League_Partition_Recepient_Partition_Nulls",
+    "Passes_2003_2004_Premier_League_Partition_Recepient_Partition",
+    "Shots_2018_2019_2020_2021_La_Liga_Partition",
+    "Shots_remaining_partition",
+    "Shots_2018_2019_2020_2021_La_Liga_Partition_first_time",
+    "Shots_remaining_first_time_La_Liga_Partition",
+    "First_time_shots_2018_2019_2020_2021_La_Liga_Partition_s",
+    "First_time_shots_2018_2019_2020_2021_La_Liga_Partition_f",
+    "Shots_2018_2019_La_Liga_Partition",
+    "Shots_2019_2020_La_Liga_Partition",
+    "Shots_2020_2021_La_Liga_Partition",
+    "Shots_2020_2021_La_Liga_Partition_0_1",
+    "Shots_2003_2004_Premier_League_Partition",
+    "Dribbles_2018_2019_2020_2021_La_Liga_Partition",
+    "Dribbles_2018_2019_2020_2021_La_Liga_Success_Partition",
+    "Dribbles_2018_2019_2020_2021_La_Liga_Failure_Partition",
+    "Dribbles_2003_2004_Premier_League_Partition",
+    "DribbledPasts_2018_2019_La_Liga_Partition",
+    "DribbledPasts_2019_2020_La_Liga_Partition",
+    "DribbledPasts_2020_2021_La_Liga_Partition",
+    "DribbledPasts_2003_2004_Premier_League_Partition"
 ]
 
 DB_index_list = [
-    'idx_recipient_name'
+    'idx_recipient_name', 'idx_statsbomb_xg'
 ]
 
 # in underscore case
