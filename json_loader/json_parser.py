@@ -169,7 +169,8 @@ def parse_events_data():
                         type_id, type_name = nested_attribute_info_id_name(event, 'shot', 'type')
                         outcome_id, outcome_name = nested_attribute_info_id_name(event, 'shot', 'outcome')
                         shots_arr.append([event_id, team_id, player_id, statsbomb_xg, x, y, z, follows_dribble, first_time, open_goal, deflected, technique_id, technique_name, body_part_id, body_part_name, type_id, type_name, outcome_id, outcome_name, team_name, player_name, match_id, season_id, competition_id, season_name, competition_name])
-
+                        shots_copy_arr.append([event_id, team_id, player_id, statsbomb_xg, x, y, z, follows_dribble, first_time, open_goal, deflected, technique_id, technique_name, body_part_id, body_part_name, type_id, type_name, outcome_id, outcome_name, team_name, player_name, match_id, season_id, competition_id, season_name, competition_name])
+                        
                         if (event['shot'].get('freeze_frame')):
                             for freeze_frame in event['shot']['freeze_frame']:
                                 freeze_frames_arr.append([event_id, freeze_frame['location'][0], freeze_frame['location'][1], freeze_frame['player']['id'], freeze_frame['teammate'], match_id, season_id, competition_id, season_name, competition_name])

@@ -4,13 +4,13 @@
 -- AN enum is a string object with a value chosen from a list of permitted values that are enumerated explicitly in the column specification at table creation time.
 
 CREATE TABLE Countrys (
-    country_id INT UNIQUE,
-    country_name VARCHAR(255) UNIQUE,
+    country_id INT UNIQUE NOT NULL,
+    country_name VARCHAR(255) UNIQUE NOT NULL,
     PRIMARY KEY (country_name)
 );
 
 CREATE TABLE Competitions (
-	competition_id INT UNIQUE,
+	competition_id INT UNIQUE NOT NULL,
 	competition_name VARCHAR(255) NOT NULL,
     country_name VARCHAR(255) NOT NULL,
     competition_gender VARCHAR(255),
@@ -22,8 +22,8 @@ CREATE TABLE Competitions (
 );
 
 CREATE TABLE Seasons (
-    season_id INT UNIQUE,
-	competition_id INT,
+    season_id INT UNIQUE NOT NULL,
+	competition_id INT NOT NULL,
 	season_name VARCHAR(255) NOT NULL,
 	PRIMARY KEY (season_id),
 	FOREIGN KEY (competition_id)
@@ -31,7 +31,7 @@ CREATE TABLE Seasons (
 );
 
 CREATE TABLE Stadiums (
-    stadium_id INT UNIQUE,
+    stadium_id INT UNIQUE NOT NULL,
     stadium_name VARCHAR(255) NOT NULL,
     stadium_country_id int NOT NULL,
     PRIMARY KEY (stadium_id),
@@ -40,7 +40,7 @@ CREATE TABLE Stadiums (
 );
 
 CREATE TABLE Referees (
-    referee_id INT UNIQUE,
+    referee_id INT UNIQUE NOT NULL,
     referee_name VARCHAR(255) NOT NULL,
     referee_country_id int NOT NULL,
     PRIMARY KEY (referee_id),
@@ -49,7 +49,7 @@ CREATE TABLE Referees (
 );
 
 CREATE TABLE Managers (
-    manager_id INT UNIQUE,
+    manager_id INT UNIQUE NOT NULL,
     manager_name VARCHAR(255) NOT NULL,
     manager_nickname VARCHAR(255),
     manager_dob DATE,
@@ -60,7 +60,7 @@ CREATE TABLE Managers (
 );
 
 CREATE TABLE Teams (
-    team_id INT UNIQUE,
+    team_id INT UNIQUE NOT NULL,
     team_name VARCHAR(255) NOT NULL UNIQUE,
     team_gender VARCHAR(255),
     team_group VARCHAR(255),
@@ -75,8 +75,8 @@ CREATE TABLE Teams (
 
 CREATE TABLE Matches (
     match_id INT UNIQUE,
-	competition_id INT,
-	season_id INT,
+	competition_id INT NOT NULL,
+	season_id INT NOT NULL,
     competition_name VARCHAR(255),
     season_name VARCHAR(255),
     match_date DATE NOT NULL,
@@ -105,7 +105,7 @@ CREATE TABLE Matches (
 );
 
 CREATE TABLE Players (
-    player_id INT,
+    player_id INT NOT NULL,
     player_name VARCHAR(255) NOT NULL,
     player_nickname VARCHAR(255),
     jersey_number INT,
@@ -113,7 +113,7 @@ CREATE TABLE Players (
     country_name VARCHAR(255),
     position_id INT,
     position_name VARCHAR(255),
-    team_name VARCHAR(255),
+    team_name VARCHAR(255) NOT NULL,
     PRIMARY KEY (player_id),
     FOREIGN KEY (country_name)
     	REFERENCES Countrys (country_name),
@@ -132,7 +132,7 @@ CREATE TABLE TeamFormations (
 );
 
 CREATE TABLE GenericEvents (
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     idx INT,
     periods INT,
     time_stamp TIME,
@@ -152,11 +152,11 @@ CREATE TABLE GenericEvents (
     player_id INT,
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
@@ -175,7 +175,7 @@ CREATE TABLE GenericEvents (
 );
 
 CREATE TABLE Passes (
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     recipient_id INT,
@@ -205,11 +205,11 @@ CREATE TABLE Passes (
     technique_name VARCHAR(255),  
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
     FOREIGN KEY (match_id)
@@ -244,10 +244,19 @@ CREATE TABLE Through_Balls_2020_2021_La_Liga_Partition PARTITION OF Passes_2020_
     FOR VALUES IN ('Through Ball');
 
 CREATE TABLE Passes_2003_2004_Premier_League_Partition PARTITION OF Passes
-    FOR VALUES IN ('2003/2004');
+    FOR VALUES IN ('2003/2004')
+    PARTITION BY LIST (recipient_name);
 
-CREATE TABLE Shots(
-    event_id VARCHAR(255),
+CREATE TABLE Passes_2003_2004_Premier_League_Partition_Recepient_Partition_Nulls PARTITION OF Passes_2003_2004_Premier_League_Partition
+    FOR VALUES IN (NULL);
+
+CREATE TABLE Passes_2003_2004_Premier_League_Partition_Recepient_Partition PARTITION OF Passes_2003_2004_Premier_League_Partition
+    DEFAULT;
+
+CREATE INDEX idx_recipient_name ON Passes_2003_2004_Premier_League_Partition_Recepient_Partition(recipient_name);
+
+CREATE TABLE Shots (
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     statsbomb_xg FLOAT,
@@ -268,11 +277,11 @@ CREATE TABLE Shots(
     outcome_name VARCHAR(255),
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
     FOREIGN KEY (match_id)
@@ -287,36 +296,82 @@ CREATE TABLE Shots(
         REFERENCES Competitions (competition_id)
 ) PARTITION BY LIST (season_name);
 
-CREATE TABLE Shots_2018_2019_La_Liga_Partition PARTITION OF Shots 
-    FOR VALUES IN ('2018/2019')
+CREATE TABLE ShotsCopy (
+    event_id VARCHAR(255) NOT NULL,
+    team_id INT,
+    player_id INT,
+    statsbomb_xg FLOAT,
+    end_location_x FLOAT,
+    end_location_y FLOAT,
+    end_location_z FLOAT,
+    follows_dribble BOOLEAN,
+    first_time BOOLEAN,
+    open_goal BOOLEAN,
+    deflected BOOLEAN,
+    technique_id INT,
+    technique_name VARCHAR(255),
+    body_part_id INT,
+    body_part_name VARCHAR(255),
+    type_id INT,
+    type_name VARCHAR(255),
+    outcome_id INT,
+    outcome_name VARCHAR(255),
+    team_name VARCHAR(255),
+    player_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
+    FOREIGN KEY (event_id)
+        REFERENCES GenericEvents (event_id),
+    FOREIGN KEY (match_id)
+        REFERENCES Matches (match_id),
+    FOREIGN KEY (team_id)
+        REFERENCES Teams (team_id),
+    FOREIGN KEY (player_id)
+        REFERENCES Players (player_id),
+    FOREIGN KEY (season_id)
+        REFERENCES Seasons (season_id),
+    FOREIGN KEY (competition_id)
+        REFERENCES Competitions (competition_id)
+) PARTITION BY LIST (season_name);
+
+-- Partition 
+CREATE TABLE Shots_2018_2019_2020_2021_La_Liga_Partition PARTITION OF Shots 
+    FOR VALUES IN ('2018/2019', '2019/2020', '2020/2021')
+    PARTITION BY LIST (season_name);
+
+CREATE TABLE Shots_remaining_partition PARTITION OF Shots
+    DEFAULT;
+
+CREATE TABLE Shots_2018_2019_2020_2021_La_Liga_Partition_first_time PARTITION OF Shots_2018_2019_2020_2021_La_Liga_Partition 
+    FOR VALUES IN ('2018/2019', '2019/2020', '2020/2021')
     PARTITION BY LIST (first_time);
 
-CREATE TABLE Shots_2019_2020_La_Liga_Partition PARTITION OF Shots 
-    FOR VALUES IN ('2019/2020')
-    PARTITION BY LIST (first_time);
+CREATE TABLE Shots_remaining_first_time_La_Liga_Partition PARTITION OF Shots_2018_2019_2020_2021_La_Liga_Partition_first_time
+    DEFAULT;
 
-CREATE TABLE Shots_2020_2021_La_Liga_Partition PARTITION OF Shots
-    FOR VALUES IN ('2020/2021')
-    PARTITION BY LIST (first_time);
+CREATE TABLE First_time_shots_2018_2019_2020_2021_La_Liga_Partition_s PARTITION OF Shots_2018_2019_2020_2021_La_Liga_Partition_first_time
+    FOR VALUES IN (True);
 
-CREATE TABLE First_time_shots_2018_2019_La_Liga_Partition PARTITION OF Shots_2018_2019_La_Liga_Partition
-    FOR VALUES IN (true);
-CREATE TABLE First_time_shots_2018_2019_f PARTITION OF Shots_2018_2019_La_Liga_Partition
-    FOR VALUES IN (false);
-CREATE TABLE First_time_shots_2019_2020_La_Liga_Partition PARTITION OF Shots_2019_2020_La_Liga_Partition
-    FOR VALUES IN (true);
-CREATE TABLE First_time_shots_2019_2020_f PARTITION OF Shots_2019_2020_La_Liga_Partition
-    FOR VALUES IN (false);
-CREATE TABLE First_time_shots_2020_2021_La_Liga_Partition PARTITION OF Shots_2020_2021_La_Liga_Partition
-    FOR VALUES IN (true);
-CREATE TABLE First_time_shots_2020_2021_f PARTITION OF Shots_2020_2021_La_Liga_Partition
-    FOR VALUES IN (false);
+CREATE TABLE First_time_shots_2018_2019_2020_2021_La_Liga_Partition_f PARTITION OF Shots_2018_2019_2020_2021_La_Liga_Partition_first_time
+    FOR VALUES IN (False);
 
-CREATE TABLE Shots_2003_2004_Premier_League_Partition PARTITION OF Shots
+CREATE TABLE Shots_2018_2019_La_Liga_Partition PARTITION OF ShotsCopy 
+    FOR VALUES IN ('2018/2019');
+
+CREATE TABLE Shots_2019_2020_La_Liga_Partition PARTITION OF ShotsCopy 
+    FOR VALUES IN ('2019/2020');
+
+CREATE TABLE Shots_2020_2021_La_Liga_Partition PARTITION OF ShotsCopy
+    FOR VALUES IN ('2020/2021');
+
+CREATE TABLE Shots_2003_2004_Premier_League_Partition PARTITION OF ShotsCopy
     FOR VALUES IN ('2003/2004');
 
 CREATE TABLE Dribbles (
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     overrun BOOLEAN,
@@ -326,11 +381,11 @@ CREATE TABLE Dribbles (
     no_touch BOOLEAN,
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
     FOREIGN KEY (match_id)
@@ -345,46 +400,32 @@ CREATE TABLE Dribbles (
         REFERENCES Competitions (competition_id)
 ) PARTITION BY LIST (season_name);
 
-CREATE TABLE Dribbles_2018_2019_La_Liga_Partition PARTITION OF Dribbles 
-    FOR VALUES IN ('2018/2019')
+CREATE TABLE Dribbles_2018_2019_2020_2021_La_Liga_Partition PARTITION OF Dribbles
+    FOR VALUES IN ('2018/2019', '2019/2020', '2020/2021')
     PARTITION BY LIST (outcome_name);
-CREATE TABLE non_successful_dribbles_2018_2019_La_Liga_Partition PARTITION OF Dribbles_2018_2019_La_Liga_Partition
-    DEFAULT;
-CREATE TABLE successful_dribbles_2018_2019_La_Liga_Partition PARTITION OF Dribbles_2018_2019_La_Liga_Partition
+
+CREATE TABLE Dribbles_2018_2019_2020_2021_La_Liga_Success_Partition PARTITION OF Dribbles_2018_2019_2020_2021_La_Liga_Partition
     FOR VALUES IN ('Complete');
 
-CREATE TABLE Dribbles_2019_2020_La_Liga_Partition PARTITION OF Dribbles
-    FOR VALUES IN ('2019/2020')
-    PARTITION BY LIST (outcome_name);
-CREATE TABLE non_successful_dribbles_2019_2020_La_Liga_Partition PARTITION OF Dribbles_2019_2020_La_Liga_Partition
+CREATE TABLE Dribbles_2018_2019_2020_2021_La_Liga_Failure_Partition PARTITION OF Dribbles_2018_2019_2020_2021_La_Liga_Partition
     DEFAULT;
-CREATE TABLE successful_dribbles_2019_202_La_Liga_Partition0 PARTITION OF Dribbles_2019_2020_La_Liga_Partition
-    FOR VALUES IN ('Complete');
-
-CREATE TABLE Dribbles_2020_2021_La_Liga_Partition PARTITION OF Dribbles
-    FOR VALUES IN ('2020/2021')
-    PARTITION BY LIST (outcome_name);
-CREATE TABLE non_successful_dribbles_2020_2021_La_Liga_Partition PARTITION OF Dribbles_2020_2021_La_Liga_Partition
-    DEFAULT;
-CREATE TABLE successful_dribbles_2020_2021_La_Liga_Partition PARTITION OF Dribbles_2020_2021_La_Liga_Partition
-    FOR VALUES IN ('Complete');
 
 CREATE TABLE Dribbles_2003_2004_Premier_League_Partition PARTITION OF Dribbles
     FOR VALUES IN ('2003/2004');
 
 CREATE TABLE BadBehaviours(
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     card_id INT, 
     card_name VARCHAR(255),
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
@@ -401,18 +442,18 @@ CREATE TABLE BadBehaviours(
 );
 
 CREATE TABLE BallReceipts(
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     outcome_id INT,
     outcome_name VARCHAR(255),
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
@@ -429,18 +470,18 @@ CREATE TABLE BallReceipts(
 );
 
 CREATE TABLE BallRecoveries(
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     offensive BOOLEAN,
     recovery_failure BOOLEAN,
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
@@ -457,7 +498,7 @@ CREATE TABLE BallRecoveries(
 );
 
 CREATE TABLE Blocks(
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     deflection BOOLEAN,
@@ -465,11 +506,11 @@ CREATE TABLE Blocks(
     save_block BOOLEAN,
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
@@ -486,18 +527,18 @@ CREATE TABLE Blocks(
 );
 
 CREATE TABLE Carries (
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     carry_end_location_x FLOAT, 
     carry_end_location_y FLOAT,
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
@@ -514,7 +555,7 @@ CREATE TABLE Carries (
 );
 
 CREATE TABLE Clearances (
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     aerial_won BOOLEAN,
@@ -522,11 +563,11 @@ CREATE TABLE Clearances (
     body_part_name VARCHAR(255),
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
@@ -543,7 +584,7 @@ CREATE TABLE Clearances (
 );
 
 CREATE TABLE Duels (
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     duel_type_id INT,
@@ -552,11 +593,11 @@ CREATE TABLE Duels (
     outcome_name VARCHAR(255),
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
@@ -573,7 +614,7 @@ CREATE TABLE Duels (
 );
 
 CREATE TABLE FoulsCommitted (
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     offensive BOOLEAN,
@@ -585,11 +626,11 @@ CREATE TABLE FoulsCommitted (
     card_name VARCHAR(255),
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
@@ -606,7 +647,7 @@ CREATE TABLE FoulsCommitted (
 );
 
 CREATE TABLE FoulsWon (
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     defensive BOOLEAN,
@@ -614,11 +655,11 @@ CREATE TABLE FoulsWon (
     penalty BOOLEAN,
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
@@ -635,7 +676,7 @@ CREATE TABLE FoulsWon (
 );
 
 CREATE TABLE GoalkeeperEvents (
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     position_id INT,
@@ -650,11 +691,11 @@ CREATE TABLE GoalkeeperEvents (
     outcome_name VARCHAR(255),
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
@@ -671,18 +712,18 @@ CREATE TABLE GoalkeeperEvents (
 );
 
 CREATE TABLE Interceptions (
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     outcome_id INT,
     outcome_name VARCHAR(255),
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
@@ -699,7 +740,7 @@ CREATE TABLE Interceptions (
 );
 
 CREATE TABLE Substitutions (
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     team_id INT,
     player_id INT,
     replacement_id INT,
@@ -708,11 +749,11 @@ CREATE TABLE Substitutions (
     outcome_name VARCHAR(255),
     team_name VARCHAR(255),
     player_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     PRIMARY KEY(event_id),
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
@@ -729,16 +770,16 @@ CREATE TABLE Substitutions (
 );
 
 CREATE TABLE FreezeFrames (
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     location_x FLOAT,
     location_y FLOAT,
     player_id INT,
     teammate BOOLEAN,
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
     FOREIGN KEY (match_id)
@@ -752,15 +793,15 @@ CREATE TABLE FreezeFrames (
 );
 
 CREATE TABLE DribbledPasts ( -- A row for everytime a player is dribbled past --
-    event_id VARCHAR(255),
+    event_id VARCHAR(255) NOT NULL,
     player_name VARCHAR(255),
     player_id INT,
     team_name VARCHAR(255),
-    match_id INT,
-    season_id INT,
-    competition_id INT,
-    season_name VARCHAR(255),
-    competition_name VARCHAR(255),
+    match_id INT NOT NULL,
+    season_id INT NOT NULL,
+    competition_id INT NOT NULL,
+    season_name VARCHAR(255) NOT NULL,
+    competition_name VARCHAR(255) NOT NULL,
     FOREIGN KEY (event_id)
         REFERENCES GenericEvents (event_id),
     FOREIGN KEY (player_id)

@@ -1,11 +1,6 @@
 from defs import *
 from utils import *
 
-# UPDATE THESE LISTS:
-DB_index_list = ['Shots_idx', 'Shots_idx2']
-DB_partition_list = ['Shots_2018_2019', 'Shots_2019_2020', 'Shots_2020_2021', 'Shots_2003_2004', 'First_time_shots_2018_2019', 'First_time_shots_2018_2019_f', 'First_time_shots_2019_2020', 'First_time_shots_2019_2020_f', 'First_time_shots_2020_2021', 'First_time_shots_2020_2021_f']
-
-
 def reset_DB():
     with psycopg.connect("dbname=project_database user=postgres password=1234") as database:
         with database.cursor() as cursor:

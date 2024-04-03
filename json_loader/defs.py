@@ -34,6 +34,7 @@ freeze_frames_arr = []
 dribbled_pasts_arr = []
 player_minutes_arr = []
 starting_lineups_arr = []
+shots_copy_arr = []
 
 tables = [
     "Countrys", "Competitions", "Seasons", "Stadiums", "Referees", "Managers", 
@@ -41,8 +42,33 @@ tables = [
     "Shots", "Dribbles", "BadBehaviours", "BallReceipts", "BallRecoveries", "Blocks", 
     "Carries", "Clearances", "Duels", "FoulsCommitted", "FoulsWon", "GoalkeeperEvents", 
     "Interceptions", "Substitutions", "FreezeFrames", "DribbledPasts", "PlayerMinutes",
-    "StartingLineups"
+    "StartingLineups", "ShotsCopy"
 ]
+
+DB_partition_list = [
+    'Passes_2018_2019_La_Liga_Partition', 'Passes_2019_2020_La_Liga_Partition', 
+    'Passes_2020_2021_La_Liga_Partition', 'Passes_2003_2004_Premier_League_Partition', 
+    'Shots_2018_2019_La_Liga_Partition', 'Shots_2019_2020_La_Liga_Partition', 
+    'Shots_2020_2021_La_Liga_Partition', 'Shots_2003_2004_Premier_League_Partition' ,
+    'Passes_2020_2021_others_La_Liga_Partition','Through_Balls_2020_2021_La_Liga_Partition'
+    'First_time_shots_2018_2019_La_Liga_Partition', 'First_time_shots_2018_2019_f',
+    'First_time_shots_2019_2020_La_Liga_Partition', 'First_time_shots_2019_2020_f',
+    'First_time_shots_2020_2021_La_Liga_Partition', 'First_time_shots_2020_2021_f',
+    'Dribbles_2018_2019_La_Liga_Partition', 'non_successful_dribbles_2018_2019_La_Liga_Partition',
+    'successful_dribbles_2018_2019_La_Liga_Partition', 'Dribbles_2019_2020_La_Liga_Partition',
+    'non_successful_dribbles_2019_2020_La_Liga_Partition', 'successful_dribbles_2019_2020_La_Liga_Partition',
+    'Dribbles_2020_2021_La_Liga_Partition', 'non_successful_dribbles_2020_2021_La_Liga_Partition',
+    'successful_dribbles_2020_2021_La_Liga_Partition', 'Dribbles_2003_2004_Premier_League_Partition',
+    'DribbledPasts_2018_2019_La_Liga_Partition', 'DribbledPasts_2019_2020_La_Liga_Partition',
+    'DribbledPasts_2020_2021_La_Liga_Partition', 'DribbledPasts_2003_2004_Premier_League_Partition',
+    'Dribbles_2018_2019_2020_2021_La_Liga_Partition', 'Dribbles_2018_2019_2020_2021_La_Liga_Success_Partition',
+    'Dribbles_2018_2019_2020_2021_La_Liga_Failure_Partition'
+]
+
+DB_index_list = [
+    'idx_recipient_name'
+]
+
 # in underscore case
 csv_filenames = [ 
     "countrys", "competitions", "seasons", "stadiums", "referees", "managers",
@@ -50,8 +76,9 @@ csv_filenames = [
     "shots", "dribbles", "bad_behaviours", "ball_receipts", "ball_recoveries", "blocks",
     "carries", "clearances", "duels", "fouls_commited", "fouls_won", "goalkeeper_events",
     "interceptions", "subsctitutions", "freeze_frames", "dribbled_pasts", "player_minutes",
-    "starting_lineups"
+    "starting_lineups", "shots_copy"
 ]
+
 csv_data = [
     {
     'csv_filename': 'csv_records/competitions.csv',
@@ -202,5 +229,10 @@ csv_data = [
     'csv_filename': 'csv_records/dribbled_pasts.csv',
     'attributes_arr': ['event_id', 'player_name', 'player_id', 'team_name','match_id','season_id', 'competition_id', 'season_name', 'competition_name'],
     'records_arr': dribbled_pasts_arr,
+    }, 
+    {
+    'csv_filename': 'csv_records/shots_copy.csv',
+    'attributes_arr': ['event_id', 'team_id', 'player_id', 'statsbomb_xg', 'end_location_x', 'end_location_y', 'end_location_z', 'follows_dribble', 'first_time', 'open_goal', 'deflected', 'technique_id', 'technique_name', 'body_part_id', 'body_part_name', 'type_id', 'type_name', 'outcome_id', 'outcome_name', 'team_name', 'player_name', 'match_id', 'season_id', 'competition_id', 'season_name', 'competition_name'],
+    'records_arr': shots_copy_arr,
     }
 ]
