@@ -24,12 +24,14 @@ def populate_db():
                 with cursor.copy(f"COPY {tables[i]} ({header}) FROM STDIN WITH CSV HEADER") as copy:
                     with open(f"csv_records/{csv_filenames[i]}.csv", "r", encoding='utf-8') as file:
                         copy.write(file.read())
-                        print("Inserted csv data into: ", tables[i], " table")
+                        print("CSV DATA inserted into: ", tables[i], "\t", "table" )
+
 
 def main():
     start_time = time.time()
     print("Resetting the database...")
     print("Populating the database...")
+    print("---------------------------------")
     reset_DB()
     populate_db()
     end_time = time.time()
