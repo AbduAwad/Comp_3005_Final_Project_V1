@@ -43,7 +43,7 @@ cd json_loader
 
 2. Run the following command to parse the json data and place the data into csv files:
 ```bash
-python json_parser.py
+python parse_data.py
 ```
 
 
@@ -77,12 +77,17 @@ ___
     - **Folder**: **matches_data**: Contains the json files for the matches.
 
     - **File**: **download_jsons.py**: Personal Python script to download the json files from github and place them in events_data and lineups_data folders.
+    - **File**: **parse_data.py**: Python script to parse the json data and place the data into csv files.
+    - **File**: **defs.py**: Python script containing the definitions for the json_loader scripts.
+    - **File**: **populate_db.py**: Python script to create the tables and load the data into the database tables.
+    - **File**: **utils.py**: Python script containing the utility functions for the json_loader scripts.
     - **File**: **DDL.sql**: SQL script to create the tables for the database.
 
 - **Folder**: readme_images: Contains the images used in the README file.
 - **File**: **push.sh**: Bash script to push the files to git.
 - **File**: **README.md**: This file.
 - **File**: **queries.py**: Python script to run the autograder for Abdulrahman Awad.
+- **File**: **dbexports.sql**: SQL script to create the database dump.
 
 ____
 
@@ -192,7 +197,7 @@ Path to abdu dump file:
 C:\Users\sheri\Documents\db_dump.sql
 ```
 
-### Run the autograder for Abdulrahman Awad:
+### Run the autograder for Abdulrahman Awad (Personal Testing):
 
 Install postgers on the vm (already done):
 run the script.sh to intsall postgres
@@ -210,7 +215,7 @@ python queries.py
 
 ## BEFORE SUBMISSION:
 
-Change host in queries.py back to localhost
+Change host in queries.py back to localhost, currently is 10.0.0.34
 
 ```bash 
 host = "localhost"
