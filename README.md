@@ -6,24 +6,8 @@
 - Student Number: 101256090
 
 ___
-
-### Install the required packages:
-
-```bash
-pip install --upgrade pip           # upgrade pip to at least 20.3
-pip install "psycopg[binary]"       # remove [binary] for PyPy
-```
+***NOTE**: The autograder can be ran without step 1 and 2 as we have dbexports.sql which is the db dump file that can be used to create the database and the tables. The json data has already been parsed and loaded into the database tables so the autograder can be ran directly.*
 ___
-### Change ur password for postgres to 1234
-```bash
-psql -U postgres
-```
-```bash
-postgres=# ALTER USER postgres WITH PASSWORD '1234';
-ALTER ROLE
-```
-___
-
 ### STEP 1. Create the database:
 
 1.  Create a database called "project_database" in PostgreSQL.
@@ -59,12 +43,11 @@ python populate_db.py
 ____
 ### STEP 3. Run the autograder:
 
+- Will use the dbexports.sql file to create the database and the tables, and will query the database to answer the 10 queries including the bonus in the autograder.
 
-
-
-
-
-
+```bash
+python queries.py
+```
 
 ___
 
@@ -84,6 +67,8 @@ ___
     - **File**: **DDL.sql**: SQL script to create the tables for the database.
 
 - **Folder**: readme_images: Contains the images used in the README file.
+- **File**: DB_Schema.png: Image of the database schema.
+- **File**: ER_MODEL.png: Image of the ER Model.
 - **File**: **push.sh**: Bash script to push the files to git.
 - **File**: **README.md**: This file.
 - **File**: **queries.py**: Python script to run the autograder for Abdulrahman Awad.
@@ -167,56 +152,14 @@ LINK: https://youtu.be/lc0Kb12VGIc
 
 ____
 
-### Pushing files to git:
 
-**For the first time only:**
-- execute the following command in a linux terminal to make the push.sh file executable:
-```bash
-chmod +x push.sh
-```
 
-**After this:**
-- To push, simply enter the command:
-```bash
-./push.sh "commit message"
-```
+### ER MODEL:
 
-___
+![ER MODEL](readme_images/ER_MODEL.png)
 
-## TESTER AND DB DUMP INFO
-Create DB dump for dbexport.sql:
+____
 
-- Anytime we modify the database we must create a new dump and save it in the dbexports.sql file
+### Database Schema:
 
-```bash
-pg_dump.exe --file "C:\\Users\\sheri\\Documents\\db_dump.sql" --host "localhost" --port "5432" --username "postgres" --verbose --format=p "project_database"
-```
-
-Path to abdu dump file:
-```bash
-C:\Users\sheri\Documents\db_dump.sql
-```
-
-### Run the autograder for Abdulrahman Awad (Personal Testing):
-
-Install postgers on the vm (already done):
-run the script.sh to intsall postgres
-
-```bash
-chmod +x script.sh
-./script.sh
-```
-
-To run autograder dont change anything just run it in the vm but change the host in the queries.py to your hosts ip address mine is 10.0.0.34, make sure to configure your host machine to recieve and be a host 
-
-```bash
-python queries.py
-```
-
-## BEFORE SUBMISSION:
-
-Change host in queries.py back to localhost, currently is 10.0.0.34
-
-```bash 
-host = "localhost"
-```
+![Database Schema](readme_images/DB_Schema.png)

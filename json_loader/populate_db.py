@@ -26,7 +26,6 @@ def populate_db():
                         copy.write(file.read())
                         print("CSV DATA inserted into: ", tables[i], "\t", "table" )
 
-
 def main():
     start_time = time.time()
     print("Resetting the database...")
@@ -36,4 +35,5 @@ def main():
     populate_db()
     end_time = time.time()
     print("Time taken to populate the database: ", end_time - start_time, 'seconds')
+
 main()
