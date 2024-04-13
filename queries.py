@@ -39,7 +39,7 @@ root_database_name = "project_database"
 query_database_name = "query_database"
 db_username = 'postgres'
 db_password = '1234'
-db_host = '10.0.0.34'
+db_host = 'localhost'
 db_port = '5432'
 
 # Directory Path - Do NOT Modify

@@ -152,8 +152,6 @@ LINK: https://youtu.be/lc0Kb12VGIc
 
 ____
 
-
-
 ### ER MODEL:
 
 ![ER MODEL](readme_images/ER_MODEL.png)
