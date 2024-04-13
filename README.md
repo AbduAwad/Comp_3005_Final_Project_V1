@@ -134,10 +134,10 @@ Now that we have the x,y coordinates of the corners of the box, any pass that is
 ```sql
 SELECT team_name, COUNT(*) as num_passes_into_box
     FROM Passes
-    WHERE competition_name = 'La Liga'
-        AND season_name = '2020/2021'
-        AND (end_location_x >= 0 AND end_location_x <= 18 AND end_location_y >= 18 AND end_location_y <= 62
-        OR end_location_x >= 102 AND end_location_x <= 120 AND end_location_y >= 18 AND end_location_y <= 62)
+        WHERE season_name = '2020/2021'
+        AND competition_name = 'La Liga'
+        AND ((end_location_x >= 0 AND end_location_x <= 18 AND end_location_y >= 18 AND end_location_y <= 62)
+        OR (end_location_x >= 102 AND end_location_x <= 120 AND end_location_y >= 18 AND end_location_y <= 62))
         AND outcome_name is NULL
     GROUP BY team_name
     HAVING COUNT(*) > 0
