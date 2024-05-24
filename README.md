@@ -1,4 +1,4 @@
-# Comp_3005_Final_Project_V1
+# Soccer-Stats-Database-Application
 
 ### Name & Student Number:
 
@@ -6,12 +6,9 @@
 - Student Number: 101256090
 
 ___
-***NOTE**: The autograder can be ran without step 1 and 2 as we have dbexports.sql which is the db dump file that can be used to create the database and the tables. The json data has already been parsed and loaded into the database tables so the autograder can be ran directly.*
-___
 ### STEP 1. Create the database:
 
 1.  Create a database called "project_database" in PostgreSQL.
-
 
 ___
 ### STEP 2: Parse JSON DATA (only necessary once) 
